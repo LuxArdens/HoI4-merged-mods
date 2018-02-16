@@ -1,0 +1,408 @@
+﻿l_german:
+ continuous_naval_production1: "Flotten-Aufbau I"
+ continuous_naval_production2: "Flotten-Aufbau II"
+ continuous_naval_production3: "Flotten-Aufbau III"
+ continuous_naval_production1_desc: "Wir müssen die See beherrschen, um uns selbst zu schützen und unsere Feinde auszuhungen: +33% auf die Schiffsproduktion. Manchmal werden wir Verbesserungsideen bekommen, die uns zusätzliche Marineerfahrung geben oder die Erforschung neuer Schiffe ermöglichen."
+ continuous_naval_production2_desc: "Wir müssen die See beherrschen, um uns selbst zu schützen und unsere Feinde auszuhungen: +67% auf die Schiffsproduktion. Manchmal werden wir sehr gute Verbesserungsideen bekommen, die uns zusätzliche Marineerfahrung geben oder die Erforschung neuer Schiffe ermöglichen."
+ continuous_naval_production3_desc: "Wir müssen die See beherrschen, um uns selbst zu schützen und unsere Feinde auszuhungen: +100% auf die Schiffsproduktion. Manchmal werden wir grossartige Verbesserungsideen bekommen, die uns zusätzliche Marineerfahrung geben oder die Erforschung neuer Schiffe ermöglichen."
+ 
+ continuous_air_production1: "Flugzeug-Produktion I"
+ continuous_air_production2: "Flugzeug-Produktion II"
+ continuous_air_production3: "Flugzeug-Produktion III"
+ continuous_air_production1_desc: "'Wenn wir den Luftkrieg verlierren, verlieren wir den Krieg, und zwar schnell': +33% auf die Flugzeugs-Produktion! Manchmal werden wir Verbesserungsideen bekommen, die uns zusätzliche Lufterfahrung geben oder die Erforschung neuer Flugzeuge ermöglichen."
+ continuous_air_production2_desc: "'Wenn wir den Luftkrieg verlierren, verlieren wir den Krieg, und zwar schnell': +67% auf die Flugzeugs-Produktion! Manchmal werden wir Verbesserungsideen bekommen, die uns zusätzliche Lufterfahrung geben oder die Erforschung neuer Flugzeuge ermöglichen."
+ continuous_air_production3_desc: "'Wenn wir den Luftkrieg verlierren, verlieren wir den Krieg, und zwar schnell': +100% auf die Flugzeugs-Produktion! Manchmal werden wir Verbesserungsideen bekommen, die uns zusätzliche Lufterfahrung geben oder die Erforschung neuer Flugzeuge ermöglichen."
+ 
+ continuous_standard_equipment1: "Ausrüstung I"
+ continuous_standard_equipment2: "Ausrüstung II"
+ continuous_standard_equipment3: "Ausrüstung III"
+ continuous_standard_equipment1_desc: "'Perfekte' Waffen sind überschätzt, eine grosse Menge an 'gut genugen' Waffen ist der SchlPussel zum Sieg! +33% auf die Standard-Ausrüstungs-Produktion! Manchmal werden wir Verbesserungsideen bekommen, die uns zusätzliche Landerfahrung geben oder die Erforschung neuer Aurüstung ermöglichen."
+ continuous_standard_equipment2_desc: "'Perfekte' Waffen sind überschätzt, eine grosse Menge an 'gut genugen' Waffen ist der SchlPussel zum Sieg! +67% auf die Standard-Ausrüstungs-Produktion! Manchmal werden wir sehr gute Verbesserungsideen bekommen, die uns zusätzliche Landerfahrung geben oder die Erforschung neuer Aurüstung ermöglichen."
+ continuous_standard_equipment3_desc: "'Perfekte' Waffen sind überschätzt, eine grosse Menge an 'gut genugen' Waffen ist der SchlPussel zum Sieg! +100% auf die Standard-Ausrüstungs-Produktion! Manchmal werden wir vortreffliche Verbesserungsideen bekommen, die uns zusätzliche Landerfahrung geben oder die Erforschung neuer Aurüstung ermöglichen."
+ 
+ continuous_tank_production1: "Panzer-Produktion I"
+ continuous_tank_production2: "Panzer-Produktion II"
+ continuous_tank_production3: "Panzer-Produktion III"
+ continuous_tank_production1_desc: "Unsere Panzer werden durch die Feindlichen Linien brechen, um den Feind zu desorganisieren und einzuzingeln: +33% auf die Panzer-Produktion! Manchmal werden wir Verbesserungsideen bekommen, die uns zusätzliche Landerfahrung geben oder die Erforschung neuer Panzer ermöglichen."
+ continuous_tank_production2_desc: "Unsere Panzer werden durch die Feindlichen Linien brechen, um den Feind zu desorganisieren und einzuzingeln: +67% auf die Panzer-Produktion! Manchmal werden wir sehr gute Verbesserungsideen bekommen, die uns zusätzliche Landerfahrung geben oder die Erforschung neuer Panzer ermöglichen."
+ continuous_tank_production3_desc: "Unsere Panzer werden durch die Feindlichen Linien brechen, um den Feind zu desorganisieren und einzuzingeln: +100% auf die Panzer-Produktion! Manchmal werden wir gossartige Verbesserungsideen bekommen, die uns zusätzliche Landerfahrung geben oder die Erforschung neuer Panzer ermöglichen."
+ 
+ mass_production1: "Massenproduction I"
+ mass_production2: "Massenproduction II"
+ mass_production3: "Massenproduction III"
+ mass_production1_desc: "Wir müssen unsere Industrie konzentrieren und so effizient wie möglich gestalten"
+ mass_production2_desc: "Wir müssen unsere Industrie konzentrieren, damit sie immer mahr produziert"
+ mass_production3_desc: "Wir müssen unsere Industrie konzentrieren und das Maximum produzieren"
+ 
+ flexible_production1: "Flexible Production I"
+ flexible_production2: "Flexible Production II"
+ flexible_production3: "Flexible Production III"
+ flexible_production1_desc: "Unsere Industrie muss immmer bereit sein, sich anzupassen"
+ flexible_production2_desc: "Unsere Industrie muss immmer bereit sein, neue Ausrüstung zu produzieren"
+ flexible_production3_desc: "Unsere Industrie muss sich stets an die bedürfnisse unserer Armeeen anpassen"
+ 
+ continuous_non_factory_construct1: "Konstruktion I" 
+ continuous_non_factory_construct2: "Konstruktion II"
+ continuous_non_factory_construct3: "Konstruktion III"
+ continuous_non_factory_construct1_desc: "Wir müssen das Volk mobilisieren, um eine strahlende Zukunft zu bauen. Manchmal wird die Erweiterung unserer Infrastruktur unsere Erwartungen leicht übertreffen, oder wir werden kleine Entdeckungen in Bautechnologie machen."
+ continuous_non_factory_construct2_desc: "Wir müssen  das Volk mobilisieren, um eine strahlende Zukunft zu bauen. Manchmal wird die Erweiterung unserer Infrastruktur unsere Erwartungen stark übertreffen, oder wir werden grosse Entdeckungen in Bautechnologie machen."
+ continuous_non_factory_construct3_desc: "Wir müssen  das gesamte Volk mobilisieren, um eine strahlende Zukunft zu bauen. Manchmal wird die Erweiterung unserer Infrastruktur unsere kühnsten Erwartungen übertreffen, oder wir werden hervorragende Entdeckungen in Bautechnologie machen."
+ 
+ construction_effort1: "Industrieaufbau I"
+ construction_effort2: "Industrieaufbau II"
+ construction_effort3: "Industrieaufbau III"
+ construction_effort1_desc: "Wir müssen zuerst unsere Schwerindustrie aufbauen. Manchmal wird die Erweiterung unserer Schwerindustrie unsere Erwartungen leicht übertreffen, oder wir werden kleine Entdeckungen in Industrie-Technologie machen."
+ construction_effort2_desc: "Wir müssen zuerst unsere Schwerindustrie aufbauen. Manchmal wird die Erweiterung unserer Schwerindustrie unsere Erwartungen stark übertreffen, oder wir werden grosse Entdeckungen in Industrie-Technologie machen."
+ construction_effort3_desc: "Wir müssen zuerst unsere Schwerindustrie aufbauen. Manchmal wird die Erweiterung unserer Schwerindustrie unsere kühnsten Erwartungen übertreffen, oder wir werden hervorragende Entdeckungen in Industrie-Technologie machen."
+ 
+ armament_effort1: "Rüstungsindustrie I"
+ armament_effort2: "Rüstungsindustrie II"
+ armament_effort3: "Rüstungsindustrie III"
+ armament_effort1_desc: "Unsere Soldaten sind kostbar, und Kugeln billig. Wir müssen unsere Feinde überproduzieren. Manchmal wird die Erweiterung unserer Rüstungsindustrie unsere Erwartungen leicht übertreffen, oder wir werden kleine Entdeckungen in Industrie-Technologie machen."
+ armament_effort2_desc: "Unsere Soldaten sind kostbar, und Kugeln billig. Wir müssen unsere Feinde sehr schnell überproduzieren. Manchmal wird die Erweiterung unserer Rüstungsindustrie unsere Erwartungen stark übertreffen, oder wir werden grosse Entdeckungen in Industrie-Technologie machen."
+ armament_effort3_desc: "Unsere Soldaten sind kostbar, und Kugeln billig. Wir müssen unsere Feinde so schnell wie möglich überproduzieren. Manchmal wird die Erweiterung unserer Rüstungsindustrie unsere kühnsten Erwartungen übertreffen, oder wir werden hervorragende Entdeckungen in Industrie-Technologie machen."
+ 
+ excavation_effort1: "Ressourcenbeschaffung I"
+ excavation_effort2: "Ressourcenbeschaffung II"
+ excavation_effort3: "Ressourcenbeschaffung III"
+ excavation_effort1_desc: "Am Ende geht alles auf die Rohstoffe zurück. Wir müssen das Volk mobilisieren, um mehr kostbare Ressourcen auszubeuten, die Transformation zu verbessern und Verschwendung zu vermeiden. Wir werden sogar kleine neue Vorkommen entdecken oder kleine Erfahrungen in Abbautechnologie machen."
+ excavation_effort2_desc: "Am Ende geht alles auf die Rohstoffe zurück. Wir müssen das Volk mobilisieren, um mehr kostbare Ressourcen auszubeuten, die Transformation zu verbessern und Verschwendung zu vermeiden. Wir werden sogar bedeutende neue Vorkommen entdecken oder grosse Erfahrungen in Abbautechnologie machen."
+ excavation_effort3_desc: "Am Ende geht alles auf die Rohstoffe zurück. Wir müssen das gesamte Volk mobilisieren, um mehr kostbare Ressourcen auszubeuten, die Transformation zu verbessern und Verschwendung zu vermeiden. Wir werden sogar grossartige neue Vorkommen entdecken oder hervorragende Erfahrungen in Abbautechnologie machen."
+ 
+ continuous_repair1: "Reparatur I"
+ continuous_repair2: "Reparatur II"
+ continuous_repair3: "Reparatur III"
+ continuous_repair1_desc: "Kein Opfer, kein Rückzug, keine Bombe, nichts wird unsere Determination zum Sieg untergraben. Jeder Schaden muss repariert werden."
+ continuous_repair2_desc: "Kein Opfer, kein Rückzug, keine Bombe, nichts wird unsere Determination zum Sieg untergraben. Jeder Schaden muss so schnell wie möglich repariert werden."
+ continuous_repair3_desc: "Kein Opfer, kein Rückzug, keine Bombe, nichts wird unsere Determination zum Sieg untergraben. Jeder Schaden muss sofort  repariert werden." 
+ 
+ continuous_rationing1: "Rationierung I"
+ continuous_rationing2: "Rationierung II"
+ continuous_rationing3: "Rationierung III"
+ continuous_rationing1_desc: "Wir müssen anfangen, unsere Lebensmittel und Konsulgüter zu rationieren"
+ continuous_rationing2_desc: "Wir müssen anfangen, unsere Lebensmittel und Konsulgüter zu rationieren und alles für den Sieg geben"
+ continuous_rationing3_desc: "Wir müssen unsere Lebensmittel und Konsulgüter streng rationieren und alles für den Sieg geben"
+ 
+ continuous_trade1: "Internationaler Handel I"
+ continuous_trade2: "Internationaler Handel II"
+ continuous_trade3: "Internationaler Handel III"
+ continuous_trade1_desc: "Unsere Auslandspolitik wird sich darauf konzentrieren, unsere Handelspartner zu versichern, um mehr zu exportieren"
+ continuous_trade2_desc: "Unsere Auslandspolitik wird sich darauf konzentrieren, bestehende Handelsbezizhungen zu verstärken und neue aufzubauen"
+ continuous_trade3_desc: "Das einzige Ziel unserer Politik ist Export, und nichts anderes"
+ 
+ continuous_recruitment1: "Rekrutierung I"
+ continuous_recruitment2: "Rekrutierung II"
+ continuous_recruitment3: "Rekrutierung III"
+ continuous_recruitment1_desc: "Wir müssen unsere Soldaten schneller ausbilden"
+ continuous_recruitment2_desc: "Wir müssen viel mehr Soldaten ausbilden"
+ continuous_recruitment3_desc: "Kein Feind wird unseren menschlichen Wellen wiederstehen können"
+ 
+ continuous_training1: "Training I"
+ continuous_training2: "Training II"
+ continuous_training3: "Training III"
+ continuous_training1_desc: "Unsere Divisionen müssen viel Erfahrener sein, befor sie kämpfen"
+ continuous_training2_desc: "Das Training unsere Divisionen muss effizienter gestaltet werden"
+ continuous_training3_desc: "Jeder Soldat muss ein Experte sein"
+ 
+ continuous_unity1: "Einheit I"
+ continuous_unity2: "Einheit II"
+ continuous_unity3: "Einheit III"
+ continuous_unity1_desc: "Jeder muss wissen, für was wir kämpfen"
+ continuous_unity2_desc: "Nicht wird unsere Detrminierung für den Sieg beeinträchtigen"
+ continuous_unity3_desc: "Selbst in der dunkelsten Stunde gibt es noch einen Grund, zu hoffen und zu kämpfen"
+ 
+ continuous_suppression1: "Repression I"
+ continuous_suppression2: "Repression II"
+ continuous_suppression3: "Repression III"
+ continuous_suppression1_desc: "Terroristen dürfen  nicht unseren Befriedigungsprozess untergraben. Wir werden schnell und stark sein."
+ continuous_suppression2_desc: "Terroristen dürfen  nicht unseren Befriedigungsprozess untergraben. Wir werden noch schneller und stärker sein."
+ continuous_suppression3_desc: "Terroristen dürfen auf keinen Fall unseren Befriedigungsprozess untergraben. Wir werden sie um jeden Preis zerstören."
+ 
+ continuous_tech_share1: "Technologie-Austausch I"
+ continuous_tech_share2: "Technologie-Austausch II"
+ continuous_tech_share3: "Technologie-Austausch III"
+ continuous_tech_share1_desc: "Warum das Rad neu erfinden? Wir müssen einfach unsere Verbündete überzeugen, uns ihre Technologien zu übermitteln."
+ continuous_tech_share2_desc: "Warum das Rad neu erfinden? Wir müssen einfach unsere Verbündete überzeugen, uns ihre Technologien zu übermitteln."
+ continuous_tech_share3_desc: "Warum das Rad neu erfinden? Wir müssen einfach unsere Verbündete überzeugen, uns ihre Technologien zu übermitteln."
+ 
+ continuous_tech_effort1: "Forschung I"
+ continuous_tech_effort2: "Forschung II"
+ continuous_tech_effort3: "Forschung III"
+ continuous_tech_effort1_desc: "'Gott ist nicht auf der Seite der grössten Battaillone, sondern der besten'. Manchmal werden wir kleine Entdeckungen in den high-tech Feldern Elektronik, Kernspaltung oder Düsenantrieb machen."
+ continuous_tech_effort2_desc: "'Gott ist nicht auf der Seite der grössten Battaillone, sondern der besten'. Manchmal werden wir bedeutende Entdeckungen in den high-tech Feldern Elektronik, Kernspaltung oder Düsenantrieb machen."
+ continuous_tech_effort3_desc: "'Gott ist nicht auf der Seite der grössten Battaillone, sondern der besten'. Manchmal werden wir grossartige Entdeckungen in den high-tech Feldern Elektronik, Kernspaltung oder Düsenantrieb machen."
+ 
+ continuous_boost_freedom1: "Unabhängigkeit I"
+ continuous_boost_freedom2: "Unabhängigkeit II"
+ continuous_boost_freedom3: "Unabhängigkeit III"
+ continuous_boost_freedom1_desc: "Wir werden nicht durch Aufstand und Krieg unabhängig werden, sondern durch allmähliche Anerkennung"
+ continuous_boost_freedom2_desc: "Wir werden nicht durch Aufstand und Krieg unabhängig werden, sondern durch allmähliche Anerkennung"
+ continuous_boost_freedom3_desc: "Wir werden nicht durch Aufstand und Krieg unabhängig werden, sondern durch schnelle Anerkennung"
+ 
+ continuous_subjugate1: "Unterwerfung I"
+ continuous_subjugate2: "Unterwerfung II"
+ continuous_subjugate3: "Unterwerfung III"
+ continuous_subjugate1_desc: "Wir müssen unsere Kolonien und Marionetten enger kontrollieren."
+ continuous_subjugate2_desc: "Wir müssen unsere Kolonien und Marionetten viel enger kontrollieren. Ab jetzt wird es keine Eigeninitiativen mehr geben!"
+ continuous_subjugate3_desc: "Wir müssen unsere Kolonien und Marionetten noch enger kontrollieren. Kein Verrat wird geduldet werden"
+ 
+ population_growth1: "Bevölkerungswachstum I"
+ population_growth2: "Bevölkerungswachstum II"
+ population_growth3: "Bevölkerungswachstum III"
+ population_growth1_desc: "Wir werden die Lebensbedingungen in diesem Land verbessern. Dadurch wird sich nicht nur unser Bevölkerungswachstum beschleunigen, sondern wir werden auch manchmal Flüchtlinge anziehen."
+ population_growth2_desc: "Wir werden die Lebensbedingungen in diesem Land stark verbessern. Dadurch wird sich nicht nur unser Bevölkerungswachstum stark beschleunigen, sondern wir werden auch oft Flüchtlinge anziehen."
+ population_growth3_desc: "Wir werden die Lebensbedingungen in diesem Land dramatisch verbessern. Dadurch wird sich nicht nur unser Bevölkerungswachstum spektaulär beschleunigen, sondern wir werden auch sehr viele Flüchtlinge anziehen."
+ 
+ army_modernisation1: "Armee-Reform I"
+ army_modernisation2: "Armee-Reform II"
+ army_modernisation3: "Armee-Reform III"
+ army_modernisation1_desc: "Wir werden unser bestes tuen, um unsere Armee zu modernisieren. So können wir öfter unsere Divisionsstruktur und Ausrüstung verbessern. Manchmal werden wir bescheidene neue Ideen bekommen, die uns noch mehr Armee-Erfahrung geben oder die Erforschung neuer Ausrüstung und Doktrinen ermöglichen."
+ army_modernisation2_desc: "Wir werden unser alles tuen, um unsere Armee zu modernisieren. So können wir öfter unsere Divisionsstruktur und Ausrüstung verbessern. Manchmal werden wir bedeutende neue Ideen bekommen, die uns noch mehr Armee-Erfahrung geben oder die Erforschung neuer Ausrüstung und Doktrinen ermöglichen."
+ army_modernisation3_desc: "Wir unsere Armee zu jedem Preis modernisieren. So können wir andauernd unsere Divisionsstruktur und Ausrüstung verbessern. Manchmal werden wir grossartige neue Ideen bekommen, die uns noch mehr Armee-Erfahrung geben oder die Erforschung völlig neuer Ausrüstung und Doktrinen ermöglichen."
+ 
+ airforce_modernisation1: "Luftwaffen-Reform I"
+ airforce_modernisation2: "Luftwaffen-Reform II"
+ airforce_modernisation3: "Luftwaffen-Reform III"
+ airforce_modernisation1_desc: "Wir werden unser bestes tuen, um unsere Luftwaffe zu modernisieren. So können wir öfter unsere Flugzeuge  verbessern. Manchmal werden wir bescheidene neue Ideen bekommen, die uns noch mehr Luft-Erfahrung geben oder die Erforschung neuer Flugzeuge und Doktrinen ermöglichen."
+ airforce_modernisation2_desc: "Wir werden unser alles tuen, um unsere Luftwaffe zu modernisieren. So können wir öfter unsere Flugzeuge verbessern. Manchmal werden wir bedeutende neue Ideen bekommen, die uns noch mehr Luft-Erfahrung geben oder die Erforschung neuer Flugzeuge und Doktrinen ermöglichen."
+ airforce_modernisation3_desc: "Wir unsere Luftwaffe zu jedem Preis modernisieren. So können wir andauernd unsere Flugzeuge verbessern. Manchmal werden wir grossartige neue Ideen bekommen, die uns noch mehr Luft-Erfahrung geben oder die Erforschung völlig neuer Flugzeuge und Doktrinen ermöglichen."
+ 
+ navy_modernisation1: "Flotten-Reform I"
+ navy_modernisation2: "Flotten-Reform II"
+ navy_modernisation3: "Flotten-Reform III" 
+ navy_modernisation1_desc: "Wir werden unser bestes tuen, um unsere Flotte zu modernisieren. So können wir öfter unsere Schiffe verbessern. Manchmal werden wir bescheidene neue Ideen bekommen, die uns noch mehr Flotten-Erfahrung geben oder die Erforschung neuer Schiffe und Doktrinen ermöglichen."
+ navy_modernisation2_desc: "Wir werden unser alles tuen, um unsere Flotte zu modernisieren. So können wir öfter unsere Schiffe verbessern. Manchmal werden wir bedeutende neue Ideen bekommen, die uns noch mehr Flotten-Erfahrung geben oder die Erforschung neuer Schiffe und Doktrinen ermöglichen."
+ navy_modernisation3_desc: "Wir unsere Flotte zu jedem Preis modernisieren. So können wir andauernd unsere Schiffe verbessern. Manchmal werden wir grossartige neue Ideen bekommen, die uns noch mehr Flotten-Erfahrung geben oder die Erforschung völlig neuer Schiffe und Doktrinen ermöglichen."
+ 
+ 
+ 
+ focus_event.0.t:0 "Kontinuierliche Schwerpunkte Installation"
+ focus_event.0.d:0 "Hi! ich bin fedcba, Autor des "Continuous Focuses Hyper Expanded" mod. Da einige Spieler keine zusätzliche Bevölkerung/Fabriken/Ressourcen durch Ereignisse bei kontinuierlichen Schwerpunkten haben wollten, ist es hier möglich, dies für Sie und die AI zu desaktivieren. Falls Sie dies später wieder ändern wollen, benutzen Sie das Kommando: event focus_event.0"
+ focus_event.0.a:0 "Durch kontinuierliche Schwerpunkte ausgelöste Ereignisse AKTIVIEREN."
+ focus_event.0.b:0 "Durch kontinuierliche Schwerpunkte ausgelöste Ereignisse DEAKTIVIEREN."
+ 
+ 
+ focus_event.np1.t: "Kleine Schiffs-Entdeckung"
+ focus_event.np1.d: "Unsere Bemühungen für die Schiffsproduktion haben unseren Ingenieuren bescheidene Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Schiffe zu verbessen, oder um völlig neue zu bauen."
+ focus_event.np.a: "Wir müssen unsere Technologien erneuern."
+ focus_event.np.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.np2.t: "Bedeutende Schiffs-Entdeckung"
+ focus_event.np2.d: "Unsere Bemühungen für die Schiffsproduktion haben unseren Ingenieuren bedeutende Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Schiffe zu verbessen, oder um völlig neue zu bauen."
+ 
+ focus_event.np3.t: "Grossartige Schiffs-Entdeckung"
+ focus_event.np3.d: "Unsere Bemühungen für die Schiffsproduktion haben unseren Ingenieuren grossartige Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Schiffe zu verbessen, oder um völlig neue zu bauen."
+ 
+ 
+ focus_event.ap1.t: "Kleine Flugzeugs-Entdeckung"
+ focus_event.ap1.d: "Unsere Bemühungen für die Flugzeugproduktion haben unseren Ingenieuren bescheidene Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Flugzeuge zu verbessen, oder um völlig neue zu bauen."
+ focus_event.ap.a: "Wir müssen unsere Technologien erneuern."
+ focus_event.ap.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.ap2.t: "Bedeutende Flugzeugs-Entdeckung"
+ focus_event.ap2.d: "Unsere Bemühungen für die Flugzeugproduktion haben unseren Ingenieuren bedeutende Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Flugzeuge zu verbessen, oder um völlig neue zu bauen."
+ 
+ focus_event.ap3.t: "Grossartige Flugzeugs-Entdeckung"
+ focus_event.ap3.d: "Unsere Bemühungen für die Flugzeugproduktion haben unseren Ingenieuren grossartige Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Flugzeuge zu verbessen, oder um völlig neue zu bauen."
+ 
+ 
+ focus_event.s1.t: "Kleine Ausrüstungs-Entdeckung"
+ focus_event.s1.d: "Unsere Bemühungen für die Ausrüstungsproduktion haben unseren Ingenieuren bescheidene Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Ausrüstung zu verbessen, oder um völlig neue zu bauen."
+ focus_event.s.a: "Wir müssen unsere Technologien erneuern."
+ focus_event.s.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.s2.t: "Bedeutende Ausrüstungs-Entdeckung"
+ focus_event.s2.d: "Unsere Bemühungen für die Ausrüstungsproduktion haben unseren Ingenieuren bedeutende Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Ausrüstung zu verbessen, oder um völlig neue zu bauen."
+ 
+ focus_event.s3.t: "Grossartige Ausrüstungs-Entdeckung"
+ focus_event.s3.d: "Unsere Bemühungen für die Ausrüstungsproduktion haben unseren Ingenieuren grossartige Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Ausrüstung zu verbessen, oder um völlig neue zu bauen."
+ 
+ focus_event.t1.t: "Kleine Panzer-Entdeckung"
+ focus_event.t1.d: "Unsere Bemühungen für die Panzerproduktion haben unseren Ingenieuren bescheidene Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Panzer zu verbessen, oder um völlig neue zu bauen."
+ focus_event.t1.a: "Wir müssen unsere Technologien erneuern."
+ focus_event.t1.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.t2.t: "Bedeutende Panzer-Entdeckung"
+ focus_event.t2.d: "Unsere Bemühungen für die Panzerproduktion haben unseren Ingenieuren bedeutende Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Panzer zu verbessen, oder um völlig neue zu bauen."
+ 
+ focus_event.t3.t: "Grossartige Panzer-Entdeckung"
+ focus_event.t3.d: "Unsere Bemühungen für die Panzerproduktion haben unseren Ingenieuren grossartige Verbesserungsideen gegeben. Wir können diese Ideen benutzen, um unsere derzeitige Panzer zu verbessen, oder um völlig neue zu bauen."
+ 
+ 
+ focus_event.p1.t: "Flüchtlinge sind angekommen"
+ focus_event.p1.d: "Gute Lebensbedingungen haben einige Leute angezogen, die Krieg, Repression oder einfach Armut fliehen. Sie wollen sich auf unserem Gebiet niederlassen."
+ focus_event.p.a: "Gute Nachrichten! Wir müssen ihnen helfen, sich nieder zu lassen!"
+ focus_event.p.b: "Nein!"
+ 
+ focus_event.p2.t: "Viele Flüchtlinge sind angekommen"
+ focus_event.p2.d: "Sehr gute Lebensbedingungen haben einige Leute angezogen, die Krieg, Repression oder einfach Armut fliehen. Sie wollen sich auf unserem Gebiet niederlassen."
+ 
+ focus_event.p3.t: "Unzählige Flüchtlinge sind angekommen"
+ focus_event.p3.d: "Grossartige Lebensbedingungen haben einige Leute angezogen, die Krieg, Repression oder einfach Armut fliehen. Sie wollen sich auf unserem Gebiet niederlassen."
+ 
+ 
+ focus_event.nf1.t: "Kleiner Konstruktions-Durchbruch"
+ focus_event.nf1.d: "Wir können 3 Infrastrukturen vor Termin bauen oder unsere Bautechnologie verbessern."
+ focus_event.nf.a: "Wir müssen unsere Infrastruktur zu jedem Preis ausbauen!"
+ focus_event.nf.b: "Wir müssen erst unsere Bautechnologie verbessern"
+ 
+ focus_event.nf2.t: "Bedeutender Konstruktions-Durchbruch"
+ focus_event.nf2.d: "Wir können 6 Infrastrukturen vor Termin bauen oder unsere Bautechnologie verbessern."
+ 
+ focus_event.nf3.t: "Grossartiger Konstruktions-Durchbruch"
+ focus_event.nf3.d: "Wir können 9 Infrastrukturen vor Termin bauen oder unsere Bautechnologie verbessern."
+ 
+ 
+ focus_event.c1.t: "Kleiner Industrie-Durchbruch"
+ focus_event.c1.d: "Wir können 1 Industriekomplex vor Termin bauen oder unsere Industrie modernisieren."
+ focus_event.c.a: "Wir müssen unsere Industrie zu jedem Preis ausbauen!"
+ focus_event.c.b: "Wir müssen erst unsere Industrie Modernisieren"
+ 
+ focus_event.c2.t: "Bedeutender Industrie-Durchbruch"
+ focus_event.c2.d: "Wir können 2 Industriekomplexe vor Termin bauen oder unsere Industrie modernisieren."
+ 
+ focus_event.c3.t: "Grossartiger Industrie-Durchbruch"
+ focus_event.c3.d: "Wir können 3 Industriekomplexe vor Termin bauen oder unsere Industrie modernisieren."
+ 
+ 
+ focus_event.m1.t: "Kleiner Rüstungs-Durchbruch"
+ focus_event.m1.d: "Wir können 1 Militärische Fabrik bauen oder unsere Industrie modernisieren."
+ focus_event.c.a: "Wir müssen unsere Rüstungs-Industrie zu jedem Preis ausbauen!"
+ focus_event.c.b: "Wir müssen erst unsere Industrie Modernisieren"
+ 
+ focus_event.m2.t: "Bedeutender Rüstungs-Durchbruch"
+ focus_event.m2.d: "Wir können 2 Militärische Fabriken bauen oder unsere Industrie modernisieren."
+ focus_event.m2.t: "Grossartiger Rüstungs-Durchbruch"
+ focus_event.m2.d: "Wir können 3 Militärische Fabriken bauen oder unsere Industrie modernisieren."
+ 
+ 
+ focus_event.e1.t: "Kleines Ressourcenvorkommen Entdeckt"
+ focus_event.e1.d: "Wir haben ein kleines Ressourcenvorkommen entdeckt."
+ focus_event.e1.a: "Gute Nachrichten!"
+ 
+ focus_event.e2.t: "Bedeutendes Ressourcenvorkommen Entdeckt"
+ focus_event.e2.d: "Wir haben ein grosses Ressourcenvorkommen entdeckt."
+ focus_event.e2.a: "Sehr Gute Nachrichten!"
+
+ focus_event.e3.t: "Grossartiges Ressourcenvorkommen Entdeckt"
+ focus_event.e3.d: "Wir haben ein bedeutendes Ressourcenvorkommen entdeckt."
+ focus_event.e3.a: "Vortreffliche Nachrichten!"
+ 
+ 
+ focus_event.e1.t: "Kleiner Abbau-Durchbruch"
+ focus_event.e1.d: "Wir haben einen kleinen Durchbruch in Abbau-Technologie gemacht"
+ focus_event.e1.a: "Gute Nachrichten!"
+ 
+ focus_event.e2.t: "Bedeutender Abbau-Durchbruch"
+ focus_event.e2.d: "Wir haben einen bedeutenden Durchbruch in Abbau-Technologie gemacht"
+ focus_event.e2.a: "Sehr Gute Nachrichten!"
+
+ focus_event.e3.t: "Grossartiger Abbau-Durchbruch"
+ focus_event.e3.d: "Wir haben einen grossartigen Durchbruch in Abbau-Technologie gemacht"
+ focus_event.e3.a: "Vortreffliche Nachrichten!"
+ 
+ 
+ focus_event.tr1.t: "Kleine Armee-Doktrinen-Erneuerung"
+ focus_event.tr1.d: "Unser Aufwand für Truppenausbildung hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bescheidene neue Idee zur Verbesserung der Armeedoktrin, die auch zur Verbesserung unserer Divisionen eingesetzt werden könnte"
+ focus_event.tr.a: "Wir müssen unsere Technologien erneuern."
+ focus_event.tr.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.tr2.t: "Bedeutende Armee-Doktrinen-Erneuerung"
+ focus_event.tr2.d: "Unser starker Aufwand für Truppenausbildung hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bedeutende neue Idee zur Verbesserung der Armeedoktrin, die auch zur Verbesserung unserer Divisionen eingesetzt werden könnte"
+ 
+ focus_event.tr3.t: "Grossartige Armee-Doktrinen-Erneuerung"
+ focus_event.tr3.d: "Unser gewaltige Aufwand für Truppenausbildung hat sich bezahlt gemacht. Einer unserer Offiziere hat eine grossartige neue Idee zur Verbesserung der Armeedoktrin, die auch zur Verbesserung unserer Divisionen eingesetzt werden könnte"
+ 
+ 
+ focus_event.sp1.t: "Wiederstand reduziert"
+ focus_event.sp1.d: "Unsere Bemühungen zur Wiederstands-Bekämpfung haben schliesslich doch in einer unserer Provinzen Erfolg gehabt. Die Wiederstands-Aktionen haben sichtbar abgenommen."
+ focus_event.sp1.a: "Gute Nachrichten!"
+ 
+ focus_event.sp2.t: "Wiederstand erschüttert"
+ focus_event.sp2.d: "Unsere Bemühungen zur Wiederstands-Bekämpfung haben schliesslich doch in einer unserer Provinzen Erfolg gehabt. Es gibt kaum mehr Wiederstands-Aktionen."
+ focus_event.sp2.a: "Sehr Gute Nachrichten!"
+ 
+ focus_event.sp3.t: "Wiederstand zerstört"
+ focus_event.sp3.d: "Unsere Bemühungen zur Wiederstands-Bekämpfung haben schliesslich doch in einer unserer Provinzen Erfolg gehabt. Es wird nun keine Wiederstands-Aktionen mehr geben (laut den zuständigen Offizieren)."
+ focus_event.sp3.a: "Vortreffliche Nachrichten!"
+ 
+ 
+ focus_event.te1.t: "Kleiner Forschungs-Durchbruch"
+ focus_event.te1.d: "Unser Schwerpunkt Forschung hatt sich gelohnt: wir haben einen kleinen high-tech Durchbruch gemacht."
+ focus_event.te1.a: "Gute Nachrichten!"
+ 
+ focus_event.te2.t: "Bedeutender Forschungs-Durchbruch"
+ focus_event.te2.d: "Unser Schwerpunkt Forschung hatt sich gelohnt: wir haben einen bedeutenden high-tech Durchbruch gemacht."
+ focus_event.te2.a: "Sehr Gute Nachrichten!"
+
+ focus_event.te3.t: "Grossartiger Forschungs-Durchbruch"
+ focus_event.te3.d: "Unser Schwerpunkt Forschung hatt sich gelohnt: wir haben einen grossartigen high-tech Durchbruch gemacht."
+ focus_event.te3.a: "Vortreffliche Nachrichten!"
+ 
+ 
+ focus_event.f1.t: "Wir sind Unabhängiger geworden"
+ focus_event.f1.d: "Unsere Bemühungen zur Unabhängigkeit sind ein ziemlicher Erfolg."
+ focus_event.f1.a: "Gute Nachrichten!"
+ 
+ focus_event.f2.t: "Wir sind sehr viel Unabhängiger geworden"
+ focus_event.f2.d: "Unsere Bemühungen zur Unabhängigkeit sind ein Erfolg."
+ focus_event.f2.a: "Sehr Gute Nachrichten!"
+ 
+ focus_event.f3.t: "Massiver Unabhängigkeits-Fortschritt"
+ focus_event.f3.d: "Unsere Bemühungen zur Unabhängigkeit sind ein grossartiger Erfolg."
+ focus_event.f3.a: "Vortreffliche Nachrichten!"
+ 
+ 
+ focus_event.su1.t: "Wir haben eine unserer Kolonien unter etwas besserer Kontrolle"
+ focus_event.su1.d: "Unsere Bemühungen für unsere Kolonien sind ein ziemlicher Erfolg: eine unserer Kolonien ist fügiger geworden."
+ focus_event.su1.a: "Gute Nachrichten!"
+ 
+ focus_event.su2.t: "Wir haben eine unserer Kolonien unter besserer Kontrolle"
+ focus_event.su2.d: "Unsere Bemühungen für unsere Kolonien sind ein Erfolg: eine unserer Kolonien ist viel fügiger geworden."
+ focus_event.su2.a: "Sehr Gute Nachrichten!"
+ 
+ focus_event.su3.t: "Wir haben eine unserer Kolonien unter sehr viel besserer Kontrolle"
+ focus_event.su3.d: "Unsere Bemühungen für unsere Kolonien sind ein grossartiger Erfolg: eine unserer Kolonien ist sehr fügig geworden."
+ focus_event.su3.a: "Vortreffliche Nachrichten!"
+ 
+ 
+ focus_event.l1.t: "Kleine Armee-Doktrinen-Erneuerung"
+ focus_event.l1.d: "Unser Aufwand für Doktrinen-Erneuerung hat sich etwas bezahlt gemacht. Einer unserer Offiziere hat eine bescheidene neue Idee zur Verbesserung der Armeedoktrin, die auch zur Verbesserung unserer Divisionen eingesetzt werden könnte."
+ focus_event.l.a: "Wir müssen unsere Technologien und Doktrinen erneuern."
+ focus_event.l.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.l2.t: "Bedeutende Armee-Doktrinen-Erneuerung"
+ focus_event.l2.d: "Unser Aufwand für Doktrinen-Erneuerung hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bedeutende neue Idee zur Verbesserung der Armeedoktrin, die auch zur Verbesserung unserer Divisionen eingesetzt werden könnte."
+ 
+ focus_event.l3.t: "Grossartige Armee-Doktrinen-Erneuerung"
+ focus_event.l3.d: "Unser Aufwand für Doktrinen-Erneuerung hat sich sehr bezahlt gemacht. Einer unserer Offiziere hat eine grossartige neue Idee zur Verbesserung der Armeedoktrin, die auch zur Verbesserung unserer Divisionen eingesetzt werden könnte."
+ 
+ 
+ focus_event.a1.t: "Kleine Luftwaffen-Doktrinen-Erneuerung"
+ focus_event.a1.d: "Unser Aufwand für die Erneuerung der Luftwaffe hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bescheidene neue Idee zur Verbesserung der Luftdoktrin."
+ focus_event.a.a: "Wir müssen unsere Technologien und Doktrinen erneuern."
+ focus_event.a.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.a2.t: "Bedeutende Luftwaffen-Doktrinen-Erneuerung"
+ focus_event.a2.d: "Unser Aufwand für die Erneuerung der Luftwaffe hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bedeutende neue Idee zur Verbesserung der Luftdoktrin."
+ 
+ focus_event.a3.t: "Grossartige Luftwaffen-Doktrinen-Erneuerung"
+ focus_event.a3.d: "Unser starker Aufwand für die Erneuerung der Luftwaffe hat sich bezahlt gemacht. Einer unserer Offiziere hat eine grossartige neue Idee zur Verbesserung der Luftdoktrin."
+ 
+ 
+ focus_event.n1.t: "Kleine Flotten-Doktrinen-Erneuerung"
+ focus_event.n1.d: "Unser Aufwand für die Erneuerung der Flotte hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bescheidene neue Idee zur Verbesserung der Marinedoktrin."
+ focus_event.n.a: "Wir müssen unsere Technologien und Doktrinen erneuern."
+ focus_event.n.b: "Wir müssen das Bestehende verbessern."
+ 
+ focus_event.n2.t: "Bedeutende Flotten-Doktrinen-Erneuerung"
+ focus_event.n2.d: "Unser Aufwand für die Erneuerung der Flotte hat sich bezahlt gemacht. Einer unserer Offiziere hat eine bedeutende neue Idee zur Verbesserung der Marinedoktrin."
+ 
+ focus_event.n3.t: "Grossartige Flotten-Doktrinen-Erneuerung"
+ focus_event.n3.d: "Unser Aufwand für die Erneuerung der Flotte hat sich bezahlt gemacht. Einer unserer Offiziere hat eine grossartige neue Idee zur Verbesserung der Marinedoktrin."
+  
+ navy_modernisation: "Flotten-Reform"
+ airforce_modernisation: "Luftwaffen-Reform"
+ army_modernisation: "Armee-Reform"
+ construction_modernisation: "Konstruktions-Reform"
+ industry_modernisation: "Industrie-Reform"

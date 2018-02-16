@@ -1,0 +1,115 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	etgi_ideas_foreign_relations = { 
+	
+		law = yes
+		
+		#Sphere of Influence
+		etgi_laws_foreign_relations_d = {
+			
+			modifier = {
+			
+				opinion_gain_monthly_same_ideology_factor = 0.15
+				political_power_cost = -0.5
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+				
+				modifier = {
+					has_government = communist
+					factor = 2
+				}
+				
+				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+			}
+		}
+		
+		#Open Relations
+		etgi_laws_foreign_relations_1 = {
+			
+			modifier = {
+			
+				research_time_factor = -0.025
+				drift_defence_factor = -0.50
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			
+   				factor = 1
+
+ 				modifier = {
+					has_government = democratic
+					factor = 3
+				}
+   			}
+		}
+		
+		#Trade Focused
+		etgi_laws_foreign_relations_2 = {
+			
+			modifier = {
+			
+				trade_opinion_factor = 0.50
+				local_resources_factor = 0.2
+				justify_war_goal_time = 0.75
+				
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+				
+				modifier = {
+					has_government = democratic
+					factor = 2
+				}
+
+   			}
+		}
+		
+		#Closed Doors
+		etgi_laws_foreign_relations_3 = {
+			
+			modifier = {
+				trade_opinion_factor = -0.90
+				drift_defence_factor = 0.75
+				unity_factor = 0.2
+				conscription_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+				
+				modifier = {
+					has_government = communism
+					factor = 2
+				}
+				
+				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

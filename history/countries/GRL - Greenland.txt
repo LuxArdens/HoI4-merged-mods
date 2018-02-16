@@ -1,0 +1,52 @@
+﻿capital = 101
+
+#OOB = "GLR_1936"
+
+set_technology = {
+	early_destroyer = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 25
+		}
+
+		fascism = {
+			popularity = 25
+		}
+		
+		communism = {
+			popularity = 25
+		}
+		
+		neutrality = { 
+			popularity = 25
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 2
+
+#Victor Emmanuel III of Italy after 39
+#create_country_leader = {
+#	name = "King Zog"
+#	expire = "1965.1.1"
+#	ideology = despotism
+#	traits = {
+#		#
+#	}
+#}
+
+#create_field_marshal = {
+#	name = "Xhemal Aranitasi"
+#	picture = "Portrait_Europe_Generic_land_3.dds"
+#	skill = 1
+#}
+

@@ -1,0 +1,35 @@
+spriteTypes = {
+
+
+	
+	spriteType = {
+		name = "GFX_idea_slot_ncpo_ideas_foreign_relations"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ncpo_disarmed_foreign_land"
+		texturefile = "gfx/interface/ideas/idea_disarmed_nation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ncpo_laws_foreign_relations_d"
+		texturefile = "gfx/interface/ideas/FRA_national_mobilization_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ncpo_laws_foreign_relations_1"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ncpo_laws_foreign_relations_2"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_republicans_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ncpo_laws_foreign_relations_3"
+		texturefile = "gfx/interface/ideas/FRA_army_of_aggression_focus.dds"
+	}
+	
+}

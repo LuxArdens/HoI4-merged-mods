@@ -1,0 +1,215 @@
+upgrades = {
+###################
+##CAPITAL SHIPS
+###################
+
+##Carriers
+	carrier_deckspace_upgrade = {
+		max_level = 99	
+		cost = naval 
+		carrier_size = 0.075
+		build_cost_ic = 0.02
+	}
+	carrier_aa_upgrade = {
+		max_level = 99	
+		cost = naval 
+		anti_air_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	carrier_armor_upgrade = {
+		max_level = 99
+		cost = naval 
+		armor_value = 0.1
+		build_cost_ic = 0.02
+	}
+	carrier_engine_upgrade = {#strong
+		max_level = 99
+		cost = naval 
+		naval_speed = 0.04
+		naval_range = 0.06
+		evasion = 0.03
+		build_cost_ic = 0.02
+	}
+	carrier_reliability_upgrade = {
+		max_level = 99
+		cost = naval 
+		reliability = 0.015
+		build_cost_ic = 0.02
+	}
+	carrier_cost_upgrade = {
+		max_level = 99
+		cost = naval 
+		build_cost_ic = -0.05
+	}
+
+##Battleships
+	BS_gun_upgrade = {
+		max_level = 99
+		cost = naval
+		fire_range = 0.03
+		attack = 0.05
+		ap_attack = 0.06
+		shore_bombardment = 0.06#strong
+		build_cost_ic = 0.02
+	}
+	BS_aa_upgrade = {
+		max_level = 99	
+		cost = naval 
+		anti_air_attack = 0.1
+		build_cost_ic = 0.02
+	}
+	BS_armor_upgrade = {
+		max_level = 99
+		cost = naval 
+		armor_value = 0.12
+		build_cost_ic = 0.05	# armour is expensive
+	}
+	BS_engine_upgrade = {#slower
+		max_level = 99
+		cost = naval 
+		naval_speed = 0.02
+		naval_range = 0.03
+		evasion = 0.02
+		build_cost_ic = 0.02
+	}
+	BS_reliability_upgrade = {
+		max_level = 99
+		cost = naval 
+		reliability = 0.015
+		build_cost_ic = 0.02
+	}
+	BS_cost_upgrade = {
+		max_level = 99
+		cost = naval 
+		build_cost_ic = -0.05
+	}
+
+###################
+##SCREENS
+###################
+	screen_gun_upgrade = {
+		max_level = 99
+		cost = naval
+		fire_range = 0.03
+		attack = 0.04
+		ap_attack = 0.05
+		shore_bombardment = 0.05
+		anti_air_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	screen_torpedo_upgrade = {
+		max_level = 99
+		cost = naval
+		fire_range = 0.03
+		attack = 0.04
+		ap_attack = 0.05
+		shore_bombardment = 0.05
+		build_cost_ic = 0.02
+	}
+	screen_aa_upgrade = {
+		max_level = 99	
+		cost = naval 
+		anti_air_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	screen_armor_upgrade = {
+		max_level = 99
+		cost = naval 
+		armor_value = 0.10
+		build_cost_ic = 0.02
+	}
+	screen_ASW_upgrade = {
+		max_level = 99	
+		cost = naval 
+		sub_detection = 0.04
+		sub_attack = 0.04
+		build_cost_ic = 0.02
+	}
+	screen_engine_upgrade = {
+		max_level = 99
+		cost = naval 
+		naval_speed = 0.03
+		naval_range = 0.05
+		evasion = 0.03
+		build_cost_ic = 0.02
+	}
+	destroyer_engine_upgrade = {
+		max_level = 99
+		cost = naval 
+		naval_speed = 0.03
+		naval_range = 0.05
+		evasion = 0.03
+		build_cost_ic = 0.02
+	}
+	screen_reliability_upgrade = {
+		max_level = 99
+		cost = naval 
+		reliability = 0.015
+		build_cost_ic = 0.02
+	}
+	screen_cost_upgrade = {
+		max_level = 99
+		cost = naval 
+		build_cost_ic = -0.05
+	}
+
+###################
+##SUBMARINES
+###################
+	sub_torpedo_upgrade = {
+		max_level = 99	
+		cost = naval 
+		torpedo_attack = 0.04
+		build_cost_ic = 0.02
+	}
+	sub_stealth_upgrade = {
+		max_level = 99	
+		cost = naval 
+		sub_visibility = -0.05
+		build_cost_ic = 0.02
+	}
+	sub_engine_upgrade = {
+		max_level = 99	
+		cost = naval 
+		naval_speed = 0.05
+		naval_range = 0.05
+		evasion = 0.03
+		sub_visibility = 0.05
+		build_cost_ic = 0.02
+	}
+	sub_reliability_upgrade = {
+		max_level = 99
+		cost = naval 
+		reliability = 0.015
+		build_cost_ic = 0.02
+	}
+	sub_cost_upgrade = {
+		max_level = 99
+		cost = naval 
+		build_cost_ic = -0.05
+	}
+###################
+##CONVOYS
+###################
+	convoy_engine_upgrade = {
+		max_level = 99	
+		cost = naval 
+		naval_speed = 0.05
+		naval_range = 0.05
+		evasion = 0.03
+		sub_visibility = 0.05
+		build_cost_ic = 0.02
+	}
+	convoy_reliability_upgrade = {
+		max_level = 99
+		cost = naval 
+		reliability = 0.015
+		naval_range = -0.04
+		build_cost_ic = 0.02
+	}
+	convoy_cost_upgrade = {
+		max_level = 99
+		cost = naval 
+		build_cost_ic = -0.05
+	}
+}

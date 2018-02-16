@@ -1,0 +1,422 @@
+﻿l_english:
+ continuous_naval_production1: "Naval Production I"
+ continuous_naval_production2: "Naval Production II"
+ continuous_naval_production3: "Naval Production III"
+ continuous_naval_production1_desc: "We must rule the seas to protect ourselves and starve out our enemies: +33% on ship output. Sometimes we will get major discoveries, allowing us either to get more naval experience or to research new ships."
+ continuous_naval_production2_desc: "We must rule the seas to protect ourselves and starve out our enemies: +67% on ship output. Sometimes we will get major discoveries, allowing us either to get more naval experience or to research new ships."
+ continuous_naval_production3_desc: "We must rule the seas to protect ourselves and starve out our enemies: +100% on ship output. Sometimes we will get major discoveries, allowing us either to get more naval experience or to research new ships."
+ 
+ continuous_air_production1: "Air Production I"
+ continuous_air_production2: "Air Production II"
+ continuous_air_production3: "Air Production III"
+ continuous_air_production1_desc: "'If we lose the war in the air, we lose the war and we lose it fast': +33% on air output!Sometimes we will make minor discoveries, allowing us either to get more air experience or to research new airplanes."
+ continuous_air_production2_desc: "'If we lose the war in the air, we lose the war and we lose it fast': +67% on air output!Sometimes we will make significant discoveries, allowing us either to get more air experience or to research new airplanes."
+ continuous_air_production3_desc: "'If we lose the war in the air, we lose the war and we lose it fast': +100% on air output!Sometimes we will make major discoveries, allowing us either to get more air experience or to research new airplanes."
+ 
+ continuous_standard_equipment1: "Standard Equipment Production I"
+ continuous_standard_equipment2: "Standard Equipment Production II"
+ continuous_standard_equipment3: "Standard Equipment Production III"
+ continuous_standard_equipment1_desc: "'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory! +33% on Standard Equipment output! Sometimes we will make minor discoveries, allowing us either to get more land experience or to research new airplanes."
+ continuous_standard_equipment2_desc: "'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory! +67% on Standard Equipment output! Sometimes we will make significant discoveries, allowing us either to get more land experience or to research new airplanes."
+ continuous_standard_equipment3_desc: "'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory! +100% on Standard Equipment output! Sometimes we will make major discoveries, allowing us either to get more land experience or to research new airplanes."
+ 
+ continuous_tank_production1: "Tank production I"
+ continuous_tank_production2: "Tank production II"
+ continuous_tank_production3: "Tank production III"
+ continuous_tank_production1_desc: "Our mighty tanks will break through enemy lines to disorganize and encircle them: +33% on Tank output! Sometimes we will make minor discoveries, allowing us either to get more land experience or to research new tanks."
+ continuous_tank_production2_desc: "Our mighty tanks will break through enemy lines to disorganize and encircle them: +67% on Tank output! Sometimes we will make significant discoveries, allowing us either to get more land experience or to research new tanks."
+ continuous_tank_production3_desc: "Our mighty tanks will break through enemy lines to disorganize and encircle them: +100% on Tank output! Sometimes we will make major discoveries, allowing us either to get more land experience or to research new tanks."
+ 
+ mass_production1: "Mass Production I"
+ mass_production2: "Mass Production II"
+ mass_production3: "Mass Production III"
+ mass_production1_desc: "We must concentrate our industry and make her produce as efficiently as possible"
+ mass_production2_desc: "We must concentrate our industry and make her produce always always more"
+ mass_production3_desc: "We must concentrate our industry and produce the maximum"
+ 
+ flexible_production1: "Flexible Production I"
+ flexible_production2: "Flexible Production II"
+ flexible_production3: "Flexible Production III"
+ flexible_production1_desc: "Our industry must always be ready to adapt"
+ flexible_production2_desc: "Our industry must always be ready to produce new equipment types"
+ flexible_production3_desc: "Our industry must switch constantly to the current needs of our armies"
+ 
+ continuous_non_factory_construct1: "Construction Engineering I" 
+ continuous_non_factory_construct2: "Construction Engineering II"
+ continuous_non_factory_construct3: "Construction Engineering III"
+ continuous_non_factory_construct1_desc: "We must mobilize the forces of our country to build a bright future. Sometimes the expansion of our infrastructure will slightly overcome our expectations, or we will make minor discoveries in construction technology."
+ continuous_non_factory_construct2_desc: "We must mobilize the forces of our country to SWIFTLY build a bright future. Sometimes the expansion of our infrastructure will significantly overcome our expectations, or we will make significant discoveries in construction technology."
+ continuous_non_factory_construct3_desc: "We must mobilize ALL the forces of our country to build the brightest future. Sometimes the expansion of our infrastructure will overcome our wildest expectations, or we will make major discoveries in construction technology."
+ 
+ construction_effort1: "Construction Effort I"
+ construction_effort2: "Construction Effort II"
+ construction_effort3: "Construction Effort III"
+ construction_effort1_desc: "We must start by expanding our heavy industry. Sometimes the expansion of our heavy industries will slightly overcome our expectations, or we will make minor discoveries in industry technology."
+ construction_effort2_desc: "We must start by SWIFTLY expanding our heavy industry. Sometimes the expansion of our heavy industries will overcome our expectations, or we will make significant discoveries in industry technology."
+ construction_effort3_desc: "We must start by expanding our heavy industry AT ANY PRICE. Sometimes the expansion of our heavy industries will overcome our wildest expectations, or make major discoveries in industry technology."
+ 
+ armament_effort1: "Armament Effort I"
+ armament_effort2: "Armament Effort II"
+ armament_effort3: "Armament Effort III"
+ armament_effort1_desc: "Our manpower is precious, bullets are cheap. We must outproduce our enemies. Sometimes the expansion of our war industries will slightly overcome our expectations, or make some minor discoveries in industry technology."
+ armament_effort2_desc: "Our manpower is precious, bullets are cheap. We must outproduce our enemies very fast.Sometimes the expansion of our war industries will overcome our expectations, or make some significant discoveries in industry technology."
+ armament_effort3_desc: "Our manpower is precious, bullets are cheap. We must outproduce our enemies as fast as possible. Sometimes the expansion of our war industries will overcome our wildest expectations, ormake some major discoveries in industry technology."
+ 
+ excavation_effort1: "Excavation Effort I"
+ excavation_effort2: "Excavation Effort II"
+ excavation_effort3: "Excavation Effort III"
+ excavation_effort1_desc: "We must mobilize our people to extract more of our precious resources, improve their transformation and avoid waste. We may even discover some little new resource deposits or make some minor discoveries in excavation technology."
+ excavation_effort2_desc: "We must strongly mobilize our people to extract more of our precious resources, improve their transformation and avoid waste. We may even discover some new resource deposits, or make some significant discoveries in excavation technology."
+ excavation_effort3_desc: "We must mobilize ALL our people to extract more of our precious resources, improve their transformation and avoid waste. We may even discover some new resource deposits, or make some major discoveries in excavation technology."
+ 
+ continuous_repair1: "Construction Repair I"
+ continuous_repair2: "Construction Repair II"
+ continuous_repair3: "Construction Repair III"
+ continuous_repair1_desc: "No sacrifice, no retreat, no bomb, nothing will affect our determination for victory. Every damage must be repaired"
+ continuous_repair2_desc: "No sacrifice, no retreat, no bomb, nothing will affect our determination for victory. Every damage must be repaired right now"
+ continuous_repair3_desc: "No sacrifice, no retreat, no bomb, nothing will affect our determination for victory. Every damage must be repaired as fast as possible"
+ 
+ continuous_rationing1: "Rationing I"
+ continuous_rationing2: "Rationing II"
+ continuous_rationing3: "Rationing III"
+ continuous_rationing1_desc: "We must start to ration our food and consumer goods to avoid overconsumption"
+ continuous_rationing2_desc: "We must ration our food and consumer goods to fit exactly people's needs"
+ continuous_rationing3_desc: "We must ration our food and consumer goods and give everything for victory!"
+ 
+ continuous_trade1: "International Trade I"
+ continuous_trade2: "International Trade II"
+ continuous_trade3: "International Trade III"
+ continuous_trade1_desc: "Our international policy shall aim at reassuring our trade partners to maximise export"
+ continuous_trade2_desc: "Our international policy shall aim at improving existing trade relations and building up new ones"
+ continuous_trade3_desc: "The only purpose of our policy shall be export, and nothing else"
+ 
+ continuous_recruitment1: "Recruitment I"
+ continuous_recruitment2: "Recruitment II"
+ continuous_recruitment3: "Recruitment III"
+ continuous_recruitment1_desc: "We must raise and train our soldiers faster"
+ continuous_recruitment2_desc: "We must raise and train as much soldiers as possible"
+ continuous_recruitment3_desc: "No enemy will be able to resist our human waves"
+ 
+ continuous_training1: "Training I"
+ continuous_training2: "Training II"
+ continuous_training3: "Training III"
+ continuous_training1_desc: "Our divisions must be much more experienced before they start fighting"
+ continuous_training2_desc: "Our divisions must be trained much more efficiently"
+ continuous_training3_desc: "Every single soldier should be an expert"
+ 
+ continuous_unity1: "Unity I"
+ continuous_unity2: "Unity II"
+ continuous_unity3: "Unity III"
+ continuous_unity1_desc: "Everyone must now what we fight for"
+ continuous_unity2_desc: "Nothin will affect our determination for victory"
+ continuous_unity3_desc: "Even in the darkest hour, there always is a reason to hope and to fight"
+ 
+ continuous_suppression1: "Resistance Suppression I"
+ continuous_suppression2: "Resistance Suppression II"
+ continuous_suppression3: "Resistance Suppression III"
+ continuous_suppression1_desc: "We can't allow terrorists to undermine our pacification efforts. We must be swift and strong."
+ continuous_suppression2_desc: "We can't allow terrorists to undermine our pacification efforts. We must be swifter and stronger."
+ continuous_suppression3_desc: "We can't allow terrorists to undermine our pacification efforts. All our efforts must be directed against them."
+ 
+ continuous_tech_share1: "Technology Sharing I"
+ continuous_tech_share2: "Technology Sharing II"
+ continuous_tech_share3: "Technology Sharing III"
+ continuous_tech_share_desc1: "There is no use reinventing the wheel. We must convince our allies to give us their latest technologies and doctrines"
+ continuous_tech_share_desc2: "There is no use reinventing the wheel. We must convince our allies to give us their latest technologies and doctrines as fast as possible"
+ continuous_tech_share_desc3: "There is no use reinventing the wheel. We must convince our allies to give us their latest technologies and doctrines right now"
+  
+ continuous_tech_effort1: "Research Effort I"
+ continuous_tech_effort2: "Research Effort II"
+ continuous_tech_effort3: "Research Effort III"
+ continuous_tech_effort1_desc: "'God is not on the side of the biggest battalions, but the best ones'. Sometimes we will make minor discovering in the breaking-edge fields of electronic, nuclear fission or jet engines"
+ continuous_tech_effort2_desc: "'God is not on the side of the biggest battalions, but the best ones'. Sometimes we will make significant discovering in the breaking-edge fields of electronic, nuclear fission or jet engines"
+ continuous_tech_effort3_desc: "'God is not on the side of the biggest battalions, but the best ones'. Sometimes we will make major discovering in the breaking-edge fields of electronic, nuclear fission or jet engines"
+ 
+ continuous_boost_freedom1: "Boost Freedom I"
+ continuous_boost_freedom2: "Boost Freedom II"
+ continuous_boost_freedom3: "Boost Freedom III"
+ continuous_boost_freedom1_desc: "We will reach independance not through war and revolt, but by gradually expanding our autonomy"
+ continuous_boost_freedom2_desc: "We will reach independance not through war and revolt, but by expanding our autonomy"
+ continuous_boost_freedom3_desc: "We will reach independance not through war and revolt, but by swiftly expanding our autonomy"
+ 
+ continuous_subjugate1: "Subjugate I"
+ continuous_subjugate2: "Subjugate II"
+ continuous_subjugate3: "Subjugate III"
+ continuous_subjugate1_desc: "We must tighten the control of our colonies and puppets. We won't allow any trahision!"
+ continuous_subjugate2_desc: "We must tighten even more the control of our colonies and puppets. We won't allow any trahision!"
+ continuous_subjugate3_desc: "We must keep our colonies and puppets under total control. We won't allow any trahision!"
+ 
+ population_growth1: "Population Growth I"
+ population_growth2: "Population Growth II"
+ population_growth3: "Population Growth III"
+ population_growth1_desc: "We will improve living conditions in our country. This will increase our population growth, and attract Refugees every few dozen days."
+ population_growth2_desc: "We will improve living conditions in our country even more. This will significantly increase our population growth, and attract more Refugees every few dozen days."
+ population_growth3_desc: "We will dramatically improve living conditions in our country even more. This will dramatically increase our population growth, and attract many Refugees every few dozen days."
+ 
+ army_modernisation1: "Army Modernisation I"
+ army_modernisation2: "Army Modernisation II"
+ army_modernisation3: "Army Modernisation III"
+ army_modernisation1_desc: "We will DO OUR BEST to modernize our army. We will be able to modify our division templates and upgrade our equipment more often. Somtimes we will make minor discoveries, giving us additional more army experience or bonuses for researching land warfare technologies."
+ army_modernisation2_desc: "We will TRY EVEN HARDER to modernize our army. We will be able to modify our division templates and upgrade our equipment more often. Somtimes we will make significant discoveries, giving us either additional army experience or bonuses for researching land warfare technologies."
+ army_modernisation3_desc: "We will SPEND ALL OUR EFFORTS to modernize our army. We will be able to modify our division templates and upgrade tanks more often. Somtimes we will get major discoveries, giving us either additional army experience or bonuses for researching land warfare technologies."
+ 
+ airforce_modernisation1: "Airforce Modernisation I"
+ airforce_modernisation2: "Airforce Modernisation II"
+ airforce_modernisation3: "Airforce Modernisation III"
+ airforce_modernisation1_desc: "We will DO OUR BEST to modernize our airforce. We will be able to upgrade planes more often. Somtimes we will get minor discoveries, allowing giving us either additional air experience or bonuses for researching air warfare technologies."
+ airforce_modernisation2_desc: "We will TRY EVEN HARDER to modernize our airforce. We will be able to upgrade planes more often. Somtimes we will get significant discoveries, allowing giving us either additional air experience or bonuses for researching air warfare technologies."
+ airforce_modernisation3_desc: "We will SPEND ALL OUR EFFORTS to modernize our airforce. We will be able to upgrade planes more often. Somtimes we will get major discoveries, giving us either additional air experience or bonuses for researching air warfare technologies."
+ 
+ navy_modernisation1: "Navy Modernisation I"
+ navy_modernisation2: "Navy Modernisation II"
+ navy_modernisation3: "Navy Modernisation III" 
+ navy_modernisation1_desc: "We will DO OUR BEST to modernize our navy. We will be able to upgrade ships more often. Somtimes we will get minor discoveries,giving us either additional naval experience or bonuses for researching naval warfare technologies."
+ navy_modernisation2_desc: "We will TRY EVEN HARDER to modernize our navy. We will be able to upgrade ships more often. Somtimes we will get significant discoveries, giving us either additional naval experience or bonuses for researching naval warfare technologies."
+ navy_modernisation3_desc: "We will SPEND ALL OUR EFFORTS to modernize our navy. We will be able to upgrade ships more often. Somtimes we will get major discoveries, giving us either additional naval experience or bonuses for researching naval warfare technologies."
+ 
+ 
+ 
+ focus_event.0.t:0 "Continuous Focuses Setup"
+ focus_event.0.d:0 "Hello! 121Eddie here, creator of "Continuous Focuses - NEW CONCEPT" mod. Since some people didn't like the idea of having extra manpower/factories/resources etc. added by events, here you can decide whether you want these events to happen or not. This will affect all nations in the world, including ones controlled by AI. If you want to change this setting later, you will need to use this console command: event focus_event.0"
+ focus_event.0.a:0 "ENABLE events triggered by new continuous focuses."
+ focus_event.0.b:0 "DISABLE events triggered by new continuous focuses."
+ 
+ 
+ focus_event.np1.t: "Minor Naval Equipment Discovery"
+ focus_event.np1.d: "Our efforts in optimizing our naval production gave our engineers ideas for design improvement. We can either implement them in a new variant or build a completly new class."
+ focus_event.np.a: "We should focus on researching new technologies."
+ focus_event.np.b: "Let's focus on what we already have."
+ 
+ focus_event.np2.t: "Significant Naval Equipment Discovery"
+ focus_event.np2.d: "Our efforts in optimizing our naval production gave our engineers ideas for design improvement. We can either implement them in a new variant or build a completly new class."
+ 
+ focus_event.np3.t: "Major Naval Equipment Discovery"
+ focus_event.np3.d: "Our efforts in optimizing our naval production gave our engineers ideas for design improvement. We can either implement them in a new variant or build a completly new class."
+ 
+ 
+ focus_event.ap1.t: "Minor Air Equipment Discovery"
+ focus_event.ap1.d: "Our efforts in optimizing our air production gave our engineers minor new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ focus_event.ap.a: "We should focus on researching new technologies."
+ focus_event.ap.b: "Let's focus on what we already have."
+ 
+ focus_event.ap2.t: "Significant Air Equipment Discovery"
+ focus_event.ap2.d: "Our efforts in optimizing our air production gave our engineers significant new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ 
+ focus_event.ap3.t: "Major Air Equipment Discovery"
+ focus_event.ap3.d: "Our efforts in optimizing our air production gave our engineers major new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ 
+ 
+ focus_event.s1.t: "Minor Equipment Discovery"
+ focus_event.s1.d: "Our efforts in optimizing our standard equipment production gave our engineers minor new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ focus_event.s.a: "We should focus on researching new technologies."
+ focus_event.s.b: "Let's focus on what we already have."
+ 
+ focus_event.s2.t: "Significant Equipment Discovery"
+ focus_event.s2.d: "Our efforts in optimizing our standard equipment production gave our engineers significant new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ 
+ focus_event.s3.t: "Major Equipment Discovery"
+ focus_event.s3.d: "Our efforts in optimizing our standard equipment production gave our engineers major new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ 
+ 
+ focus_event.t1.t: "Minor Tank Discovery"
+ focus_event.t1.d: "Our efforts in optimizing our tank production gave our engineers minor new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ focus_event.t1.a: "We should focus on researching new technologies."
+ focus_event.t1.b: "Let's focus on what we already have."
+ 
+ focus_event.t2.t: "Significant Tank Discovery"
+ focus_event.t2.d: "Our efforts in optimizing our tank production gave our engineers significant new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ 
+ focus_event.t3.t: "Major Tank Discovery"
+ focus_event.t3.d: "Our efforts in optimizing our tank production gave our engineers major new ideas for design improvement. We can either implement them in a new variant or build a completly new serie."
+ 
+ 
+ focus_event.p1.t: "Refugees Arrived"
+ focus_event.p1.d: "Good living conditions in our country have attracted people fleeing war or persecution. They want to settle on our territory."
+ focus_event.p.a: "Good news. Help them settling down!"
+ focus_event.p.b: "Nope!"
+ 
+ focus_event.p2.t: "Lots of Refugees Arrived"
+ focus_event.p2.d: "Great living conditions in our country have attracted many people fleeing war or persecution. They want to settle on our territory."
+ 
+ focus_event.p3.t: "Streams of Refugees Arrived"
+ focus_event.p3.d: "Great living conditions in our country have attracted streams of people fleeing war or persecution. They want to settle on our territory."
+ 
+ 
+ focus_event.nf1.t: "Minor Civilian Breakthrough"
+ focus_event.nf1.d: "We may build 3 infrastructures ahead of schedule or improve our construction technology."
+ focus_event.nf.a: "Let's expand our infrastructure at any prize!"
+ focus_event.nf.b: "We must improve our construction technology first"
+ 
+ focus_event.nf2.t: "Significant Civilian Breakthrough"
+ focus_event.nf2.d: "We may build 6 infrastructures ahead of schedule or improve our construction technology."
+ 
+ focus_event.nf3.t: "Major Civilian Breakthrough"
+ focus_event.nf3.d: "We may build 9 infrastructures ahead of schedule or improve our construction technology."
+ 
+ 
+ focus_event.c1.t: "Minor Civilian Breakthrough"
+ focus_event.c1.d: "We may build 1 civilian factory ahead of schedule or improve our industry technology."
+ focus_event.c.a: "Let's build up our industry at any prize!"
+ focus_event.c.b: "We must modernize our industry first!"
+ 
+ focus_event.c2.t: "Significant Civilian Breakthrough"
+ focus_event.c2.d: "We may build 2 civilian factories ahead of schedule or improve our industry technology."
+ 
+ focus_event.c3.t: "Major Civilian Breakthrough"
+ focus_event.c3.d: "We may build 3 civilian factories ahead of schedule or improve our industry technology."
+ 
+ 
+ focus_event.m1.t: "Minor Military Breakthrough"
+ focus_event.m1.d: "We may build 1 military factory ahead of schedule or improve our industry technology."
+ focus_event.c.a: "Let's build up our military industry at any prize!"
+ focus_event.c.b: "We must modernize our military production first!"
+ 
+ focus_event.m2.t: "Significant Military Breakthrough"
+ focus_event.m2.d: "We may build 2 military factories ahead of schedule or improve our industry technology."
+ 
+ focus_event.m2.t: "Major Miliary Breakthrough"
+ focus_event.m2.d: "We may build 3 military factories ahead of schedule or improve our industry technology."
+ 
+ 
+ focus_event.e1.t: "Minor Deposit Discovered"
+ focus_event.e1.d: "Our excavation teams have discovered a tiny new resource deposit in our country."
+ focus_event.e1.a: "Good news"
+ 
+ focus_event.e2.t: "Significant Deposit Discovered"
+ focus_event.e2.d: "Our excavation teams have discovered a significant new resource deposit in our country."
+ focus_event.e2.a: "Great news"
+
+ focus_event.e3.t: "Major Deposit Discovered"
+ focus_event.e3.d: "Our excavation teams have discovered a major new resource deposit in our country."
+ focus_event.e3.a: "Excellent news"
+ 
+ 
+ focus_event.e1.t: "Minor Excavation Breakthrough"
+ focus_event.e1.d: "Our focus on excavation paid off: we made a minor breakthrough in excavation technology."
+ focus_event.e1.a: "Good news"
+ 
+ focus_event.e2.t: "Significant Excavation Breakthrough"
+ focus_event.e2.d: "Our focus on excavation paid off: we made a significant breakthrough in excavation technology."
+ focus_event.e2.a: "Great news"
+
+ focus_event.e3.t: "Major Excavation Breakthrough"
+ focus_event.e3.d: "Our focus on excavation paid off: we made a majorbreakthrough in excavation technology."
+ focus_event.e3.a: "Excellent news"
+ 
+ 
+ focus_event.tr1.t: "Minor Land Discovery"
+ focus_event.tr1.d: "Our effort in training our army paid off. One of our officers has an idea regarding land warfare. We can either use it to improve our division templates and existing equipment, or to speed up researching new technologies."
+ focus_event.tr.a: "We should focus on researching new technologies."
+ focus_event.tr.b: "Let's focus on what we already have."
+ 
+ focus_event.tr2.t: "Significant Land Warfare Discovery"
+ focus_event.tr2.d: "Our effort in training our army paid off. One of our officers has a significant idea regarding land warfare. We can either use it to improve our division templates and existing equipment, or to speed up researching new technologies."
+ 
+ focus_event.tr3.t: "Major Land Warfare Discovery"
+ focus_event.tr3.d: "Our effort in training our armyreally paid off. WOne of our officers has a major idea regarding land warfare. We can either use it to improve our division templates and existing equipment, or to speed up researching new technologies."
+ 
+ 
+ focus_event.sp1.t: "Resistance reduced"
+ focus_event.sp1.d: "Our effort in fighting the resistance finally yielded in one of our provinces. Resistance activities have been drastically reduced."
+ focus_event.sp1.a: "Good news"
+ 
+ focus_event.sp2.t: "Resistance suppressed"
+ focus_event.sp2.d: "Our effort in fighting the resistance finally yielded in one of our provinces. Resistance activities have almost disappearded."
+ focus_event.sp2.a: "Great news"
+ 
+ focus_event.sp3.t: "Resistance destroyed"
+ focus_event.sp3.d: "Our effort in fighting the resistance finally yielded in one of our provinces. There won't be any Resistance activities any more (or at least the responsible officers tell us so)."
+ focus_event.sp3.a: "Excellent news"
+ 
+ 
+ focus_event.te1.t: "Minor Technological Breakthrough"
+ focus_event.te1.d: "Our focus on research paid off: we made a minor high tech breakthrough."
+ focus_event.te1.a: "Good news"
+ 
+ focus_event.te2.t: "Significant Technological Breakthrough"
+ focus_event.te2.d: "Our focus on research paid off: we made a significant high tech breakthrough."
+ focus_event.te2.a: "Great news"
+
+ focus_event.te3.t: "Major Technological Breakthrough"
+ focus_event.te3.d: ""Our focus on research paid off: we made a major high tech breakthrough."
+ focus_event.te3.a: "Excellent news"
+ 
+ 
+ focus_event.f1.t: "We gained more autonomy"
+ focus_event.f1.d: "Our effort in making ourselves independant have been quite a success, and we became more independant."
+ focus_event.f1.a: "Good news"
+ 
+ focus_event.f2.t: "Significant autonomy progress"
+ focus_event.f2.d: "Our effort in making ourselves independant have been a significant success, and we became more independant."
+ focus_event.f2.a: "Great news""
+ 
+ focus_event.f3.t: "Massive autonomy progress"
+ focus_event.f3.d: "Our effort in making ourselves independant have been a real success, and we became really more independant."
+ focus_event.f3.a: "Excellent news"
+ 
+ 
+ focus_event.su1.t: "We tightened the control of one of our colonies"
+ focus_event.su1.d: "Our efforts in regaining control of our colonies have been quite a success, and one of our colonies became more closely knit to our rule."
+ focus_event.su1.a: "Good news"
+ 
+ focus_event.su2.t: "Significant Land Warfare Discovery"
+ focus_event.su2.d: "Our efforts in regaining control of our colonies have been a real success, and one of our colonies became significantly knit to our rule."
+ focus_event.su2.a: "Great news"
+ 
+ focus_event.su3.t: "Major Land Warfare Discovery"
+ focus_event.su3.d: "Our efforts in regaining control of our colonies have been a major success, and one of our colonies became really knit to our rule."
+ focus_event.su3.a: "Excellent news"
+ 
+ 
+ focus_event.l1.t: "Minor Land Warfare Discovery"
+ focus_event.l1.d: "Our effort in trying to modernize army paid off. We made a minor discovery regarding land warfare. We can either use it to improve our division templates and existing equipment, or to speed up researching new technologies."
+ focus_event.l1.a: "We should focus on researching new technologies."
+ focus_event.l1.b: "Let's focus on what we already have."
+ 
+ focus_event.l2.t: "Significant Land Warfare Discovery"
+ focus_event.l2.d: "Our effort in trying to modernize army paid off. We made a discovery regarding land warfare. We can either use it to improve our division templates and existing equipment, or to speed up researching new technologies."
+ focus_event.l2.a: "We should focus on researching new technologies."
+ focus_event.l2.b: "Let's focus on what we already have."
+ 
+ focus_event.l3.t: "Major Land Warfare Discovery"
+ focus_event.l3.d: "Our effort in trying to modernize army really paid off. We made a major discovery regarding land warfare. We can either use it to improve our division templates and existing equipment, or to speed up researching new technologies."
+ focus_event.l3.a: "We should focus on researching new technologies."
+ focus_event.l3.b: "Let's focus on what we already have."
+ 
+ 
+ focus_event.a1.t: "Minor Air Warfare Discovery"
+ focus_event.a1.d: "Our effort in trying to modernize airfore paid off. We made a minor discovery regarding air warfare. We can either use it to improve our existing airplanes, or to speed up researching new technologies."
+ focus_event.a1.a: "We should focus on researching new technologies."
+ focus_event.a1.b: "Let's focus on what we already have."
+ 
+ focus_event.a2.t: "Significant Air Warfare Discovery"
+ focus_event.a2.d: "Our effort in trying to modernize airforce paid off. We made a significant discovery regarding air warfare. We can either use it to improve our existing airplanes, or to speed up researching new technologies."
+ focus_event.a2.a: "We should focus on researching new technologies."
+ focus_event.a2.b: "Let's focus on what we already have."
+ 
+ focus_event.a3.t: "Major Air Warfare Discovery"
+ focus_event.a3.d: "Our effort in trying to modernize airforce paid off. We made a major discovery regarding air warfare. We can either use it to improve our existing airplanes, or to speed up researching new technologies."
+ focus_event.a3.a: "We should focus on researching new technologies."
+ focus_event.a3.b: "Let's focus on what we already have."
+ 
+ 
+ focus_event.n1.t: "Minor Naval Warfare Discovery"
+ focus_event.n1.d: "Our efforts in trying to modernize navy paid off. We made a minor discovery regarding naval warfare. We can either use it to improve our existing ships, or to speed up researching new technologies."
+ focus_event.n1.a: "We should focus on researching new technologies."
+ focus_event.n1.b: "Let's focus on what we already have."
+ 
+ focus_event.n2.t: "Significant Naval Warfare Discovery"
+ focus_event.n2.d: "Our efforts in trying to modernize navy paid off. We made a significant discovery regarding naval warfare. We can either use it to improve our existing ships, or to speed up researching new technologies."
+ focus_event.n2.a: "We should focus on researching new technologies."
+ focus_event.n2.b: "Let's focus on what we already have."
+ 
+ focus_event.n3.t: "Major Naval Warfare Discovery"
+ focus_event.n3.d: "Our efforts in trying to modernize navy paid off. We made a major discovery regarding naval warfare. We can either use it to improve our existing ships, or to speed up researching new technologies."
+ focus_event.n3.a: "We should focus on researching new technologies."
+ focus_event.n3.b: "Let's focus on what we already have."
+ 
+ navy_modernisation: "Navy Modernisation"
+ airforce_modernisation: "Airforce Modernisation"
+ army_modernisation: "Army Modernisation"
+ construction_modernisation: "Construction Modernisation"
+ industry_modernisation: "Industry Modernisation

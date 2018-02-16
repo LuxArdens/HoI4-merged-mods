@@ -1,0 +1,1043 @@
+###########################
+# Scandinavian News Events
+###########################
+
+add_namespace = SNews
+
+#Wants to form Scandinavian Alliance
+news_event = {
+	id = SNews.1
+	title = SNews.1.t
+	desc = {
+		text = SNews.1.d
+	}
+	picture = GFX_news_event_canada_patriation
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+
+	option = {
+		name = SNews.1.a
+		trigger = {
+			OR = {
+				tag = NOR
+				tag = SWE
+				tag = DEN
+				tag = FIN
+			}
+		}
+	}
+
+	option = {
+		name = SNews.1.b
+		trigger = {
+			NOT = {
+				OR = {
+					tag = NOR
+					tag = SWE
+					tag = DEN
+					tag = FIN
+				}
+			}
+			
+		}
+	}
+}
+
+#Seeks to strengthen Scandinavian relations
+news_event = {
+	id = SNews.2
+	title = SNews.2.t
+	desc = {
+		text = SNews.2.d
+	}
+	picture = GFX_news_event_canada_patriation
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.1.a
+		trigger = {
+			OR = {
+				tag = NOR
+				tag = SWE
+				tag = DEN
+				tag = FIN
+			}
+		}
+	}
+}
+
+#FROM joins Scandinavian Alliance NOR
+news_event = {
+	id = SNews.3
+	title = SNews.3.t
+	desc = {
+		text = SNews.3.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.3.a
+		trigger = {
+			tag = NOR
+		}
+	}
+	
+	option = {
+		name = SNews.3.b
+		trigger = {
+			NOT = {tag = NOR}
+		}
+	}
+}
+
+#Accept puppet invite NOR
+news_event = {
+	id = SNews.4
+	title = SNews.4.t
+	desc = {
+		text = SNews.4.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.4.a
+		trigger = {
+			tag = NOR
+		}
+	}
+	
+	option = {
+		name = SNews.4.b
+		trigger = {
+			NOT = {tag = NOR}
+		}
+	}
+}
+
+#Baltic accepted puppet NOR
+news_event = {
+	id = SNews.5
+	title = SNews.5.t
+	desc = {
+		text = SNews.5.d
+	}
+	picture = GFX_news_event_generic_read_write
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.5.a
+		trigger = {
+			tag = NOR
+		}
+	}
+	
+	option = {
+		name = SNews.5.b
+		trigger = {
+			NOT = {tag = NOR}
+		}
+	}
+}
+
+#Jamtland given
+news_event = {
+	id = SNews.6
+	title = SNews.6.t
+	desc = {
+		text = SNews.6.d
+	}
+	picture = GFX_news_event_generic_read_write
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.6.a
+		trigger = {
+			tag = NOR
+		}
+	}
+	
+	option = {
+		name = SNews.6.b
+		trigger = {
+			NOT = {tag = NOR}
+		}
+	}
+}
+
+#Enters Union NOR
+news_event = {
+	id = SNews.7
+	title = SNews.7.t
+	desc = {
+		text = SNews.7.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.7.a
+		trigger = {
+			tag = NOR
+		}
+	}
+	
+	option = {
+		name = SNews.7.b
+		trigger = {
+			NOT = {tag = NOR}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.8
+	title = SNews.8.t
+	desc = {
+		text = SNews.8.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.8.a
+		trigger = {
+			OR = {
+				AND = {
+					tag = NOR
+					SWE = {is_puppet_of = NOR}
+				}
+				AND = {
+					tag = DEN
+					SWE = {is_puppet_of = DEN}
+				}
+			}
+			
+		}
+	}
+	
+	option = {
+		name = SNews.8.b
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						tag = NOR
+						SWE = {is_puppet_of = NOR}
+					}
+					AND = {
+						tag = DEN
+						SWE = {is_puppet_of = DEN}
+					}
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.9
+	title = SNews.9.t
+	desc = {
+		text = SNews.9.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.9.a
+		trigger = {
+			OR = {
+				AND = {
+					tag = NOR
+					SWE = {is_puppet_of = NOR}
+				}
+				AND = {
+					tag = DEN
+					SWE = {is_puppet_of = DEN}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.9.b
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						tag = NOR
+						SWE = {is_puppet_of = NOR}
+					}
+					AND = {
+						tag = DEN
+						SWE = {is_puppet_of = DEN}
+					}
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.10
+	title = SNews.10.t
+	desc = {
+		text = SNews.10.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.10.a
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.10.b
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.11
+	title = SNews.11.t
+	desc = {
+		text = SNews.11.d
+	}
+	picture = GFX_news_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.11.a
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.11.b
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.12
+	title = SNews.12.t
+	desc = {
+		text = SNews.12.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.12.a
+		trigger = {
+			is_in_faction_with = SWE
+		}
+	}
+	
+	option = {
+		name = SNews.12.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = SWE
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.13
+	title = SNews.13.t
+	desc = {
+		text = SNews.13.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.13.a
+		trigger = {
+			is_in_faction_with = SWE
+		}
+	}
+	
+	option = {
+		name = SNews.13.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = SWE
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.14
+	title = SNews.14.t
+	desc = {
+		text = SNews.14.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.14.a
+		trigger = {
+			is_in_faction_with = SWE
+		}
+	}
+	
+	option = {
+		name = SNews.14.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = SWE
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.15
+	title = SNews.15.t
+	desc = {
+		text = SNews.15.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.15.a
+		trigger = {
+			is_in_faction_with = SWE
+		}
+	}
+	
+	option = {
+		name = SNews.15.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = SWE
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.16
+	title = SNews.16.t
+	desc = {
+		text = SNews.16.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.16.a
+		trigger = {
+			is_in_faction_with = SWE
+		}
+	}
+	
+	option = {
+		name = SNews.16.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = SWE
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.16.c
+		trigger = {
+			tag = SWE
+		}
+	}
+}
+
+#Skåne given
+news_event = {
+	id = SNews.17
+	title = SNews.17.t
+	desc = {
+		text = SNews.17.d
+	}
+	picture = GFX_news_event_generic_read_write
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.17.a
+		trigger = {
+			tag = DEN
+		}
+	}
+	
+	option = {
+		name = SNews.17.b
+		trigger = {
+			NOT = {tag = DEN}
+		}
+	}
+}
+
+#Enters Union DEN
+news_event = {
+	id = SNews.18
+	title = SNews.18.t
+	desc = {
+		text = SNews.18.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.18.a
+		trigger = {
+			tag = DEN
+		}
+	}
+	
+	option = {
+		name = SNews.18.b
+		trigger = {
+			NOT = {tag = DEN}
+		}
+	}
+}
+
+#Stockholm Bloodbath
+news_event = {
+	id = SNews.19
+	title = SNews.19.t
+	desc = {
+		text = SNews.19.d
+	}
+	picture = GFX_news_event_generic_riot
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.19.a
+		trigger = {
+			AND = {
+				OR = {
+					tag = NOR
+					tag = DEN
+				}
+				has_war_with = SWE
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.19.b
+		trigger = {
+			NOT = {
+				AND = {
+					OR = {
+						tag = NOR
+						tag = DEN
+					}
+					has_war_with = SWE
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.20
+	title = SNews.20.t
+	desc = {
+		text = SNews.20.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.20.a
+		trigger = {
+			is_in_faction_with = FIN
+		}
+	}
+	
+	option = {
+		name = SNews.20.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = FIN
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.21
+	title = SNews.21.t
+	desc = {
+		text = SNews.21.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.21.a
+		trigger = {
+			is_in_faction_with = FIN
+		}
+	}
+	
+	option = {
+		name = SNews.21.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = FIN
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.22
+	title = SNews.22.t
+	desc = {
+		text = SNews.22.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.22.a
+		trigger = {
+			is_in_faction_with = FIN
+		}
+	}
+	
+	option = {
+		name = SNews.22.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = FIN
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.23
+	title = SNews.23.t
+	desc = {
+		text = SNews.23.d
+	}
+	picture = GFX_news_event_german_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = no
+	
+	option = {
+		name = SNews.23.a
+		trigger = {
+			is_in_faction_with = FIN
+		}
+	}
+	
+	option = {
+		name = SNews.23.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = FIN
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.24
+	title = SNews.24.t
+	desc = {
+		text = SNews.24.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.24.a
+		trigger = {
+			OR = {
+				tag = NOR
+				tag = FIN
+				tag = SWE
+				tag = DEN
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.24.b
+		trigger = {
+			NOT = {
+				OR = {
+					tag = NOR
+					tag = FIN
+					tag = SWE
+					tag = DEN
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.25
+	title = SNews.25.t
+	desc = {
+		text = SNews.25.d
+	}
+	picture = GFX_news_event_ast_navy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.25.a
+		trigger = {
+			is_in_faction_with = ENG
+		}
+	}
+	
+	option = {
+		name = SNews.25.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = SNews.25.c
+		trigger = {
+			NOT = {
+				OR = {
+					is_in_faction_with = GER
+					is_in_faction_with = ENG
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.26
+	title = SNews.26.t
+	desc = {
+		text = SNews.26.d
+	}
+	picture = GFX_news_event_ast_navy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.26.a
+		trigger = {
+			is_in_faction_with = ENG
+		}
+	}
+	
+	option = {
+		name = SNews.26.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = SNews.26.c
+		trigger = {
+			NOT = {
+				OR = {
+					is_in_faction_with = GER
+					is_in_faction_with = ENG
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.27
+	title = SNews.27.t
+	desc = {
+		text = SNews.27.d
+	}
+	picture = GFX_news_event_ast_navy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.27.a
+		trigger = {
+			is_in_faction_with = ENG
+			is_in_faction_with = GER
+		}
+	}
+	
+	option = {
+		name = SNews.27.b
+		trigger = {
+			NOT = {
+				OR = {
+					is_in_faction_with = GER
+					is_in_faction_with = ENG
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.28
+	title = SNews.28.t
+	desc = {
+		text = SNews.28.d
+	}
+	picture = GFX_news_event_ast_navy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.28.a
+		trigger = {
+			is_in_faction_with = POL
+		}
+	}
+	
+	option = {
+		name = SNews.28.b
+		trigger = {
+			NOT = {
+				OR = {
+					is_in_faction_with = POL
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = SNews.29
+	title = SNews.29.t
+	desc = {
+		text = SNews.29.d
+	}
+	picture = GFX_news_event_hitler_handshake
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	option = {
+		name = SNews.29.a
+		trigger = {
+			OR = {
+				is_in_faction_with = DEN
+				tag = DEN
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.29.b
+		trigger = {
+			NOT = {
+				OR = {
+					is_in_faction_with = DEN
+					is_in_faction_with = GER
+					tag = DEN
+					tag = GER
+					has_war_with = GER
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = SNews.29.c
+		trigger = {
+				OR = {
+					is_in_faction_with = GER
+					tag = GER
+				}
+		}
+	}
+	
+	option = {
+		name = SNews.29.e
+		trigger = {
+				AND = {
+					has_war_with = GER
+					NOT = {
+						tag = DEN
+					}
+				}
+		}
+	}
+}

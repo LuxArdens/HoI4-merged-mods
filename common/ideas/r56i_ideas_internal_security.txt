@@ -1,0 +1,80 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	etgi_ideas_internal_security = { 
+	
+		law = yes
+		
+		#Balanced Approach
+		etgi_laws_internal_security_d = {
+			
+			modifier = {
+			
+				army_org_factor = 0.05
+				unity_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+			
+   				factor = 1
+				
+			}		
+			
+		}
+		
+		
+		#Order Above All
+		etgi_laws_internal_security_1 = {
+			
+			modifier = {
+			
+				army_org_factor = 0.2
+				enemy_partisan_effect = 0.50
+				foreign_subversive_activites = 0.5
+				political_power_cost = -0.5
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			
+   				factor = 1
+
+				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+		
+		#Individual Rights
+		etgi_laws_internal_security_2 = {
+			
+			modifier = {
+			
+				army_org_factor = -0.1
+				research_time_factor = -0.02
+				enemy_partisan_effect = -0.25
+				foreign_subversive_activites = -0.25
+				political_power_cost = 0.25
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			
+   				factor = 1
+
+   				modifier = {
+					has_government = democratic
+					factor = 3
+				}
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

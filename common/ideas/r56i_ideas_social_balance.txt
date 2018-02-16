@@ -1,0 +1,125 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	etgi_ideas_social_balance = { 
+	
+		law = yes
+		
+		#Cultural Norms
+		etgi_laws_social_balance_d = {
+			
+			modifier = {
+			
+				political_power_cost = -0.25
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+			
+   				factor = 1
+				
+   			}
+			
+		}
+		
+		#Hierarchy
+		etgi_laws_social_balance_1 = {
+			
+			modifier = {
+			
+				production_speed_arms_factory_factor = 0.20
+				army_org_factor = 0.25
+				attrition = 0.10
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+		
+		#Revolutionary Mindset
+		etgi_laws_social_balance_2 = {
+			
+			modifier = {
+			
+				research_time_factor = -0.05
+				#production_speed_nuclear_reactor_factor = 0.50
+				#production_speed_rocket_site_factor = 0.50
+				unity_weekly = -0.0002
+				unity_factor = -0.25
+				
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		#Melting Pot
+		etgi_laws_social_balance_3 = {
+			
+			modifier = {
+			
+				production_speed_buildings_factor = 0.15
+				line_change_production_efficiency_factor = 0.50
+				production_factory_efficiency_gain_factor = 0.5
+				enemy_partisan_effect = -0.25
+				foreign_subversive_activites = -0.25
+				unity_factor = -0.2
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = democratic
+					factor = 2
+				}
+   			}
+		}
+		
+		#The Greater Good
+		etgi_laws_social_balance_4 = {
+			
+			modifier = {
+			
+				conversion_cost_civ_to_mil_factor = -0.33
+				conversion_cost_mil_to_civ_factor = -0.33
+				conscription = 0.05
+				consumer_goods_factor = 0.1
+				unity_factor = 0.2
+				
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = communism
+					factor = 2
+				}		
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

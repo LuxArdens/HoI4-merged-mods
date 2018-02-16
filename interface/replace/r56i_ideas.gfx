@@ -1,0 +1,161 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_slot_etgi_ideas_foreign_relations"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_etgi_ideas_internal_security"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_etgi_ideas_leadership_structure"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_etgi_ideas_women"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_etgi_ideas_social_balance"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_etgi_ideas_war_mentality"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_women_d"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_women_1"
+		texturefile = "gfx/interface/ideas/generic_pp_unity_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_women_2"
+		texturefile = "gfx/interface/ideas/triumphant_will.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_women_3"
+		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_social_balance_d"
+		texturefile = "gfx/interface/ideas/generic_morale_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_social_balance_1"
+		texturefile = "gfx/interface/ideas/generic_fascism_drift_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_social_balance_2"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_social_balance_3"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_social_balance_4"
+		texturefile = "gfx/interface/ideas/generic_manpower_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_war_mentality_d"
+		texturefile = "gfx/interface/ideas/generic_infantry_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_war_mentality_1"
+		texturefile = "gfx/interface/ideas/air_war_plans_division_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_war_mentality_2"
+		texturefile = "gfx/interface/ideas/air_support_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_war_mentality_3"
+		texturefile = "gfx/interface/ideas/brittish_stoicism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_foreign_relations_d"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_foreign_relations_1"
+		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_foreign_relations_2"
+		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_foreign_relations_3"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_internal_security_d"
+		texturefile = "gfx/interface/ideas/neutrality_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_internal_security_1"
+		texturefile = "gfx/interface/ideas/FRA_army_of_aggression_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_internal_security_2"
+		texturefile = "gfx/interface/ideas/FRA_national_mobilization_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_leadership_structure_d"
+		texturefile = "gfx/interface/ideas/generic_intel_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_leadership_structure_1"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_republicans_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_leadership_structure_2"
+		texturefile = "gfx/interface/ideas/generic_democratic_drift_bonus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_leadership_structure_3"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_nationalists_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_etgi_laws_leadership_structure_4"
+		texturefile = "gfx/interface/ideas/generic_communism_drift_bonus.dds"
+	}
+}
+
+#####---------------------------------------------------------------------> End

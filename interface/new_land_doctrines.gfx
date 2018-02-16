@@ -1,0 +1,62 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_common_enemy_medium"
+		texturefile = "gfx/interface/technologies/volkssturm.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_supply_carrier_medium"
+		texturefile = "gfx/interface/technologies/tech_logistics_company.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_counter_attack_medium"
+		texturefile = "gfx/interface/technologies/backhand_blow.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_night_and_day_assault_medium"
+		texturefile = "gfx/interface/technologies/night_assault_tactics.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_entrenchment_specialist_medium"
+		texturefile = "gfx/interface/technologies/engineers.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_local_command_medium"
+		texturefile = "gfx/interface/technologies/tactical_control.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_defensive_line_medium"
+		texturefile = "gfx/interface/technologies/attritional_containment.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_military_logistics_medium"
+		texturefile = "gfx/interface/technologies/assault_concentration.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_fob_medium"
+		texturefile = "gfx/interface/technologies/defence_in_depth.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_mandatory_officer_school_medium"
+		texturefile = "gfx/interface/technologies/mass_assault.dds"
+		alwaystransparent = yes
+	}
+}
+

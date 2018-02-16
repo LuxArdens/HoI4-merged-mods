@@ -1,0 +1,25 @@
+state=
+{
+	id=101
+	name="STATE_101"
+	manpower = 18000
+        resources={
+	}
+	
+	state_category = wasteland
+	
+	history=
+	{
+		owner = ICE
+		buildings = {
+			infrastructure = 1
+            industrial_complex = 1
+            free_building_slots = 40
+		}
+		add_core_of = ICE
+		add_core_of = DEN
+	}
+	provinces=
+	{
+10245 10636 12512 13058 13066 	}
+}

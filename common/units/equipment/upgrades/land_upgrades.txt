@@ -1,0 +1,643 @@
+upgrades = {
+####################
+##Tank Menu
+####################
+##Armored Cars
+	ac_gun_upgrade = {
+		max_level = 99
+
+		cost = land	
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	ac_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		armor_value = 0.05
+		build_cost_ic = 0.02
+	}
+	ac_engine_upgrade = {
+		max_level = 99
+		cost = land
+		maximum_speed = 0.075
+		build_cost_ic = 0.02
+	}
+	#perhaps a recon upgrade here
+	ac_reliability_upgrade = {
+		max_level = 99
+		cost = land
+		reliability = 0.1
+		build_cost_ic = 0.02
+	}
+	ac_aa_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.3
+		build_cost_ic = 0.02
+	}
+	ac_at_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	ac_art_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		build_cost_ic = 0.02
+	}
+	ac_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Light Tanks
+	lt_gun_upgrade = {
+		max_level = 99
+
+		cost = land	
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+		breakthrough = 0.05
+	}
+	lt_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		armor_value = 0.05
+		build_cost_ic = 0.02
+		defense = 0.05
+		breakthrough = 0.05
+	}
+	lt_engine_upgrade = {
+		max_level = 99
+		cost = land
+		maximum_speed = 0.075
+		build_cost_ic = 0.02
+		breakthrough = 0.05
+	}	
+	#perhaps a recon upgrade here
+	lt_reliability_upgrade = {
+		max_level = 99
+		cost = land
+		reliability = 0.05
+	}
+	lt_aa_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.3
+		build_cost_ic = 0.02
+	}
+	lt_at_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	lt_art_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.15
+		build_cost_ic = 0.02
+	}
+	lt_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Medium Tanks
+	mt_gun_upgrade = {
+		max_level = 99
+
+		cost = land	
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+		breakthrough = 0.05
+	}
+	mt_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		armor_value = 0.05
+		build_cost_ic = 0.02
+		defense = 0.05
+		breakthrough = 0.05
+	}
+	mt_engine_upgrade = {
+		max_level = 99
+		cost = land
+		maximum_speed = 0.075
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}	
+	mt_reliability_upgrade = {
+		max_level = 99
+		cost = land
+		reliability = 0.05
+	}
+	mt_aa_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.3
+		build_cost_ic = 0.02
+	}
+	mt_at_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	mt_art_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.15
+		build_cost_ic = 0.02
+	}
+	mt_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Heavy Tanks
+	ht_gun_upgrade = {
+		max_level = 99
+
+		cost = land	
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+		breakthrough = 0.05
+	}
+	ht_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		armor_value = 0.05
+		build_cost_ic = 0.02
+		defense = 0.05
+	}
+	ht_engine_upgrade = {
+		max_level = 99
+		cost = land
+		maximum_speed = 0.075
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}	
+	ht_reliability_upgrade = {
+		max_level = 99
+		cost = land
+		reliability = 0.05
+	}
+	ht_aa_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.3
+		build_cost_ic = 0.02
+	}
+	ht_at_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	ht_art_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.15
+		build_cost_ic = 0.02
+	}
+	ht_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Super-Heavy Tanks
+	sht_gun_upgrade = {
+		max_level = 99
+
+		cost = land	
+		hard_attack = 0.1
+		ap_attack = 0.05
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}
+	sht_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		armor_value = 0.05
+		defense = 0.05
+		build_cost_ic = 0.02
+	}
+	sht_engine_upgrade = {
+		max_level = 99
+		cost = land
+		maximum_speed = 0.075
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}	
+	sht_reliability_upgrade = {
+		max_level = 99
+		cost = land
+		reliability = 0.04
+	}
+	sht_aa_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.8
+		build_cost_ic = 0.02
+	}
+	sht_at_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.1
+		ap_attack = 0.05
+		build_cost_ic = 0.02
+	}
+	sht_art_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.2
+		build_cost_ic = 0.02
+	}
+	sht_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Modern Tanks
+	mdt_gun_upgrade = {
+		max_level = 99
+
+		cost = land				# This determies how much XP it will cost, controlled by defines, there are 3 cost types: air, land and naval
+		soft_attack = 0.05
+		hard_attack = 0.1
+		ap_attack = 0.05
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}
+	mdt_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		armor_value = 0.05
+		defense = 0.05
+		build_cost_ic = 0.02
+	}
+	mdt_engine_upgrade = {
+		max_level = 99
+		cost = land
+		maximum_speed = 0.075
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}	
+	mdt_reliability_upgrade = {
+		max_level = 99
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	mdt_aa_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.4
+		build_cost_ic = 0.02
+	}
+	mdt_at_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		hard_attack = 0.1
+		ap_attack = 0.1
+		build_cost_ic = 0.02
+	}
+	mdt_art_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.2
+		breakthrough = 0.1
+		defense = 0.1
+		build_cost_ic = 0.02
+	}
+	mdt_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+#########################
+##Equipment Menu
+#########################
+
+##Infantry Equipment
+	INF_reliability_upgrade = {
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	
+	INF_SA_upgrade = { #small arms
+		max_level = 99
+		cost = land
+		soft_attack = 0.1 #double cost
+		build_cost_ic = 0.02
+	}
+	INF_MO_upgrade = { #mortar
+		max_level = 99
+		cost = land
+		soft_attack = 0.05 
+		breakthrough = 0.1 #with integrated mortar support, take less damage on attack
+		build_cost_ic = 0.02
+	}
+	
+	INF_HA_upgrade = { #AT, secondary value
+		max_level = 99
+		cost = land
+		hard_attack = 0.10
+		ap_attack = 0.10
+		build_cost_ic = 0.02
+	}
+	
+	INF_defense_upgrade = { #MG
+		max_level = 99
+		cost = land
+		#soft_attack = 0.025 #the MG is more of a deterrence weapon
+		breakthrough = 0.2
+		defense = 0.2
+		build_cost_ic = 0.02
+	}
+	INF_cost_upgrade = { #MG
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+	
+###Standard, Heavy & Bertha Artillery
+	ART_reliability_upgrade = {
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	
+	ART_SA_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		build_cost_ic = 0.02
+	}
+	
+	ART_HA_upgrade = {
+		max_level = 99
+
+		cost = land
+		hard_attack = 0.10
+		ap_attack = 0.10
+		build_cost_ic = 0.02
+	}
+	ART_defense_upgrade = {
+		max_level = 99
+
+		cost = land
+		defense = 0.10
+		breakthrough = 0.10
+		build_cost_ic = 0.02
+	}
+	ART_cost_upgrade = { #MG
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Rocket Artillery
+	RA_reliability_upgrade= {
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+
+	RA_weight_upgrade= {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.2 #heavier because both cost and reliability are affected
+		build_cost_ic = 0.05
+		
+		#hard_attack = 0.1 
+		#ap_attack = 0.1 #RA cannot really destroy tanks
+	}
+	
+	RA_range_precision_upgrade= {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		breakthrough = 0.05
+		defense = 0.05
+	}
+	
+	RA_defense_upgrade= {
+		max_level = 99
+
+		cost = land
+		defense = 0.10
+		breakthrough = 0.10
+		#build_cost_ic = 0.02
+	}
+	RA_cost_upgrade = { #MG
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Anti-Tank
+	AT_reliability_upgrade = {#use arty one
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	
+	AT_pierce_upgrade = {
+		max_level = 99
+
+		cost = land
+		ap_attack = 0.1 #heavier because of double cost
+		build_cost_ic = 0.02
+	}
+	
+	AT_HA_upgrade = {
+		max_level = 99
+
+		cost = land
+		hard_attack = 0.10
+		build_cost_ic = 0.02
+	}
+	
+	AT_defense_upgrade = {#use arty one
+		max_level = 99
+
+		cost = land
+		defense = 0.10
+		breakthrough = 0.10
+		build_cost_ic = 0.02
+	}
+##Anti-Air
+	AA_reliability_upgrade = {#use arty one
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	
+	AA_AA_upgrade = {
+		max_level = 99
+
+		cost = land
+		air_attack = 0.10
+		build_cost_ic = 0.02
+	}
+	
+	AA_HA_upgrade = {#use arty one
+		max_level = 99
+
+		cost = land
+		hard_attack = 0.10
+		ap_attack = 0.10
+		build_cost_ic = 0.02
+	}
+	
+	AA_defense_upgrade = {#use arty one
+		max_level = 99
+
+		cost = land
+		defense = 0.10
+		breakthrough = 0.10
+		build_cost_ic = 0.02
+	}
+###Motorised
+	MOT_reliability_upgrade = {
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	
+	MOT_engine_upgrade = {
+		max_level = 99
+
+		cost = land
+		maximum_speed = 0.075 #double cost
+		build_cost_ic = 0.02
+	}
+	
+	MOT_hardness_upgrade = {
+		max_level = 99
+
+		cost = land
+		hardness = 1 #as long as new versions remain inactive
+		defense = 0.05
+		breakthrough = 0.05
+		build_cost_ic = 0.02
+	}
+	MOT_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Mechanised
+	MECH_reliability_upgrade = {
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	
+	MECH_engine_upgrade = {
+		max_level = 99
+
+		cost = land
+		maximum_speed = 0.075 #double cost
+		build_cost_ic = 0.02
+		breakthrough = 0.05
+	}
+	
+	MECH_armor_upgrade = {
+		max_level = 99
+
+		cost = land
+		hardness = 0.05
+		armor_value = 0.05
+		defense = 0.1
+		breakthrough = 0.1
+		build_cost_ic = 0.02
+	}
+	
+	MECH_mg_upgrade = {
+		max_level = 99
+
+		cost = land
+		soft_attack = 0.1
+		defense = 0.1
+		breakthrough = 0.1 #heavier cost for the piercing
+		build_cost_ic = 0.02
+	}
+	MECH_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+##Support Equipment (& Special support for S & L)
+	SUPP_reliability_upgrade = {
+		max_level = 99
+
+		cost = land
+		reliability = 0.05
+		build_cost_ic = 0.02
+	}
+	SUPP_cost_upgrade = {
+		max_level = 99
+		cost = land
+		build_cost_ic = -0.05
+	}
+
+}

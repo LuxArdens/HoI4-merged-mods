@@ -1,0 +1,709 @@
+ideas = {
+	country = {
+		german_advisors = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+		}
+
+		CHI_civil_war_deserters = {
+
+			picture = generic_morale_bonus
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism
+						has_government = fascism
+					}
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = -0.2
+			}
+
+		}
+
+		# Communist uprisings may cause states to defect to PRC
+		CHI_communist_uprisings = {
+
+			picture = FRA_scw_intervention_republicans_focus
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+
+		}
+	}
+
+	political_advisor = {
+
+		CHI_xie_juezai = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		CHI_deng_xiaoping = {
+
+			picture = generic_political_advisor_asia_2
+				
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		CHI_chen_yi = {
+
+			picture = soong_mei_ling
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+	}	
+
+	army_chief = {
+		
+		#Communist
+
+		CHI_zhu_de = {
+			
+			picture = generic_army_asia_1
+
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		#Clique
+
+		CHI_chen_jitang = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				has_country_flag = kmt_cjt_flag
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		#Nationalist
+
+		CHI_li_zongren = {
+			
+			picture = generic_army_asia_3
+
+			allowed = {
+				original_tag = CHI
+			}
+					
+			available = {
+				OR = {
+					has_country_flag = gxc_sumitted
+					has_country_flag = kmt_lzr_flag
+					AND = {
+						GXC = {
+							has_country_flag = KMT_lzr_tt
+						}
+						OR = {
+							is_in_faction_with = GXC
+							GXC = {	
+								is_puppet_of = CHI
+							}
+							has_war_together_with = GXC
+						}
+					}
+				}
+			}
+			traits = { army_chief_defensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		CHI_he_yingqin = {
+			
+			picture = generic_army_asia_1
+
+			allowed = {
+				original_tag = CHI
+			}
+						
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		
+		#Communist
+		#Fang Zeyi
+		#army_aviation_doctrine
+
+
+		#Clique
+
+		CHI_wang_shuming = {
+			
+			picture = generic_air_asia_1
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		#Nationalist
+
+		CHI_zhou_zhirou = {
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+
+			
+			traits = { air_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = {
+		
+		#Communist
+
+		CHI_xiao_jinguang = {
+			
+			picture = generic_navy_asia_1
+
+			allowed = {
+				original_tag = CHI
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		#Clique
+
+		CHI_bai_chongxi = {
+			
+			picture = generic_navy_asia_2
+
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				OR = {
+					has_country_flag = gxc_sumitted
+					has_country_flag = kmt_lzr_flag
+					AND = {
+						GXC = {
+							has_country_flag = KMT_lzr_tt
+						}
+						OR = {
+							is_in_faction_with = GXC
+							GXC = {	
+								is_puppet_of = CHI
+							}
+							has_war_together_with = GXC
+						}
+					}
+				}
+			}
+					
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		#Nationalist
+
+		CHI_chen_shaokuan = {
+
+			picture = generic_navy_asia_3
+			
+			allowed = {
+				original_tag = CHI
+			}
+					
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	# TECHNOLOGY
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		jiangnan_shipyard_group = {
+			picture = generic_naval_manufacturer_3
+
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			available = {
+				has_completed_focus = KMT_revive_jiangnan_shipyard
+			}
+			
+			# riverine warfare weak on open waters
+						
+			traits = { naval_manufacturer }
+			
+		}
+	}
+	
+	aircraft_manufacturer = { #
+			
+		designer = yes
+		
+		camco = {
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				has_completed_focus = KMT_air_base_expansion
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		camco_light = {
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		camco_bomb = {
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				has_completed_focus = KMT_bomber_focus
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		camco_cas = {
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				has_completed_focus = KMT_cas_effort
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		navy_air_est = {
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	theorist = {
+		CHI_bo_yibo = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		CHI_fang_zeyi = { 
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		CHI_huang_shen = {
+
+			picture = generic_navy_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				OR = {
+					has_country_flag = gxc_sumitted
+					has_country_flag = kmt_lzr_flag
+					AND = {
+						GXC = {
+							has_country_flag = KMT_lzr_tt
+						}
+						OR = {
+							is_in_faction_with = GXC
+							GXC = {	
+								is_puppet_of = CHI
+							}
+							has_war_together_with = GXC
+						}
+					}
+				}
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+
+	}
+
+
+	high_command = {
+
+		CHI_gao_zhihang = {
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { air_air_superiority_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		CHI_xiao_yisu = {
+
+			picture = generic_army_asia_2
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		CHI_chen_cheng = {
+
+			picture = generic_army_asia_3
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		CHI_yu_hanmou = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		KMT_ma_bufang = {
+			
+			picture = generic_army_asia_3
+
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				OR = {
+					has_country_flag = xsm_sumitted
+					has_country_flag = kmt_mbf_flag
+					AND = {
+						XSM = {
+							has_country_flag = KMT_mbf_tt
+						}
+						OR = {
+							is_in_faction_with = XSM
+							XSM = {	
+								is_puppet_of = CHI
+							}
+							has_war_together_with = XSM
+						}
+					}
+				}
+			}
+					
+			traits = { army_cavalry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KMT_yan_xishan = {
+			
+			picture = generic_army_asia_1
+
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				OR = {
+					has_country_flag = shx_sumitted
+					has_country_flag = kmt_yxs_flag
+					AND = {
+						SHX = {
+							has_country_flag = KMT_yxs_tt
+						}
+						OR = {
+							is_in_faction_with = SHX
+							SHX = {	
+								is_puppet_of = CHI
+							}
+							has_war_together_with = SHX
+						}
+					}
+				}
+			}
+					
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KMT_long_yun = {
+			
+			picture = generic_army_asia_1
+
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+				OR = {
+					has_country_flag = yun_sumitted
+					has_country_flag = kmt_ly_flag
+					AND = {
+						YUN = {
+							has_country_flag = KMT_ly_tt
+						}
+						OR = {
+							is_in_faction_with = YUN
+							YUN = {	
+								is_puppet_of = CHI
+							}
+							has_war_together_with = YUN
+						}
+					}
+				}
+			}
+					
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		KMT_sun_lijen = {
+			
+			picture = generic_army_asia_2
+
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = {
+			}
+					
+			traits = { rommel_of_the_east }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

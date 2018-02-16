@@ -1,0 +1,5214 @@
+add_namespace = NOR_test
+add_namespace = scand
+
+#Invited to join Scandinavian Alliance
+country_event = {
+	id = scand.1
+	title = scand.1.t
+	desc = scand.1.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {	#Accept Invite
+		name = scand.1.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				OR = {
+					tag = DEN
+					tag = FIN
+					tag = NOR
+				}	
+			}
+			modifier = {
+				add = 20
+				has_opinion = { id = FROM.get_id value > 89}
+			}
+			modifier = {
+				add = 30
+				has_defensive_war = yes
+			}
+		}
+		
+		FROM = {
+			add_to_faction = ROOT
+			ROOT = {
+				add_ai_strategy = {
+					type = alliance
+					id = "FROM"
+					value = 200
+				}
+			}
+			hidden_effect = {
+				news_event = { id = SNews.3 days = 1 }
+				country_event = {id = scand.44}
+			}
+		}
+	}
+	
+	option = {	#declines Invite
+		name = scand.1.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 20
+				NOT = {
+					OR = {
+						tag = DEN
+						tag = FIN
+						tag = NOR
+					}
+				}
+				
+			}
+			modifier = {
+				add = 20
+				has_opinion = { id = FROM.get_id value < 90}
+			}
+			modifier = {
+				add = 30
+				has_defensice_war = no
+			}
+		}
+		
+		
+		FROM = {
+			country_event = { id = scand.2 days = 1 }
+		}
+	}
+}
+
+#Declined alliance invitation
+country_event = {
+	id = scand.2
+	title = scand.2.t
+	desc = scand.2.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.2.a
+		ai_chance = {
+			facor = 100
+		}
+	}
+}
+
+#NOR-DEN research agreement
+country_event = {
+	id = scand.3
+	title = scand.3.t
+	desc = scand.3.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scnad.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#NOR-SWE Trade Deal
+country_event = {
+	id = scand.4
+	title = scand.4.t
+	desc = scand.4.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.4.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#NOR-FIN development effort
+country_event = {
+	id = scand.5
+	title = scand.5.t
+	desc = scand.5.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.5.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Scandinavian Research Project
+country_event = {
+	id = scand.6
+	title = scand.6.t
+	desc = scand.6.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.6.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Scandinavian Integrated Puppet
+country_event = {
+	id = scand.7
+	title = scand.7.t
+	desc = scand.7.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	#Accepts
+	option = {
+		name = scand.7.a
+		ai_chance = {
+			base = 70
+			modifier = {
+				add = 30
+				ROOT = {
+					has_capitulated = yes
+				}
+			}
+		}
+		
+		FROM = {
+			set_autonomy = {
+				target = ROOT
+				autonomous_state = autonomy_integrated_puppet
+			}
+			
+			hidden_effect = {
+				country_event = {id = SNews.4 days = 1}
+			}
+		}
+	}
+	
+	#Declines
+	option = {
+		name = scand.7.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 30
+				ROOT = {
+					has_capitulated = no
+				}
+			}
+			
+		}
+		
+		FROM = {
+			country_event = {id = scand.9 days = 1}
+		}
+	}
+}
+
+#Puppet Accepted NOT USED
+country_event = {
+	id = scand.8
+	title = scand.8.t
+	desc = scand.8.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.8.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Puppet Declined
+country_event = {
+	id = scand.9
+	title = scand.9.t
+	desc = scand.9.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.9.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Secure the Baltic
+country_event = {
+	id = scand.10
+	title = scand.10.t
+	desc = scand.10.d
+	picture = GFX_report_event_usa_destroyers
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.10.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 30
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 199999}
+				}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 79}
+			}
+		}
+		
+		FROM = {
+			puppet = ROOT
+			hidden_effect = {
+				news_event = {id = SNews.5 days = 1}
+			}
+		}
+	}
+	#Declines
+	option = {
+		name = scand.10.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 30
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 200000}
+				}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 80}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+				}
+			country_event = {id = scand.11 days 1}
+		}
+	}
+}
+
+#Baltic Declined
+country_event = {
+	id = scand.11
+	title = scand.11.t
+	desc = scand.11.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.11.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Demand Jamtland
+country_event = {
+	id = scand.12
+	title = scand.12.t
+	desc = scand.12.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.12.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+		}
+		
+		FROM = {
+			add_state_core = 743
+			transfer_state = 743
+		}
+		hidden_effect = {
+			news_event = {id = SNews.6 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.12.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = yes
+			}
+		}
+		
+		FROM = {
+			add_state_core = 743
+			create_wargoal = {
+			type = take_state_focus
+			target = ROOT
+			generator = { 743 }
+		}
+			country_event = {id = scand.13 days = 1}
+		}
+		
+	}
+}
+
+#Rights to Jamtland declined
+country_event = {
+	id = scand.13
+	title = scand.13.t
+	desc = scand.13.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.13.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Fascist influence form neighbor
+country_event = {
+	id = scand.14
+	title = scand.14.t
+	desc = scand.14.d
+	picture = GFX_report_event_fascist_gathering
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.14.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Communist influence from neighbor
+country_event = {
+	id = scand.15
+	title = scand.15.t
+	desc = scand.15.d
+	picture = GFX_report_event_communists_cheer
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.15.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Refrom Union NOR
+country_event = {
+	id = scand.16
+	title = scand.16.t
+	desc = scand.16.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.16.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			puppet = ROOT
+			}
+		hidden_effect = {
+			news_event = {id = SNews.7 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.16.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+			}
+			country_event = {id = scand.17 days = 1}
+		}
+	}
+}
+
+#Declined Union
+country_event = {
+	id = scand.17
+	title = scand.17.t
+	desc = scand.17.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.17.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Invite Sweeden to Union
+country_event = {
+	id = scand.18
+	title = scand.18.t
+	desc = scand.18.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.18.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+			modifier = {
+				add = 10
+				OR = {
+					AND = {
+						NOR = {
+							has_government = fascism
+						}
+						has_government = fascism
+					}
+					AND = {
+						NOR = {
+							has_government = communism
+						}
+						has_government = communism
+					}
+					AND = {
+						NOR = {
+							has_government = democratic
+						}
+						has_government = democratic
+					}
+				}
+				
+			}
+		}
+		
+		FROM = {
+			puppet = ROOT
+			}
+		hidden_effect = {
+			news_event = {id = SNews.8 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.18.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+			modifier = {
+				add = 10
+				NOT = {
+					OR = {
+						AND = {
+							NOR = {
+								has_government = fascism
+							}
+							has_government = fascism
+						}
+						AND = {
+							NOR = {
+								has_government = communism
+							}
+							has_government = communism		
+						}
+						AND = {
+							NOR = {
+								has_government = democratic
+							}
+							has_government = democratic
+						}
+					}
+				}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+			}
+			country_event = {id = scand.17 days = 1}
+		}
+	}
+}
+
+#Demand Uusimaa
+country_event = {
+	id = scand.19
+	title = scand.19.t
+	desc = scand.19.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.19.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			transfer_state = 111
+		}
+		hidden_effect = {
+			news_event = {id = SNews.9 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.19.b
+		ai_chance = {
+			base = 40
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+				type = take_state_focus
+				target = ROOT
+				generator = { 111 }
+			}
+			country_event = {id = scand.13 days = 1}
+		}
+	}
+}
+
+#NOR Ask for naval yards
+country_event = {
+	id = scand.20
+	title = scand.20.t
+	desc = scand.20.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	#give 5 naval yards
+	option = {
+		name = scand.20.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				threat > 0.8
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+		}
+		
+		add_ideas = ENG_sup_NOR_1
+		FROM = {
+			110 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.21 days = 1}
+		}
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 3 naval yards
+	option = {
+		name = scand.20.b
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				AND = {
+						threat > 0.5
+						threat < 0.8
+					}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+			modifier = {
+				add = 20
+				has_war_together_with = FROM
+			}
+		}
+		
+		add_ideas = ENG_sup_NOR_2
+		FROM = {
+			110 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.22 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 1 naval yeard
+	option = {
+		name = scand.20.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				threat < 50
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+			modifier = {
+				add = 20
+				NOT = {
+					has_war_together_with = FROM
+				}
+			}
+		}
+		
+		add_ideas = ENG_sup_NOR_3
+		FROM = {
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.23 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give no naval yard
+	option = {
+		name = scand.20.e
+		ai_chance = {
+			base = 40
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+		}
+		NOR = {
+				country_event = {id = scand.24 days = 1}
+			}
+	}
+}
+
+#Get 5 yards
+country_event = {
+	id = scand.21
+	title = scand.21.t
+	desc = scand.21.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.21.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Get 3 yards
+country_event = {
+	id = scand.22
+	title = scand.22.t
+	desc = scand.22.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.22.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Get 1 yard
+country_event = {
+	id = scand.23
+	title = scand.23.t
+	desc = scand.23.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.23.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Get no yards
+country_event = {
+	id = scand.24
+	title = scand.24.t
+	desc = scand.24.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.24.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Done supporting Norway
+country_event = {
+	id = scand.25
+	title = scand.25.t
+	desc = scand.25.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.25.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	remove_ideas = ENG_sup_NOR_1
+	remove_ideas = ENG_sup_NOR_2
+	remove_ideas = ENG_sup_NOR_3
+	remove_ideas = ENG_sup_SWE_1
+	remove_ideas = ENG_sup_SWE_2
+	remove_ideas = ENG_sup_SWE_3
+	remove_ideas = ENG_sup_DEN_1
+	remove_ideas = ENG_sup_DEN_2
+	remove_ideas = ENG_sup_DEN_3
+	remove_ideas = ENG_sup_FIN_1
+	remove_ideas = ENG_sup_FIN_2
+	remove_ideas = ENG_sup_FIN_3
+}
+
+#Demand Demilitarysation
+country_event = {
+	id = scand.26
+	title = scand.26.t
+	desc = scand.26.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.26.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 30
+				FROM = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+		}
+		
+		add_ideas = scand_demilitarisation
+
+		hidden_effect = {
+			news_event = {id = SNews.10 days = 1}
+		}
+	}
+	#Decline
+	option = {
+		name = scand.26.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 30
+				FROM = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+				}
+		}
+		hidden_effect = {
+			news_event = {id = SNews.11 days = 1}
+		}
+	}
+}
+	
+	#neutral influence from neighbor
+	country_event = {
+		id = scand.27
+		title = scand.27.t
+		desc = scand.27.d
+		picture = GFX_report_event_generic_rally_3
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = scand.27.a
+			ai_chance = {
+				factor = 100
+			}
+		}
+	}
+	
+	#NOR_SWE Trade Deal
+	country_event = {
+		id = scand.28
+		title = scand.28.t
+		desc = scand.28.d
+		picture = GFX_report_event_hitler_handshake
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = scand.28.a
+			ai_chance = {
+				factor = 100
+			}
+		}
+	}
+	
+#Annex Finland
+country_event = {
+	id = scand.29
+	title = scand.29.t
+	desc = scand.29.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.29.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.30 days = 1}
+		}
+		
+	}
+	#Accept puppet
+	option = {
+		name = scand.29.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.34 days = 1}
+		}
+		
+	}
+	#Ask for help from Norway
+	option = {
+		name = scand.29.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		NOR = {
+			country_event = {id = scand.31 days = 1}
+		}
+	}
+	#Decline
+	option = {
+		name = scand.29.e
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.35 days = 1}
+		}
+	}
+}
+
+#Annex Accepted
+country_event = {
+	id = scand.30
+	title = scand.30.t
+	desc = scand.30.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.30.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		ROOT = { annex_country = { target = FROM transfer_troops = yes } }
+
+		hidden_effect = {
+			news_event = {id = SNews.12 days = 1}
+		}
+
+	}
+}	
+
+#Ask Norway for Guarantee
+country_event = {
+	id = scand.31
+	title = scand.31.t
+	desc = scand.31.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Decline
+	option = {
+		name = scand.31.a
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				SWE = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 30
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+			
+		}
+		FIN = {
+			country_event = {id = scand.32 days = 1}
+		}
+	}
+	#Accept
+	option = {
+		name = scand.31.b
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				SWE = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 30
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FIN = {
+			country_event = {id = scand.33 days = 1}
+		}
+	}
+}
+
+#Norway declines Guarantee
+country_event = {
+	id = scand.32
+	title = scand.32.t
+	desc = scand.32.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.32.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		SWE = {
+			country_event = {id = scand.30 days = 1}
+		}
+		
+	}
+	#Accept puppet
+	option = {
+		name = scand.32.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		SWE = {
+			country_event = {id = scand.34 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.32.c
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		SWE = {
+			country_event = {id = scand.35 days = 1}
+		}
+	}
+}
+
+#Norway Guarantees
+country_event = {
+	id = scand.33
+	title = scand.33.t
+	desc = scand.33.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.33.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		SWE = {
+			country_event = {id = scand.36 days = 1}
+		}
+	}
+}	
+
+#Asks for puppetering
+country_event = {
+	id = scand.34
+	title = scand.34.t
+	desc = scand.34.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.34.a
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 30
+				is_in_faction = no
+			}
+			
+		}
+		puppet = FROM
+		
+		FROM = {
+			country_event = {id = scand.39 days = 1}
+		}
+		
+
+		hidden_effect = {
+			news_event = {id = SNews.13 days = 1}
+		}
+
+		
+	}
+	#Decline
+	option = {
+		name = scand.34.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 30
+				is_in_faction = yes
+			}
+		}
+		
+		create_wargoal = {
+					type = annex_everything
+					target = FROM
+		}
+		FROM = {
+			country_event = {id = scand.40 days = 1}
+		}
+	}
+}
+
+#Annex Declined
+country_event = {
+	id = scand.35
+	title = scand.35.t
+	desc = scand.35.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.35.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		create_wargoal = {
+					type = annex_everything
+					target = FROM
+		}
+	}
+}
+
+#Norway supports Finland
+country_event = {
+	id = scand.36
+	title = scand.36.t
+	desc = scand.36.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#To War
+	option = {
+		name = scand.36.a
+		ai_chance = {
+			factor = 30
+		}
+		
+		NOR = {
+			give_guarantee = FIN
+		}
+		declare_war_on = {
+				target = FIN
+				type = annex_everything
+		}
+		
+		hidden_effect = {
+			news_event = {id = SNews.14 days = 1}
+		}
+	}
+	#Back off
+	option = {
+		name = scand.36.b
+		ai_chance = {
+			factor = 70
+		}
+		
+		FROM = {
+			country_event = {id = scand.37 days = 1}
+		}
+		hidden_effect = {
+			NOR = {
+				country_event = {id = scand.37 days = 1}
+			}
+		}
+	}
+}	
+
+#Sweden Gives
+country_event = {
+	id = scand.37
+	title = scand.37.t
+	desc = scand.37.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.37.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Annex Baltic
+country_event = {
+	id = scand.38
+	title = scand.38.t
+	desc = scand.38.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.38.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.30 days = 1}
+		}
+		
+	}
+	#Accept puppet
+	option = {
+		name = scand.38.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.34 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.38.c
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.35 days = 1}
+		}
+	}
+}
+
+#Sweden accepts puppet
+country_event = {
+	id = scand.39
+	title = scand.39.t
+	desc = scand.39.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.39.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Sweden declines puppet
+country_event = {
+	id = scand.40
+	title = scand.40.t
+	desc = scand.40.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.40.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Demand pommern
+country_event = {
+	id = scand.41
+	title = scand.41.t
+	desc = scand.41.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.41.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 299999}
+				}
+			}
+			modifier = {
+				add = 10
+				has_war = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			transfer_state = 62
+		}
+		hidden_effect = {
+			news_event = {id = SNews.16 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.41.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 300000}
+				}
+			}
+			modifier = {
+				add = 10
+				has_war = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+				type = take_state_focus
+				target = ROOT
+				generator = { 62 }
+			}
+			
+			hidden_effect = {
+				country_event = {id = scand.42 days = 1}
+			}
+		}
+	}
+}
+
+#Germany Declines
+country_event = {
+	id = scand.42
+	title = scand.42.t
+	desc = scand.42.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.42.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#SWE Ask for naval yards
+country_event = {
+	id = scand.43
+	title = scand.43.t
+	desc = scand.43.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	#give 5 naval yards
+	option = {
+		name = scand.43.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 4
+				threat > 0.8
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+		}
+		
+		add_ideas = ENG_sup_SWE_1
+		FROM = {
+			141 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.21 days = 1}
+		}
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 3 naval yards
+	option = {
+		name = scand.43.b
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				AND = {
+						threat > 0.5
+						threat < 0.8
+					}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+			modifier = {
+				add = 20
+				has_war_together_with = FROM
+			}
+		}
+		
+		add_ideas = ENG_sup_SWE_2
+		FROM = {
+			141 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.22 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 1 naval yeard
+	option = {
+		name = scand.43.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				threat < 50
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+			modifier = {
+				add = 20
+				NOT = {
+					has_war_together_with = FROM
+				}
+			}
+		}
+		
+		add_ideas = ENG_sup_SWE_3
+		FROM = {
+			141 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.23 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give no naval yard
+	option = {
+		name = scand.43.e
+		ai_chance = {
+			base = 40
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+		}
+		SWE = {
+				country_event = {id = scand.24 days = 1}
+			}
+	}
+}
+
+#accepts alliance invitation
+country_event = {
+	id = scand.44
+	title = scand.44.t
+	desc = scand.44.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.44.a
+		ai_chance = {
+			facor = 100
+		}
+	}
+}
+
+#Ally is supporting new government SWE
+country_event = {
+	id = scand.45
+	title = scand.45.t
+	desc = scand.45.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = NOR
+				tag = FIN
+				tag = DEN
+			}
+			is_faction_leader = yes
+			is_in_faction_with = SWE
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			SWE = {
+				AND = {
+					has_government = neutrality
+					OR = {
+						communism > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			SWE = {
+				AND = {
+					has_government = communism
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			SWE = {
+				AND = {
+					has_government = fascism
+					OR = {
+						neutrality > 0.2
+						communism > 0.2
+						democratic > 0.2
+					}
+				}
+			}				
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			SWE = {
+				AND = {
+					has_government = democratic
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						communism > 0.2
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.45.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.45.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		SWE = {
+			country_event = {id = scand.46 days = 1}
+		}
+	}
+}
+
+#Sends support for Government
+country_event = {
+	id = scand.46
+	title = scand.46.t
+	desc = scand.46.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.46.a
+		ai_chance = {
+			factor = 70
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					has_government = communism
+				}
+			}
+			add_popularity = {ideology = communism popularity = 0.3}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = fascism
+				}
+			}
+			add_popularity = {ideology = fascism popularity = 0.3}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = neutrality
+				}
+			}
+			add_popularity = {ideology = neutrality popularity = 0.3}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = democratic
+				}
+			}
+			add_popularity = {ideology = democratic popularity = 0.3}
+		}
+		
+		add_ideas = scand_ally_influence
+		
+		hidden_effect = {
+			FROM = {
+				country_event = {id = scand.47 days = 1}
+			}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.46.b
+		ai_chance = {
+			factor = 30
+		}
+		
+		FROM = {
+			country_event = {id = scand.48 days = 1}
+		}
+	}
+}
+
+#accepts support
+country_event = {
+	id = scand.47
+	title = scand.47.t
+	desc = scand.47.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.47.a
+		ai_chance = {
+			facor = 100
+		}
+	}
+}
+
+#declines support
+country_event = {
+	id = scand.48
+	title = scand.48.t
+	desc = scand.48.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.48.a
+		ai_chance = {
+			facor = 100
+		}
+	}
+}
+
+#SWE Sub NOR
+country_event = {
+	id = scand.49
+	title = scand.49.t
+	desc = scand.49.d
+	picture = GFX_report_event_usa_destroyers
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.49.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 30
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 199999}
+				}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 79}
+			}
+		}
+		
+		FROM = {
+			puppet = ROOT
+			hidden_effect = {
+				news_event = {id = SNews.5 days = 1}
+			}
+		}
+	}
+	#Declines
+	option = {
+		name = scand.49.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 30
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 200000}
+				}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 80}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+				}
+			country_event = {id = scand.11 days 1}
+		}
+	}
+}
+
+#Ally is supporting new government DEN
+country_event = {
+	id = scand.50
+	title = scand.50.t
+	desc = scand.50.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = SWE
+				tag = FIN
+				tag = NOR
+			}
+			is_faction_leader = yes
+			is_in_faction_with = DEN
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			DEN = {
+				AND = {
+					has_government = neutrality
+					OR = {
+						communism > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			DEN = {
+				AND = {
+					has_government = communism
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			DEN = {
+				AND = {
+					has_government = fascism
+					OR = {
+						neutrality > 0.2
+						communism > 0.2
+						democratic > 0.2
+					}
+				}
+			}				
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			DEN = {
+				AND = {
+					has_government = democratic
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						communism > 0.2
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.50.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.50.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		DEN = {
+			country_event = {id = scand.46 days = 1}
+		}
+	}
+}
+
+#Ally is supporting new government NOR
+country_event = {
+	id = scand.51
+	title = scand.51.t
+	desc = scand.51.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = SWE
+				tag = FIN
+				tag = DEN
+			}
+			is_faction_leader = yes
+			is_in_faction_with = NOR
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			NOR = {
+				AND = {
+					has_government = neutrality
+					OR = {
+						communism > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			NOR = {
+				AND = {
+					has_government = communism
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			NOR = {
+				AND = {
+					has_government = fascism
+					OR = {
+						neutrality > 0.2
+						communism > 0.2
+						democratic > 0.2
+					}
+				}
+			}				
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			NOR = {
+				AND = {
+					has_government = democratic
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						communism > 0.2
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.51.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.51.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		NOR = {
+			country_event = {id = scand.46 days = 1}
+		}
+	}
+}
+
+#Ally is supporting new government FIN
+country_event = {
+	id = scand.52
+	title = scand.52.t
+	desc = scand.52.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = NOR
+				tag = SWE
+				tag = DEN
+			}
+			is_faction_leader = yes
+			is_in_faction_with = FIN
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			FIN = {
+				AND = {
+					has_government = neutrality
+					OR = {
+						communism > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			FIN = {
+				AND = {
+					has_government = communism
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						democratic > 0.2
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			FIN = {
+				AND = {
+					has_government = fascism
+					OR = {
+						neutrality > 0.2
+						communism > 0.2
+						democratic > 0.2
+					}
+				}
+			}				
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			FIN = {
+				AND = {
+					has_government = democratic
+					OR = {
+						neutrality > 0.2
+						fascism > 0.2
+						communism > 0.2
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.52.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.52.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		FIN = {
+			country_event = {id = scand.46 days = 1}
+		}
+	}
+}
+
+#Ally wrong government SWE
+country_event = {
+	id = scand.53
+	title = scand.53.t
+	desc = scand.53.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = NOR
+				tag = FIN
+				tag = DEN
+			}
+			is_faction_leader = yes
+			is_in_faction_with = SWE
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			SWE = {
+				NOT = {
+					has_government = neutrality
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			SWE = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			SWE = {
+				NOT = {
+					has_government = fascism
+				}
+			}			
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			SWE = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		hours = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.53.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.53.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		SWE = {
+			country_event = {id = scand.54 hours = 1}
+		}
+	}
+}
+
+#demands Government change
+country_event = {
+	id = scand.54
+	title = scand.54.t
+	desc = scand.54.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.54.a
+		ai_chance = {
+			factor = 70
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					has_government = communism
+				}
+			}
+			add_popularity = {ideology = communism popularity = 0.3}
+			set_politics = {ruling_party = communism elections_allowed = no}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = fascism
+				}
+			}
+			add_popularity = {ideology = fascism popularity = 0.3}
+			set_politics = {ruling_party = fascism elections_allowed = no}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = neutrality
+				}
+			}
+			add_popularity = {ideology = neutrality popularity = 0.3}
+			set_politics = {ruling_party = neutrality elections_allowed = yes}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_government = democratic
+				}
+			}
+			add_popularity = {ideology = democratic popularity = 0.3}
+			set_politics = {ruling_party = democratic elections_allowed = yes}
+		}
+		
+		hidden_effect = {
+			FROM = {
+				country_event = {id = scand.55 days = 1}
+			}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.54.b
+		ai_chance = {
+			factor = 30
+		}
+		
+		remove_from_faction = ROOT
+		FROM = {
+			country_event = {id = scand.56 hours = 1}
+		}
+	}
+}
+
+#accepts support
+country_event = {
+	id = scand.55
+	title = scand.55.t
+	desc = scand.55.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.55.a
+		ai_chance = {
+			facor = 100
+		}
+	}
+}
+
+#declines support
+country_event = {
+	id = scand.56
+	title = scand.56.t
+	desc = scand.56.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#OK
+	option = { 
+		name = scand.56.a
+		ai_chance = {
+			facor = 80
+		}
+	}
+	#WAR
+	option = { 
+		name = scand.56.b
+		ai_chance = {
+			facor = 20
+		}
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+		
+		FROM = {
+			country_event = {id = scand.57 hours = 1}
+		}
+	}
+}
+
+#threat of war
+country_event = {
+	id = scand.57
+	title = scand.57.t
+	desc = scand.57.d
+	picture = GFX_report_event_german_troops_paris
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.57.a
+		ai_chance = {
+			facor = 100
+		}
+	}
+}
+
+#Ally wrong government DEN
+country_event = {
+	id = scand.58
+	title = scand.58.t
+	desc = scand.58.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = NOR
+				tag = FIN
+				tag = SWE
+			}
+			is_faction_leader = yes
+			is_in_faction_with = DEN
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			DEN = {
+				NOT = {
+					has_government = neutrality
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			DEN = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			DEN = {
+				NOT = {
+					has_government = fascism
+				}
+			}			
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			DEN = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		hours = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.58.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.58.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		DEN = {
+			country_event = {id = scand.54 hours = 1}
+		}
+	}
+}
+
+#Ally wrong government NOR
+country_event = {
+	id = scand.59
+	title = scand.59.t
+	desc = scand.59.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = SWE
+				tag = FIN
+				tag = DEN
+			}
+			is_faction_leader = yes
+			is_in_faction_with = NOR
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			NOR = {
+				NOT = {
+					has_government = neutrality
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			NOR = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			NOR = {
+				NOT = {
+					has_government = fascism
+				}
+			}			
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			NOR = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		hours = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.59.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.59.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		NOR = {
+			country_event = {id = scand.54 hours = 1}
+		}
+	}
+}
+
+#Ally wrong government FIN
+country_event = {
+	id = scand.60
+	title = scand.60.t
+	desc = scand.60.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = NOR
+				tag = SWE
+				tag = DEN
+			}
+			is_faction_leader = yes
+			is_in_faction_with = FIN
+		}
+			
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			FIN = {
+				NOT = {
+					has_government = neutrality
+				}
+			}	
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			FIN = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			FIN = {
+				NOT = {
+					has_government = fascism
+				}
+			}			
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			FIN = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		hours = 1
+	}
+	
+	#Ignore
+	option = {
+		name = scand.60.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+	#Meddle
+	option = {
+		name = scand.60.b
+		ai_chance = {
+			factor = 80
+		}
+		
+		FIN = {
+			country_event = {id = scand.54 hours = 1}
+		}
+	}
+}
+
+#SWE-NOR Trade Deal
+country_event = {
+	id = scand.61
+	title = scand.61.t
+	desc = scand.61.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.61.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#DEN-SWE Trade Deal
+country_event = {
+	id = scand.62
+	title = scand.62.t
+	desc = scand.62.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.62.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#DEN-FIN project
+country_event = {
+	id = scand.63
+	title = scand.63.t
+	desc = scand.63.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.63.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Demand Skåne
+country_event = {
+	id = scand.64
+	title = scand.64.t
+	desc = scand.64.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.64.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+		}
+		
+		FROM = {
+			add_state_core = 138
+			transfer_state = 138
+			add_state_core = 124
+			transfer_state = 124
+		}
+		hidden_effect = {
+			news_event = {id = SNews.6 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.64.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = yes
+			}
+		}
+		
+		FROM = {
+			add_state_core = 138
+			add_state_core = 124
+			create_wargoal = {
+				type = take_state_focus
+				target = ROOT
+				generator = { 138 }
+			}
+			create_wargoal = {
+				type = take_state_focus
+				target = ROOT
+				generator = { 124 }
+			}
+			country_event = {id = scand.13 days = 1}
+		}
+		
+	}
+}
+
+#Refrom Union NOR
+country_event = {
+	id = scand.65
+	title = scand.65.t
+	desc = scand.65.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.65.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			puppet = ROOT
+			}
+		hidden_effect = {
+			news_event = {id = SNews.18 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.65.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+			}
+			country_event = {id = scand.17 days = 1}
+		}
+	}
+}
+
+#DEN Ask for naval yards
+country_event = {
+	id = scand.66
+	title = scand.66.t
+	desc = scand.66.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	#give 5 naval yards
+	option = {
+		name = scand.66.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 4
+				threat > 0.8
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+		}
+		
+		add_ideas = ENG_sup_DEN_1
+		FROM = {
+			37 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.21 days = 1}
+		}
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 3 naval yards
+	option = {
+		name = scand.66.b
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				AND = {
+						threat > 0.5
+						threat < 0.8
+					}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+			modifier = {
+				add = 20
+				has_war_together_with = FROM
+			}
+		}
+		
+		add_ideas = ENG_sup_DEN_2
+		FROM = {
+			37 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.22 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 1 naval yeard
+	option = {
+		name = scand.66.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				threat < 50
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+			modifier = {
+				add = 20
+				NOT = {
+					has_war_together_with = FROM
+				}
+			}
+		}
+		
+		add_ideas = ENG_sup_DEN_3
+		FROM = {
+			37 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.23 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give no naval yard
+	option = {
+		name = scand.66.e
+		ai_chance = {
+			base = 40
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+		}
+		DEN = {
+				country_event = {id = scand.24 days = 1}
+			}
+	}
+}
+
+#Stockholm falls
+country_event = {
+	id = scand.67
+	title = scand.67.t
+	desc = scand.67.d
+	picture = GFX_report_event_german_troops_paris
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				tag = NOR
+				141 = {is_controlled_by = NOR}
+			}
+			AND = {
+				tag = DEN
+				141 = {is_controlled_by = DEN}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {days = 1}
+	
+	#Humane
+	option = {
+		name = scand.67.a
+		ai_chance = {
+			factor = 70
+		}
+	}
+	#Masacre
+	option = {
+		name = scand.67.b
+		ai_chance = {
+			factor = 30
+		}
+		
+		SWE = {
+			add_ideas = scand_stockholm_bloodbath
+			add_opinion_modifier = { target = ROOT modifier = scand_massacre_us}
+		}
+		
+		news_event = {id = SNews.19 days = 1}
+		
+		custom_effect_tooltip = stock_massacre
+		
+		hidden_effect = {
+			NOR = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			DEN = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			FIN = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			ENG = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			POL = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			LIT = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			LAT = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			EST = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			FRA = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+			USA = {add_opinion_modifier = { target = ROOT modifier = scand_massacre}}
+		}
+	}
+}
+
+#Secure the Baltic
+country_event = {
+	id = scand.68
+	title = scand.68.t
+	desc = scand.68.d
+	picture = GFX_report_event_usa_destroyers
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.68.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 30
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 199999}
+				}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 79}
+			}
+		}
+		
+		FROM = {
+			puppet = ROOT
+			hidden_effect = {
+				news_event = {id = SNews.5 days = 1}
+			}
+		}
+	}
+	#Declines
+	option = {
+		name = scand.68.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 30
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 200000}
+				}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 80}
+			}
+		}
+		
+		FROM = {
+			create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ROOT
+				}
+			country_event = {id = scand.11 days 1}
+		}
+	}
+}
+
+#non-agression with SOV
+country_event = {
+	id = scand.69
+	title = scand.69.t
+	desc = scand.69.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.69.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Annex Finland
+country_event = {
+	id = scand.70
+	title = scand.70.t
+	desc = scand.70.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.70.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.71 days = 1}
+		}
+		
+	}
+	#Accept puppet
+	option = {
+		name = scand.70.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.75 days = 1}
+		}
+		
+	}
+	#Ask for help from Norway
+	option = {
+		name = scand.70.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		DEN = {
+			country_event = {id = scand.72 days = 1}
+		}
+	}
+	#Decline
+	option = {
+		name = scand.70.e
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.35 days = 1}
+		}
+	}
+}
+
+#Annex Accepted
+country_event = {
+	id = scand.71
+	title = scand.71.t
+	desc = scand.71.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.71.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		ROOT = { annex_country = { target = FROM transfer_troops = yes } }
+
+		hidden_effect = {
+			news_event = {id = SNews.20 days = 1}
+		}
+	}
+}	
+
+#Ask Denmark for Guarantee
+country_event = {
+	id = scand.72
+	title = scand.72.t
+	desc = scand.72.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Decline
+	option = {
+		name = scand.72.a
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				FIN = {
+					has_army_manpower = {size > 249999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 30
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+			
+		}
+		NOR = {
+			country_event = {id = scand.73 days = 1}
+		}
+	}
+	#Accept
+	option = {
+		name = scand.72.b
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				FIN = {
+					has_army_manpower = {size < 250000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 30
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		NOR = {
+			country_event = {id = scand.74 days = 1}
+		}
+	}
+}
+
+#Denmark declines Guarantee
+country_event = {
+	id = scand.73
+	title = scand.73.t
+	desc = scand.73.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.73.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FIN = {
+			country_event = {id = scand.71 days = 1}
+		}
+		
+	}
+	#Accept puppet
+	option = {
+		name = scand.73.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = no
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FIN = {
+			country_event = {id = scand.75 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.73.c
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		SWE = {
+			country_event = {id = scand.35 days = 1}
+		}
+	}
+}
+
+#Norway Guarantees
+country_event = {
+	id = scand.74
+	title = scand.74.t
+	desc = scand.74.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.74.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		FIN = {
+			country_event = {id = scand.76 days = 1}
+		}
+	}
+}	
+
+#Asks for puppetering
+country_event = {
+	id = scand.75
+	title = scand.75.t
+	desc = scand.75.d
+	picture = GFX_report_event_generic_rally_3
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.75.a
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 30
+				is_in_faction = no
+			}
+			
+		}
+		puppet = FROM
+		
+		FROM = {
+			country_event = {id = scand.39 days = 1}
+		}
+		
+		hidden_effect = {
+			news_event = {id = SNews.21 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.75.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 30
+				is_in_faction = yes
+			}
+		}
+		
+		create_wargoal = {
+					type = annex_everything
+					target = FROM
+		}
+		FROM = {
+			country_event = {id = scand.40 days = 1}
+		}
+	}
+}
+
+#Denmark supports Finland
+country_event = {
+	id = scand.76
+	title = scand.76.t
+	desc = scand.76.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#To War
+	option = {
+		name = scand.76.a
+		ai_chance = {
+			factor = 30
+		}
+		
+		DEN = {
+			give_guarantee = NOR
+		}
+		declare_war_on = {
+				target = NOR
+				type = annex_everything
+		}
+		
+		hidden_effect = {
+			news_event = {id = SNews.22 days = 1}
+		}
+	}
+	#Back off
+	option = {
+		name = scand.76.b
+		ai_chance = {
+			factor = 70
+		}
+		
+		FROM = {
+			country_event = {id = scand.77 days = 1}
+		}
+		hidden_effect = {
+			DEN = {
+				country_event = {id = scand.77 days = 1}
+			}
+		}
+	}
+}	
+
+#Sweden Gives
+country_event = {
+	id = scand.77
+	title = scand.77.t
+	desc = scand.77.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.77.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Demand Danish Annexation
+country_event = {
+	id = scand.78
+	title = scand.78.t
+	desc = scand.78.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = scand.78.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				FROM = {
+					has_army_manpower = {size > 149999}
+				}
+			}
+			modifier = {
+				add = 10
+				is_in_faction = no
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 89}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.79 days = 1}
+		}
+		
+	}
+	#Decline
+	option = {
+		name = scand.78.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				FROM = {
+					has_army_manpower = {size < 150000}
+				}
+			}
+			modifier = {
+				add = 20
+				is_in_faction = yes
+			}
+			modifier = {
+				add = 20
+				has_opinion = {id = FROM.get_id value < 90}
+			}
+		}
+		
+		FROM = {
+			country_event = {id = scand.80 days = 1}
+		}
+	}
+}
+
+#Denmark Accepts
+country_event = {
+	id = scand.79
+	title = scand.79.t
+	desc = scand.79.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.79.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		ROOT = { annex_country = { target = FROM transfer_troops = yes } }
+
+		hidden_effect = {
+			news_event = {id = SNews.23 days = 1}
+		}
+	}
+}
+
+#Denmark declines
+country_event = {
+	id = scand.80
+	title = scand.80.t
+	desc = scand.80.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.80.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		create_wargoal = {
+				type = annex_everything
+				target = DEN
+			}
+	}
+}
+
+#DEN Ask for naval yards
+country_event = {
+	id = scand.81 
+	title = scand.81.t
+	desc = scand.81.d
+	picture = GFX_report_event_ast_navy
+	
+	is_triggered_only = yes
+	
+	#give 5 naval yards
+	option = {
+		name = scand.81.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 4
+				threat > 0.8
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+		}
+		
+		add_ideas = ENG_sup_FIN_1
+		FROM = {
+			111 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.21 days = 1}
+		}
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 3 naval yards
+	option = {
+		name = scand.81.b
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				AND = {
+						threat > 0.5
+						threat < 0.8
+					}
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value > 99}
+			}
+			modifier = {
+				add = 20
+				has_war_together_with = FROM
+			}
+		}
+		
+		add_ideas = ENG_sup_FIN_2
+		FROM = {
+			111 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.22 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give 1 naval yeard
+	option = {
+		name = scand.81.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				threat < 50
+			}
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+			modifier = {
+				add = 20
+				NOT = {
+					has_war_together_with = FROM
+				}
+			}
+		}
+		
+		add_ideas = ENG_sup_FIN_3
+		FROM = {
+			111 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			country_event = {id = scand.23 days = 1}
+		}
+		
+		hidden_effect = {
+			country_event = {id = scand.25 days = 360}
+		}
+	}
+	#Give no naval yard
+	option = {
+		name = scand.81.e
+		ai_chance = {
+			base = 40
+			modifier = {
+				add = 10
+				has_opinion = {id = FROM.get_id value < 100}
+			}
+		}
+		DEN = {
+				country_event = {id = scand.24 days = 1}
+			}
+	}
+}
+
+#Become Scandinavian Union
+country_event = {
+	id = scand.82
+	title = scand.82.t
+	desc = scand.82.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				tag = NOR
+				OR = {
+					AND = {
+						FIN = {exists = no}
+						controls_state = 111
+					}
+					FIN = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						DEN = {exists = no}
+						controls_state = 37
+					}
+					DEN = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						SWE = {exists = no}
+						controls_state = 141
+					}
+					SWE = {is_puppet_of = ROOT}
+				}
+			}	
+			AND = {
+				tag = SWE
+				OR = {
+					AND = {
+						FIN = {exists = no}
+						controls_state = 111
+					}
+					FIN = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						DEN = {exists = no}
+						controls_state = 37
+					}
+					DEN = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						NOR = {exists = no}
+						controls_state = 110
+					}
+					NOR = {is_puppet_of = ROOT}
+				}
+			}	
+			AND = {
+				tag = DEN
+				OR = {
+					AND = {
+						FIN = {exists = no}
+						controls_state = 111
+					}
+					FIN = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						NOR = {exists = no}
+						controls_state = 110
+					}
+					NOR = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						SWE = {exists = no}
+						controls_state = 141
+					}
+					SWE = {is_puppet_of = ROOT}
+				}
+			}	
+			AND = {
+				tag = FIN
+				OR = {
+					AND = {
+						NOR = {exists = no}
+						controls_state = 110
+					}
+					NOR = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						DEN = {exists = no}
+						controls_state = 37
+					}
+					DEN = {is_puppet_of = ROOT}
+				}
+				OR = {
+					AND = {
+						SWE = {exists = no}
+						controls_state = 141
+					}
+					SWE = {is_puppet_of = ROOT}
+				}
+			}	
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = scand.82.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		custom_effect_tooltip = scan_union_tool
+		set_cosmetic_tag = SCA_UNION
+		
+		if = {
+			limit = {DEN = {is_puppet_of = ROOT}}
+			annex_country = {target = DEN transfer_troops = yes}
+		}
+		if = {
+			limit = {NOR = {is_puppet_of = ROOT}}
+			annex_country = {target = NOR transfer_troops = yes}
+		}
+		if = {
+			limit = {SWE = {is_puppet_of = ROOT}}
+			annex_country = {target = SWE transfer_troops = yes}
+		}
+		if = {
+			limit = {FIN = {is_puppet_of = ROOT}}
+			annex_country = {target = FIN transfer_troops = yes}
+		}
+		
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					controls_state = 37
+				}
+				
+				add_state_core = 37
+			}
+			if = {
+				limit = {controls_state = 110}
+				
+				add_state_core = 110
+			}
+			if = {
+				limit = {controls_state = 111}
+				
+				add_state_core = 111
+			}
+			if = {
+				limit = {controls_state = 141}
+				
+				add_state_core = 141
+			}
+			news_event = {id = SNews.24 days = 1}
+		}
+	}
+	
+	option = {
+		name = scand.82.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Prepare for war
+country_event = {
+	id = scand.83
+	title = scand.83.t
+	desc = scand.83.d
+	picture = GFX_report_event_generic_rally
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = NOR
+				tag = DEN
+			}
+			threat > 0.19
+			ENG = {has_war_with = GER}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = scand.83.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_ideas = scand_prepare_war
+	}
+	
+	option = {
+		name = scand.83.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Altmark Incident
+country_event = {
+	id = scand.84
+	title = scand.84.t
+	desc = scand.84.d
+	picture = GFX_report_event_ast_navy
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = NOR
+			ENG = {has_war_with = GER}
+			has_war = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	option = {
+		name = scand.84.a
+		ai_chance = {
+			factor = 30
+		}
+		
+		add_opinion_modifier = {target = GER modifier = scand_diplomatic_tension}
+		GER = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		add_opinion_modifier = {target = ENG modifier = scand_diplomatic_agreement}
+		ENG = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_agreement}}
+		add_threat = 3
+		
+		if = {
+			limit = {
+				AND = {
+					has_idea = scand_prepare_war
+					has_idea = neutrality_idea
+				}
+			}
+			
+			remove_ideas = neutrality_idea
+		}
+		
+		hidden_effect = {
+			news_event = {id SNews.25 days = 1}
+		}
+		
+	}
+	
+	option = {
+		name = scand.84.b
+		ai_chance = {
+			factor = 30
+		}
+		
+		add_opinion_modifier = {target = ENG modifier = scand_diplomatic_tension}
+		ENG = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		add_opinion_modifier = {target = GER modifier = scand_diplomatic_agreement}
+		GER = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_agreement}}
+		add_threat = 3
+		
+		if = {
+			limit = {
+				AND = {
+					has_idea = scand_prepare_war
+					has_idea = neutrality_idea
+				}
+			}
+			
+			remove_ideas = neutrality_idea
+		}
+		
+		hidden_effect = {
+			news_event = {id SNews.26 days = 1}
+		}
+	}
+	
+	option = {
+		name = scand.84.c
+		ai_chance = {
+			factor = 40
+		}
+		
+		add_opinion_modifier = {target = ENG modifier = scand_diplomatic_tension}
+		ENG = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		add_opinion_modifier = {target = GER modifier = scand_diplomatic_tension}
+		GER = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		
+		hidden_effect = {
+			news_event = {id SNews.27 days = 1}
+		}
+	}
+}
+
+#FIN International Support
+country_event = {
+	id = scand.85
+	title = scand.85.t
+	desc = scand.85.d
+	picture = GFX_report_event_generic_rally2
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = FIN
+			has_defensive_war_with = SOV
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	option = {
+		name = scand.85.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_ideas = scand_international_support
+		
+		add_manpower = 50000
+		add_equipment_to_stockpile = {type = artillery_equipment_1 amount = 100 producer = ENG}
+		add_equipment_to_stockpile = {type = infantry_equipment_1 amount = 2000 producer = ENG}
+		add_equipment_to_stockpile = {type = infantry_equipment_2 amount = 500 producer = ENG}	
+		add_equipment_to_stockpile = {type = motorized_equipment_1 amount = 100 producer = ENG}	
+	}
+	
+	option = {
+		name = scand.85.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
+#Altmark Incident
+country_event = {
+	id = scand.84
+	title = scand.84.t
+	desc = scand.84.d
+	picture = GFX_report_event_ast_navy
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = NOR
+			ENG = {has_war_with = GER}
+			has_war = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	option = {
+		name = scand.84.a
+		ai_chance = {
+			factor = 30
+		}
+		
+		add_opinion_modifier = {target = GER modifier = scand_diplomatic_tension}
+		GER = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		add_opinion_modifier = {target = ENG modifier = scand_diplomatic_agreement}
+		ENG = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_agreement}}
+		add_threat = 3
+		
+		if = {
+			limit = {
+				AND = {
+					has_idea = scand_prepare_war
+					has_idea = neutrality_idea
+				}
+			}
+			
+			remove_ideas = neutrality_idea
+		}
+		
+		hidden_effect = {
+			news_event = {id SNews.25 days = 1}
+		}
+		
+	}
+	
+	option = {
+		name = scand.84.b
+		ai_chance = {
+			factor = 30
+		}
+		
+		add_opinion_modifier = {target = ENG modifier = scand_diplomatic_tension}
+		ENG = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		add_opinion_modifier = {target = GER modifier = scand_diplomatic_agreement}
+		GER = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_agreement}}
+		add_threat = 3
+		
+		if = {
+			limit = {
+				AND = {
+					has_idea = scand_prepare_war
+					has_idea = neutrality_idea
+				}
+			}
+			
+			remove_ideas = neutrality_idea
+		}
+		
+		hidden_effect = {
+			news_event = {id SNews.26 days = 1}
+		}
+	}
+	
+	option = {
+		name = scand.84.c
+		ai_chance = {
+			factor = 40
+		}
+		
+		add_opinion_modifier = {target = ENG modifier = scand_diplomatic_tension}
+		ENG = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		add_opinion_modifier = {target = GER modifier = scand_diplomatic_tension}
+		GER = {add_opinion_modifier = {target = ROOT modifier = scand_diplomatic_tension}}
+		
+		hidden_effect = {
+			news_event = {id SNews.27 days = 1}
+		}
+	}
+}
+
+#Create the Scand-Baltic Alliance.
+country_event = {
+	id = scand.86
+	title = scand.86.t
+	desc = scand.86.d
+	picture = GFX_report_event_generic_rally2
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = SWE
+				tag = NOR
+				tag = DEN
+				tag = FIN
+			}
+			is_faction_leader = yes
+			NOT = {has_war_with = POL}
+			has_government = neutrality
+			POL	= {is_faction_leader = yes}
+			POL = {
+				OR = {
+					is_in_faction_with = LIT
+					is_in_faction_with = LAT
+					is_in_faction_with = EST
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	option = {
+		name = scand.86.a
+		ai_chance = {
+			factor = 100
+		}
+		POL = {country_event = {id = scand.87 days = 1}}
+	}
+	
+	option = {
+		name = scand.86.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Invite Poland.
+country_event = {
+	id = scand.87
+	title = scand.87.t
+	desc = scand.87.d
+	picture = GFX_report_event_generic_rally2
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.87.a
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 30
+				OR = {
+					FROM = {has_war = no}
+					AND = {
+						FROM = has_war = yes
+						has_war = yes
+					}
+				}
+			}
+			modifier = {
+				add = 15
+				OR = {
+					FROM = {has_army_manpower = {size > 100000}}
+					has_war = yes
+				}
+			}
+			modifier = {
+				add = 15
+				OR = {
+					FROM = {has_army_manpower = {size > 200000}}
+					has_war = yes
+				}
+			}
+		}
+		FROM = {country_event = {id = scand.88 days = 1}}
+	}
+	
+	option = {
+		name = scand.87.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 30
+				AND = {
+					FROM = {has_war = yes}
+					has_war = no
+				}
+			}
+			modifier = {
+				add = 15
+				OR = {
+					FROM = {has_army_manpower = {size < 199999}}
+					has_war = no
+				}
+			}
+		}
+		FROM = {country_event = {id = scand.89 days = 1}}
+	}
+	
+	option = {
+		name = scand.87.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 30
+				AND = {
+					FROM = {has_war = yes}
+					has_war = no
+				}
+			}
+			modifier = {
+				add = 15
+				OR = {
+					FROM = {has_army_manpower = {size < 99999}}
+					has_war = no
+				}
+			}
+		}
+		FROM = {country_event = {id = scand.90 days = 1}}
+	}
+}
+
+#Poland accepts
+country_event = {
+	id = scand.88
+	title = scand.88.t
+	desc = scand.88.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.88.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		custom_effect_tooltip = join_alliances_tool
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = NOR
+				}
+				if = {
+					limit = {
+						is_in_faction_with = SWE
+					}
+					remove_from_faction = SWE
+					POL = {add_to_faction = SWE}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = DEN
+					}
+					remove_from_faction = DEN
+					POL = {add_to_faction = DEN}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = FIN
+					}
+					remove_from_faction = FIN
+					POL = {add_to_faction = FIN}
+				}
+			}
+			if = {
+				limit = {
+					tag = SWE
+				}
+				if = {
+					limit = {
+						is_in_faction_with = NOR
+					}
+					remove_from_faction = NOR
+					POL = {add_to_faction = NOR}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = DEN
+					}
+					remove_from_faction = DEN
+					POL = {add_to_faction = DEN}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = FIN
+					}
+					remove_from_faction = FIN
+					POL = {add_to_faction = FIN}
+				}
+			}
+			if = {
+				limit = {
+					tag = DEN
+				}
+				if = {
+					limit = {
+						is_in_faction_with = NOR
+					}
+					remove_from_faction = NOR
+					POL = {add_to_faction = NOR}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = SWE
+					}
+					remove_from_faction = SWE
+					POL = {add_to_faction = SWE}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = FIN
+					}
+					remove_from_faction = FIN
+					POL = {add_to_faction = FIN}
+				}
+			}
+			if = {
+				limit = {
+					tag = FIN
+				}
+				if = {
+					limit = {
+						is_in_faction_with = NOR
+					}
+					remove_from_faction = NOR
+					POL = {add_to_faction = NOR}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = SWE
+					}
+					remove_from_faction = SWE
+					POL = {add_to_faction = SWE}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = DEN
+					}
+					remove_from_faction = DEN
+					POL = {add_to_faction = DEN}
+				}
+			}
+			
+			dismantle_faction = yes
+			create_faction = "scand-baltic_alliance"
+			
+			if = {
+				limit = {
+					SWE = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = SWE}
+					add_to_faction = SWE
+			}
+			if = {
+				limit = {
+					DEN = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = DEN}
+					add_to_faction = DEN
+			}
+			if = {
+				limit = {
+					FIN = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = FIN}
+					add_to_faction = FIN
+			}
+			if = {
+				limit = {
+					NOR = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = NOR}
+					add_to_faction = NOR
+			}
+			if = {
+				limit = {
+					LIT = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = LIT}
+					add_to_faction = LIT
+			}
+			if = {
+				limit = {
+					LAT = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = LAT}
+					add_to_faction = LAT
+			}
+			if = {
+				limit = {
+					EST = {
+						is_in_faction_with = POL
+					}
+				}
+					POL = {remove_from_faction = EST}
+					add_to_faction = EST
+			}
+			POL = {dismantle_faction = yes}
+			add_to_faction = POL
+			news_event = {id = SNews.28 days = 1}
+		}
+	}
+}
+
+#Poland wants to lead
+country_event = {
+	id = scand.89
+	title = scand.89.t
+	desc = scand.89.d
+	picture = GFX_report_event_generic_rally2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.89.a
+		ai_chance = {
+			factor = 70
+		}
+		
+		FROM = {country_event = {id = scand.91 days = 1}}
+	}
+	
+	option = {
+		name = scand.89.b
+		ai_chance = {
+			factor = 30
+		}
+		FROM = {country_event = {id = scand.90 days = 1}}
+	}
+}
+
+#declines joining of alliances
+country_event = {
+	id = scand.90
+	title = scand.90.t
+	desc = scand.90.d
+	picture = GFX_report_event_generic_rally2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.90.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Scand accepts
+country_event = {
+	id = scand.91
+	title = scand.91.t
+	desc = scand.91.d
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.91.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		custom_effect_tooltip = join_alliances_tool
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					is_in_faction_with = LIT
+				}
+				remove_from_faction = LIT
+				FROM = {add_to_faction = LIT}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = LAT
+				}
+				remove_from_faction = LAT
+				FROM = {add_to_faction = LAT}
+			}
+			if = {
+				limit = {
+					is_in_faction_with = EST
+				}
+				remove_from_faction = EST
+				FROM = {add_to_faction = EST}
+			}
+			
+			dismantle_faction = yes
+			create_faction = "scand-baltic_alliance"
+			
+			if = {
+				limit = {
+					LIT = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = LIT}
+					add_to_faction = LIT
+			}
+			if = {
+				limit = {
+					LAT = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = LAT}
+					add_to_faction = LAT
+			}
+			if = {
+				limit = {
+					EST = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = EST}
+					add_to_faction = EST
+			}
+			if = {
+				limit = {
+					SWE = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = SWE}
+					add_to_faction = SWE
+			}
+			if = {
+				limit = {
+					DEN = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = DEN}
+					add_to_faction = DEN
+			}
+			if = {
+				limit = {
+					FIN = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = FIN}
+					add_to_faction = FIN
+			}
+			if = {
+				limit = {
+					NOR = {
+						is_in_faction_with = FROM
+					}
+				}
+					FROM = {remove_from_faction = NOR}
+					add_to_faction = NOR
+			}
+			FROM = {dismantle_faction = yes}
+			add_to_faction = FROM
+			
+			news_event = {id = SNews.28 days = 1}
+		}
+	}
+}
+
+#DEN demand schleswig
+country_event = {
+	id = scand.92
+	title = scand.92.t
+	desc = scand.92.d
+	picture = GFX_report_event_generic_rally2
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = DEN
+			OR = {
+				has_government = fascism
+				has_government = communism
+			}
+			NOT = {
+				is_in_faction_with = GER
+				has_war_with = GER
+			}
+			GER = {
+				has_war = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 200
+	}
+	
+	option = {
+		name = scand.92.a
+		ai_chance = {
+			factor = 50
+		}
+		GER = {
+			add_opinion_modifier = { target = DEN modifier = NOR_condemn_aggression_against}
+			country_event = {id = scand.93 days = 1}
+		}
+	}
+	
+	option = {
+		name = scand.92.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#DEN demands schleswig
+country_event = {
+	id = scand.93
+	title = scand.93.t
+	desc = scand.93.d
+	picture = GFX_report_event_german_troops_paris
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.93.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				FROM = {
+					add = 20
+					has_army_manpower = {size > 199999}
+				}
+			}
+		}
+		
+		custom_effect_tooltip = schleswig_tool_1
+		
+		hidden_effect = {
+			FROM = {country_event = {id = scand.94 days = 1}}
+		}
+	}
+	
+	option = {
+		name = scand.93.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				FROM = {
+					add = 20
+					has_army_manpower = {size < 200000}
+				}
+			}
+		}
+		
+		custom_effect_tooltip = schleswig_tool_2
+		
+		hidden_effect = {
+			FROM = {country_event = {id = scand.95 days = 1}}
+		}
+	}
+}
+
+#GER Accepts
+country_event = {
+	id = scand.94
+	title = scand.94.t
+	desc = scand.94.d
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.94.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_state_core = 58
+		transfer_state = 58
+		
+		hidden_effect = {
+			news_event = {id = SNews.29 days = 1}
+		}
+	}
+}
+
+#GER Declines
+country_event = {
+	id = scand.94
+	title = scand.94.t
+	desc = scand.94.d
+	picture = GFX_report_event_german_troops_paris
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scand.94.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_state_core = 58
+		create_wargoal = {
+			type = take_state_focus
+			target = ROOT
+			generator = { 58 }
+		}
+	}
+}
+

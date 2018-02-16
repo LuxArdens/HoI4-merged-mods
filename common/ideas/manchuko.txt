@@ -1,0 +1,282 @@
+ideas = {
+
+	political_advisor = {
+
+		MCK_nalan_kang_an = {
+
+			picture = generic_political_advisor_asia_3
+				
+			allowed = {
+				original_tag = MCK
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		MCK_megata_toshiro = {
+
+			picture = generic_political_advisor_asia_2
+			
+			allowed = {
+				original_tag = MCK
+				NOT = {
+					has_dlc = "Together for Victory"
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_officials	
+				}
+				is_puppet_of = JAP
+			}
+			
+			traits = { armaments_organizer_mck }
+		}
+
+		MCK_megata_toshiro_tfv = {
+
+			picture = generic_political_advisor_asia_2
+			
+			allowed = {
+				original_tag = MCK
+				has_dlc = "Together for Victory"
+			}
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_officials	
+				}
+				is_puppet_of = JAP
+			}
+			
+			traits = { armaments_organizer_mck_tfv }
+		}
+	}	
+
+	army_chief = {
+
+		MCK_guan_xingde = {
+			
+			picture = generic_army_asia_1
+
+			allowed = {
+				original_tag = MCK
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		MCK_nakajima_kesago = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = MCK
+				NOT = {
+					has_dlc = "Together for Victory"
+				}
+			}
+			
+			traits = { air_chief_ground_support_2_mck }
+			
+			
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_officials	
+				}
+				is_puppet_of = JAP
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		MCK_nakajima_kesago_tfv = {
+
+			picture = generic_air_asia_3
+			
+			allowed = {
+				original_tag = MCK
+				has_dlc = "Together for Victory"
+			}
+			
+			traits = { air_chief_ground_support_2_mck_tfv }
+			
+			
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_mili_officials
+				}
+				is_puppet_of = JAP
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+
+	high_command = {
+
+		MCK_yonimitsu_kasahara = {
+
+			picture = generic_army_asia_3
+			
+			allowed = {
+				original_tag = MCK
+				NOT = {
+					has_dlc = "Together for Victory"
+				}
+			}
+			
+			traits = { army_regrouping_2_mck }
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_mili_officials
+				}
+				is_puppet_of = JAP
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MCK_yonimitsu_kasahara_tfv = {
+
+			picture = generic_army_asia_3
+			
+			allowed = {
+				original_tag = MCK
+				has_dlc = "Together for Victory"
+			}
+			
+			traits = { army_regrouping_2_mck_tfv }
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_mili_officials
+				}
+				is_puppet_of = JAP
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MCK_kyoiji_tomonaga = {
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = MCK
+				NOT = {
+					has_dlc = "Together for Victory"
+				}
+			}
+			
+			traits = { army_infantry_2_mck }
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_mili_officials
+				}
+				is_puppet_of = JAP
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MCK_kyoiji_tomonaga_tfv = {
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = MCK
+				has_dlc = "Together for Victory"
+			}
+			
+			traits = { army_infantry_2_mck_tfv }
+			available = {
+				NOT = {
+					has_country_flag = MCK_assassinated
+					has_country_flag = no_jap_mili_officials
+				}
+				is_puppet_of = JAP
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MCK_hesehn_tiemei = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = MCK
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+
+	theorist = {
+		MCK_hung_zhehuang = {
+
+			picture = generic_army_asia_1
+			
+			allowed = {
+				original_tag = MCK
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		MCK_deng_linge = { 
+
+			picture = generic_air_asia_2
+			
+			allowed = {
+				original_tag = MCK
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+
+
+}

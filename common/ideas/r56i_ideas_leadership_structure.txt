@@ -1,0 +1,134 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	etgi_ideas_leadership_structure = { 
+	
+		law = yes
+		
+		#Power and Politics
+		etgi_laws_leadership_structure_d = {
+			
+			modifier = {
+			
+				political_power_gain = -0.1
+				democratic_drift = 0.1
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = 0.2
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+			
+   				modifier = {
+					has_government = democratic
+					factor = 3
+				}
+				
+   			}
+			
+		}
+		
+		#Personality Cult
+		etgi_laws_leadership_structure_1 = {
+			
+			modifier = {
+			
+				political_power_gain = 0.5
+				fascism_drift = 0.15
+				communism_drift = 0.05
+				justify_war_goal_time = -0.25
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = fascism
+					factor = 3
+				}
+   			}
+		}
+		
+		#Secular Institutions
+		etgi_laws_leadership_structure_2 = {
+			
+			modifier = {
+			
+				democratic_drift = 0.05
+				army_org_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = democratic
+					factor = 2
+				}
+   			}
+		}
+		
+		#Divine Inspiration
+		etgi_laws_leadership_structure_3 = {
+			
+			modifier = {
+			
+				political_power_cost = -0.5
+				unity_factor = -0.1
+				research_time_factor = -0.025
+				justify_war_goal_time = -0.5
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0
+   				modifier = {
+					tag = TIB
+					factor = 20
+				}
+   				modifier = {
+					tag = CHI
+					factor = 20
+				}
+   			}
+		}
+		
+		#Will of the People
+		etgi_laws_leadership_structure_4 = {
+			
+			modifier = {
+			
+				communism_drift = 0.15
+				unity_factor = 0.2
+				consumer_goods_factor = 0.05
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			
+   				factor = 1
+
+   				modifier = {
+					has_government = communism
+					factor = 2
+				}
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

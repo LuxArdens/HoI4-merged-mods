@@ -1,0 +1,1924 @@
+add_namespace = continuous_focus
+continuous_focus_palette = {
+	id = fedcba_generic_focus
+	
+	country = {
+		factor = 1000
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+			
+	position = { x = 50 y = 2000 }#verify
+	
+#naval production		
+	focus = {
+		id = continuous_naval_production1
+		
+		icon = GFX_goal_continuous_naval_production
+		
+		available = {
+			num_of_factories > 25
+		}
+		idea = idea_continuous_naval_production1
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_naval
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_naval_production2
+		
+		icon = GFX_goal_continuous_naval_production
+	
+		available = {
+			num_of_factories > 50
+		}
+
+		idea = idea_continuous_naval_production2
+
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_naval
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_naval_production3
+		
+		icon = GFX_goal_continuous_naval_production
+		
+		available = {
+			num_of_factories > 100
+		}
+
+		idea = idea_continuous_naval_production3
+
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_naval
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+
+	focus = {
+		id = continuous_air_production1
+		
+		icon = GFX_goal_continuous_air_production
+		
+		available = {
+			num_of_factories > 25
+		}
+		
+		idea = idea_continuous_air_production1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_aviation
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_air_production2
+		
+		icon = GFX_goal_continuous_air_production
+		
+		available = {
+			num_of_factories > 50
+		}
+		idea = idea_continuous_air_production2
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_aviation
+		supports_ai_strategy = ai_focus_naval_air
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_air_production3
+		
+		icon = GFX_goal_continuous_air_production
+		
+		available = {
+			num_of_factories > 100
+		}
+		
+		idea = idea_continuous_air_production3
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_aviation
+		supports_ai_strategy = ai_focus_naval_air
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = continuous_standard_equipment1
+		
+		icon = GFX_focus_secret_rearmament
+		
+		available = {
+			num_of_factories > 25
+		}
+
+		idea = idea_continuous_standard_equipment1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_military_equipment
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_standard_equipment2
+		
+		icon = GFX_focus_secret_rearmament
+		
+		available = {
+			num_of_factories > 50
+		}
+		
+		idea = idea_continuous_standard_equipment2
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_military_equipment
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_standard_equipment3
+		
+		icon = GFX_focus_secret_rearmament
+		
+		available = {
+			num_of_factories > 100
+		}
+		
+		idea = idea_continuous_standard_equipment3
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_military_equipment
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tank_production1
+		
+		icon = GFX_goal_continuous_armor_production
+		
+		available = {
+			num_of_factories > 25
+		}
+
+		idea = idea_continuous_tank_production1
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tank_production2
+		
+		icon = GFX_goal_continuous_armor_production
+		
+		available = {
+			num_of_factories > 50
+		}
+
+		idea = idea_continuous_tank_production2
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tank_production3
+		
+		icon = GFX_goal_continuous_armor_production
+		
+		available = {
+			num_of_factories > 100
+		}
+
+		idea = idea_continuous_tank_production3
+		
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+##Mass Production
+	focus = {
+		id = mass_production1
+		
+		icon = GFX_goal_generic_production2
+		
+		available = {
+			num_of_factories > 25
+		}
+		modifier = {
+			production_factory_max_efficiency_factor = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = mass_production2
+		
+		icon = GFX_goal_generic_production2
+		
+		available = {
+			num_of_factories > 50
+		}
+		modifier = {
+			production_factory_max_efficiency_factor = 0.2#0.24?
+			industrial_capacity_dockyard = 0.2
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = mass_production3
+		
+		icon = GFX_goal_generic_production2
+		
+		available = {
+			num_of_factories > 100
+		}
+		modifier = {
+			production_factory_max_efficiency_factor = 0.3#0.36?
+			industrial_capacity_dockyard = 0.3
+		}
+		ai_will_do = {
+			factor = 0.25
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+###Flexible Production
+	focus = {
+		id = flexible_production1
+		
+		icon = GFX_goal_generic_production
+		
+		available = {
+			num_of_factories > 25
+		}
+		modifier = {
+			line_change_production_efficiency_factor = 0.2
+			production_factory_start_efficiency_factor = 0.05
+			equipment_conversion_speed = 0.2
+			industry_air_damage_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = flexible_production2
+		
+		icon = GFX_goal_generic_production
+		
+		available = {
+			num_of_factories > 50
+		}
+		modifier = {
+			line_change_production_efficiency_factor = 0.4
+			production_factory_start_efficiency_factor = 0.1
+			equipment_conversion_speed = 0.4
+			industry_air_damage_factor = -0.2
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = flexible_production3
+		
+		icon = GFX_goal_generic_production
+		
+		available = {
+			num_of_factories > 100
+		}
+		modifier = {
+			line_change_production_efficiency_factor = 0.6
+			production_factory_start_efficiency_factor = 0.15
+			equipment_conversion_speed = 0.6
+			industry_air_damage_factor = -0.3
+		}
+		ai_will_do = {
+			factor = 0.25
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+######################
+###CONSTRUCTION
+######################
+	focus = {
+		id = continuous_non_factory_construct1
+		
+		icon = GFX_goal_continuous_non_factory_construct
+		
+		available = {
+			num_of_factories > 25
+		}
+		idea =idea_continuous_non_factory_construct1
+		modifier = {
+			production_speed_infrastructure_factor = 0.1			production_speed_air_base_factor = 0.2
+			production_speed_naval_base_factor = 0.1
+			production_speed_synthetic_refinery_factor = 0.1
+			production_speed_rocket_site_factor = 0.1
+			production_speed_nuclear_reactor_factor = 0.1
+			production_speed_bunker_factor = 0.2
+			production_speed_coastal_bunker_factor = 0.2
+			production_speed_anti_air_building_factor = 0.2
+			production_speed_radar_station_factor = 0.2		
+		}		
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_non_factory_construct2
+		
+		icon = GFX_goal_continuous_non_factory_construct
+		
+		available = {
+			num_of_factories > 50
+		}
+		
+		idea = idea_continuous_non_factory_construct2
+		
+		modifier = {
+			production_speed_infrastructure_factor = 0.2
+			production_speed_air_base_factor = 0.2
+			production_speed_naval_base_factor = 0.2
+			production_speed_synthetic_refinery_factor = 0.2
+			production_speed_rocket_site_factor = 0.2
+			production_speed_nuclear_reactor_factor = 0.2
+			production_speed_bunker_factor = 0.4
+			production_speed_coastal_bunker_factor = 0.4
+			production_speed_anti_air_building_factor = 0.4
+			production_speed_radar_station_factor = 0.4			
+		}
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_non_factory_construct3
+		
+		icon = GFX_goal_continuous_non_factory_construct
+		
+		available = {
+			num_of_factories > 100
+		}
+		
+		idea = idea_continuous_non_factory_construct3
+		
+		modifier = {
+			production_speed_infrastructure_factor = 0.3
+			production_speed_air_base_factor = 0.3
+			production_speed_naval_base_factor = 0.3
+			production_speed_synthetic_refinery_factor = 0.3
+			production_speed_rocket_site_factor = 0.3
+			production_speed_nuclear_reactor_factor = 0.3
+			production_speed_bunker_factor = 0.6
+			production_speed_coastal_bunker_factor = 0.6
+			production_speed_anti_air_building_factor = 0.6
+			production_speed_radar_station_factor = 0.6		
+		}
+		
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = construction_effort1
+		
+		icon = GFX_goal_generic_construct_civ_factory
+		
+		available = {
+			num_of_factories > 25
+		}
+		idea = idea_construction_effort1
+		modifier = {
+			production_speed_industrial_complex_factor = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		daily_cost = 1
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = construction_effort2
+		
+		icon = GFX_goal_generic_construct_civ_factory
+		
+		available = {
+			num_of_factories > 50
+		}
+		idea = idea_construction_effort2
+		modifier = {
+			production_speed_industrial_complex_factor = 0.3
+		}
+		ai_will_do = {
+			factor = .5
+		}
+		
+		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = construction_effort3
+		
+		icon = GFX_goal_generic_construct_civ_factory
+		
+		available = {
+			num_of_factories > 100
+		}
+		idea = idea_construction_effort3
+		modifier = {
+			production_speed_industrial_complex_factor = 0.45
+		}
+		ai_will_do = {
+			factor = .25
+		}
+		
+		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+		
+	focus = {
+		id = armament_effort1
+		
+		icon = GFX_goal_generic_construct_mil_factory
+		
+		available = {
+			num_of_factories > 25
+		}
+		modifier = {
+			production_speed_arms_factory_factor = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		daily_cost = 1
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = armament_effort2
+		
+		icon = GFX_goal_generic_construct_mil_factory
+		
+		available = {
+			num_of_factories > 50
+		}
+		modifier = {
+			production_speed_arms_factory_factor = 0.3
+		}
+		ai_will_do = {
+			factor = .5
+		}
+		
+		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+		
+	focus = {
+		id = armament_effort3
+		
+		icon = GFX_goal_generic_construct_mil_factory
+		
+		available = {
+			num_of_factories > 100
+		}
+		modifier = {
+			production_speed_arms_factory_factor = 0.45
+		}
+		ai_will_do = {
+			factor = .25
+		}
+		
+		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = excavation_effort1
+		
+		icon = GFX_goal_generic_construct_civilian
+
+		available = {
+			num_of_factories > 25
+		}
+		modifier = {
+			local_resources_factor = 0.15
+			#min_export = -.05
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		daily_cost = 1
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = excavation_effort2
+		
+		icon = GFX_goal_generic_construct_civilian
+		
+		available = {
+			num_of_factories > 50
+		}
+		
+		modifier = {
+			local_resources_factor = 0.30
+			#min_export = -.10
+		}
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = excavation_effort3
+		
+		icon = GFX_goal_generic_construct_civilian
+		
+		available = {
+			num_of_factories > 100
+		}
+		
+		modifier = {
+			local_resources_factor = 0.45
+			#min_export = -.15
+		}
+		
+		ai_will_do = {
+			factor = .25
+		}
+		
+		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_repair1
+		
+		icon = GFX_goal_continuous_repairments
+		
+		available = {			
+			num_of_factories > 25
+		}
+				
+		modifier = {
+			industry_repair_factor = 0.5
+			industry_free_repair_factor = 1.0
+		}
+		
+		ai_will_do = {
+			factor = .5
+			modifier = {
+				factor = 0
+				
+				has_damaged_buildings = no
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_repair2
+		
+		icon = GFX_goal_continuous_repairments
+		
+		available = {
+			num_of_factories > 50
+		}
+				
+		modifier = {
+			industry_repair_factor = 1.0
+			industry_free_repair_factor = 2.0
+		}
+		
+		ai_will_do = {
+			factor = .5
+			modifier = {
+				factor = 0
+				
+				has_damaged_buildings = no
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_repair3
+		
+		icon = GFX_goal_continuous_repairments
+		
+		available = {
+			num_of_factories > 25
+		}
+				
+		modifier = {
+			industry_repair_factor = 1.5
+			industry_free_repair_factor = 3.0
+		}
+		
+		ai_will_do = {
+			factor = .25
+			modifier = {
+				factor = 0
+				
+				has_damaged_buildings = no
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_rationing1
+		
+		icon = GFX_focus_rom_parties_end
+		
+		available = {
+			num_of_factories > 25
+		}
+				
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {#avoid over-rationing
+				factor = 0				
+				consumer_goods_factor < 0#AI keeps this focus if 0 is reached, but not below
+				NOT = {has_idea = continuous_rationing2}#in this cases, it is about loosening the rations
+				NOT = {has_idea = continuous_rationing3}
+			}
+			modifier = {#reduce over-rationing
+				factor = 5			
+				consumer_goods_factor < 0
+				has_idea = continuous_rationing2
+			}
+			modifier = {#reduce over-rationing
+				factor = 5			
+				consumer_goods_factor < -0.05#else: rationing 2
+				has_idea = continuous_rationing3
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_rationing2
+		
+		icon = GFX_focus_rom_parties_end
+		
+		available = {
+			num_of_factories > 50
+		}
+				
+		modifier = {
+			consumer_goods_factor = -0.10
+		}
+		
+		ai_will_do = {
+			factor = .5
+			modifier = {#avoid over-rationing
+				factor = 0				
+				consumer_goods_factor < 0#AI keeps this focus if 0 is reached, but not below
+				NOT = {has_idea = continuous_rationing3}#in this case, it is about loosening the rations
+			}
+			modifier = {#reduce over-rationing
+				factor = 5			
+				consumer_goods_factor = -0.05#elsewise rationing 1
+				has_idea = continuous_rationing3
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_rationing3
+		
+		icon = GFX_focus_rom_parties_end
+		
+		available = {
+			num_of_factories > 100
+		}
+				
+		modifier = {
+			consumer_goods_factor = -0.15
+		}
+		
+		ai_will_do = {
+			factor = .25
+			modifier = {
+				factor = 0				
+				has_war = no
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_war_production
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_trade1
+		
+		icon = GFX_goal_generic_positive_trade_relations
+		
+		available = {			
+			num_of_factories > 25
+		}
+				
+		modifier = {
+			trade_opinion_factor = 0.33
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				
+				has_war = yes
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_peacefull
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_trade2
+		
+		icon = GFX_goal_generic_positive_trade_relations
+		
+		available = {			
+			num_of_factories > 50
+		}
+				
+		modifier = {
+			trade_opinion_factor = 0.67
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.5
+				
+				has_war = yes
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_peacefull
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_trade3
+		
+		icon = GFX_goal_generic_positive_trade_relations
+		
+		available = {			
+			num_of_factories > 100
+		}
+				
+		modifier = {
+			trade_opinion_factor = 1
+		}
+		
+		ai_will_do = {
+			factor = .25
+			modifier = {
+				factor = 0.5
+				
+				has_war = yes
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_peacefull
+		
+		daily_cost = 3
+	
+		available_if_capitulated = yes
+	}
+#Recruitment
+	focus = {
+		id = continuous_recruitment1
+		
+		icon = GFX_goal_continuous_reduce_training_time
+		
+		available = {
+			num_of_divisions > 10
+		}
+		
+		modifier = {
+			training_time_army_factor = -0.1
+			minimum_training_level = -0.1
+			conscription_factor = 0.1 # +10%
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		supports_ai_strategy = ai_focus_military_equipment
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_recruitment2
+		
+		icon = GFX_goal_continuous_reduce_training_time
+		
+		available = {
+			num_of_divisions > 20
+		}
+		
+		modifier = {
+			training_time_army_factor = -0.2
+			minimum_training_level = -0.2
+			conscription_factor = 0.2 # +20%
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		supports_ai_strategy = ai_focus_military_equipment
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+
+	focus = {
+		id = continuous_recruitment3
+		
+		icon = GFX_goal_continuous_reduce_training_time
+		
+		available = {
+			num_of_divisions > 35
+		}
+		
+		modifier = {
+			training_time_army_factor = -0.3
+			minimum_training_level = -0.3
+			conscription_factor = 0.3 # +30%
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		supports_ai_strategy = ai_focus_military_equipment
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+###Unity
+	focus = {
+		id = continuous_unity1
+		
+		icon = GFX_goal_continuous_increase_nu
+		
+		available = {
+		}
+		
+		modifier = {
+			unity_weekly = 0.002
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_unity2
+		
+		icon = GFX_goal_continuous_increase_nu
+		
+		available = {
+		}
+		
+		modifier = {
+			unity_weekly = 0.004
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_unity3
+		
+		icon = GFX_goal_continuous_increase_nu
+		
+		available = {
+		}
+		
+		modifier = {
+			unity_weekly = 0.006
+		}
+		
+		ai_will_do = {
+			factor = 0.25
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+##Suppression
+	focus = {
+		id = continuous_suppression1
+		
+		icon = GFX_goal_continuous_suppression
+		
+		available = {
+			num_occupied_states > 1
+		}
+		
+		modifier = {
+			resistance_tick_auto = -2
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				num_occupied_states > 5
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_suppression2
+		
+		icon = GFX_goal_continuous_suppression
+		
+		available = {
+			num_occupied_states > 5
+		}
+		
+		modifier = {
+			resistance_tick_auto = -4
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = .75
+				num_occupied_states > 20
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_suppression3
+		
+		icon = GFX_goal_continuous_suppression
+		
+		available = {
+			num_occupied_states > 10
+		}
+		
+		modifier = {
+			resistance_tick_auto = -6
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = .5
+				num_occupied_states >50
+			}
+		}
+		
+		supports_ai_strategy = ai_focus_aggressive
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+
+	focus = {
+		id = continuous_tech_effort1
+		
+		icon = GFX_focus_research
+		
+		available = {
+			num_of_factories > 25		
+		}
+		
+		modifier = {
+			research_time_factor = -0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tech_effort2
+		
+		icon = GFX_focus_research
+		
+		available = {	
+			num_of_factories > 50		
+		}
+		
+		modifier = {
+			research_time_factor = -0.10
+		}
+
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tech_effort3
+		
+		icon = GFX_focus_research
+		
+		available = {	
+			num_of_factories > 100		
+		}
+		
+		modifier = {
+			research_time_factor = -0.15
+		}
+
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tech_effort4
+		
+		icon = GFX_focus_research
+		
+		available = {	
+			num_of_factories > 200	
+		}
+		
+		modifier = {
+			research_time_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 5
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tech_effort4
+		
+		icon = GFX_focus_research
+		
+		available = {	
+			num_of_factories > 500
+		}
+		
+		modifier = {
+			research_time_factor = -0.3
+		}
+
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 7
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tech_share1
+		
+		icon = GFX_goal_continuous_research
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			
+		}
+
+		enabled = {
+			is_in_faction = yes
+			num_faction_members > 1
+			num_tech_sharing_groups < 1
+
+			custom_trigger_tooltip = {
+				tooltip = NO_OTHER_SHARING_GROUPS
+				OR = {
+					AND = {
+						is_in_tech_sharing_group = continuous_tech_share
+						num_tech_sharing_groups < 2
+					}
+					num_tech_sharing_groups < 1
+				}				
+			}
+		}
+		
+		select_effect = {
+			add_to_tech_sharing_group = continuous_tech_share
+		}
+		
+		cancel_effect = {
+			remove_from_tech_sharing_group = continuous_tech_share	
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_tech_share2
+		
+		icon = GFX_goal_continuous_research
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			
+		}
+
+		enabled = {
+			is_in_faction = yes
+			num_faction_members > 1
+			num_tech_sharing_groups < 1
+
+			custom_trigger_tooltip = {
+				tooltip = NO_OTHER_SHARING_GROUPS
+				OR = {
+					AND = {
+						is_in_tech_sharing_group = continuous_tech_share
+						num_tech_sharing_groups < 2
+					}
+					num_tech_sharing_groups < 1
+				}				
+			}
+		}
+		
+		select_effect = {
+			add_to_tech_sharing_group = continuous_tech_share
+			research_sharing_per_country_bonus_factor = 0.25
+		}
+		
+		cancel_effect = {
+			remove_from_tech_sharing_group = continuous_tech_share	
+			research_sharing_per_country_bonus_factor = -0.25
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_tech_share3
+		
+		icon = GFX_goal_continuous_research
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			
+		}
+
+		enabled = {
+			is_in_faction = yes
+			num_faction_members > 1
+			num_tech_sharing_groups < 1
+
+			custom_trigger_tooltip = {
+				tooltip = NO_OTHER_SHARING_GROUPS
+				OR = {
+					AND = {
+						is_in_tech_sharing_group = continuous_tech_share
+						num_tech_sharing_groups < 2
+					}
+					num_tech_sharing_groups < 1
+				}				
+			}
+		}
+		
+		select_effect = {
+			add_to_tech_sharing_group = continuous_tech_share
+			research_sharing_per_country_bonus_factor = 0.5
+		}
+		
+		cancel_effect = {
+			remove_from_tech_sharing_group = continuous_tech_share	
+			research_sharing_per_country_bonus_factor = -0.5
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_boost_freedom2
+		
+		icon = GFX_goal_continuous_boost_freedom
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			is_subject = yes			
+		}
+		
+		modifier = {
+			autonomy_gain = 1.0
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_peaceful
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_boost_freedom3
+		
+		icon = GFX_goal_continuous_boost_freedom
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			is_subject = yes			
+		}
+		
+		modifier = {
+			autonomy_gain = 1.5
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_peaceful
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = continuous_subjugate1
+		
+		icon = GFX_goal_continuous_restrict_freedom
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			is_subject = no
+			any_country = {is_subject_of =  ROOT}
+		}
+
+		enabled = {
+			num_subjects > 0
+		}
+
+		modifier = {
+			subjects_autonomy_gain = -0.5
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_peaceful
+		
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_subjugate2
+		
+		icon = GFX_goal_continuous_restrict_freedom
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			is_subject = no
+			any_country = {is_subject_of =  ROOT}
+		}
+
+		enabled = {
+			num_subjects > 0
+		}
+
+		modifier = {
+			subjects_autonomy_gain = -1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_peaceful
+		
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = continuous_subjugate3
+		
+		icon = GFX_goal_continuous_restrict_freedom
+		
+		available = {
+			hidden_trigger = { has_dlc = "Together for Victory" }
+			is_subject = no
+			any_country = {is_subject_of =  ROOT}
+		}
+
+		enabled = {
+			num_subjects > 0
+		}
+
+		modifier = {
+			subjects_autonomy_gain = -0.5
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		supports_ai_strategy = ai_focus_peaceful
+		
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+###Population Growth
+	focus = {
+		id = population_growth1
+		
+		icon = GFX_goal_generic_wolf_pack
+		
+		available = {
+		}
+		
+		modifier = {
+			MONTHLY_POPULATION = 0.5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		daily_cost = 1
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = population_growth2
+		
+		icon = GFX_goal_generic_wolf_pack
+		
+		available = {
+			num_of_factories > 25
+		}
+		modifier = {
+			MONTHLY_POPULATION = 1
+		}
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+#	focus = {
+#		id = population_growth3
+#		
+#		icon = GFX_goal_generic_wolf_pack
+#		
+#		available = {
+#			num_of_factories > 50
+#		}
+#		
+#		}
+#		modifier = {
+#			MONTHLY_POPULATION = 1.5 #not accepted by HOI
+#		}
+#		
+#		ai_will_do = {
+#			factor = .25
+#		}
+#		
+#		daily_cost = 3
+#		
+#		available_if_capitulated = yes
+#	}
+
+	focus = {
+		id = army_modernisation1
+		
+		icon = GFX_goal_generic_army_doctrines
+		
+		modifier = {
+			experience_gain_army = 0.10
+			leader_experience_scale = 0.1#unfortunatly, it's not only for land officers
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		daily_cost = 1
+
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = army_modernisation2
+		
+		icon = GFX_goal_generic_army_doctrines
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_army = 0.20
+			leader_experience_scale = 0.2#unfortunatly, it's not only for land officers
+		}
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		available_if_capitulated = yes
+	}
+		
+	focus = {
+		id = army_modernisation3
+		
+		icon = GFX_goal_generic_army_doctrines
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_army = 0.30
+			leader_experience_scale = 0.3#unfortunatly, it's not only for land officers
+		}
+		
+		ai_will_do = {
+			factor = .25
+		}
+		
+		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_military_advancements
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = airforce_modernisation1
+		
+		icon = GFX_goal_generic_air_doctrine
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_air = 0.10
+			FIELD_EXPERIENCE_SCALE = 0.003#to be tested
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		daily_cost = 1
+
+		supports_ai_strategy = ai_focus_aviation
+		supports_ai_strategy = ai_focus_naval_air
+		
+		available_if_capitulated = yes
+	}
+	
+
+	focus = {
+		id = airforce_modernisation2
+		
+		icon = GFX_goal_generic_air_doctrine
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_air = 0.20
+			FIELD_EXPERIENCE_SCALE = 0.006
+		}
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_aviation
+		supports_ai_strategy = ai_focus_naval_air
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = airforce_modernisation3
+		
+		icon = GFX_goal_generic_air_doctrine
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_air = 0.30
+			FIELD_EXPERIENCE_SCALE = 0.01
+		}
+		
+		ai_will_do = {
+			factor = .25
+		}
+		
+		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_aviation
+		supports_ai_strategy = ai_focus_naval_air
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = navy_modernisation1
+		
+		icon = GFX_goal_generic_navy_doctrines_tactics
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_navy = 0.10
+			leader_experience_scale = 0.1#unfortunatly, it's not only for naval officers
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		supports_ai_strategy = ai_focus_naval
+
+		daily_cost = 1
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = navy_modernisation2
+		
+		icon = GFX_goal_generic_navy_doctrines_tactics
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_navy = 0.20
+			leader_experience_scale = 0.2#unfortunatly, it's not only for naval officers
+
+		}
+		
+		ai_will_do = {
+			factor = .5
+		}
+		
+		supports_ai_strategy = ai_focus_naval
+
+		daily_cost = 2
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = navy_modernisation3
+		
+		icon = GFX_goal_generic_navy_doctrines_tactics
+
+		available = {
+		}
+		
+		modifier = {
+			experience_gain_navy = 0.30
+			leader_experience_scale = 0.3#unfortunatly, it's not only for naval officers
+		}
+		
+		ai_will_do = {
+			factor = .25
+		}
+		
+		supports_ai_strategy = ai_focus_naval
+		daily_cost = 3
+		
+		available_if_capitulated = yes
+	}
+	#########
+	#########
+	#########
+}

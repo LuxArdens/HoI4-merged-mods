@@ -1,0 +1,112 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	etgi_ideas_war_mentality = { 
+	
+		law = yes
+		
+		#Lessons of History - for ai mid game, and start
+		etgi_laws_war_mentality_d = {
+			
+			modifier = {
+				#attrition = -0.05
+				
+				experience_gain_army_factor = -0.75
+				experience_gain_army = 0.4
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+			
+   				factor = 0
+				
+   			}
+			
+		}
+		
+		#Ideological Struggle - extreme version of previous
+		etgi_laws_war_mentality_1 = {
+			
+			modifier = {
+				justify_war_goal_time = -0.50
+				opinion_gain_monthly_same_ideology_factor = 0.25
+				enemy_justify_war_goal_time = -0.90
+				
+				
+				experience_gain_army_factor = -0.9
+				experience_gain_army = 1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0
+
+   				modifier = {
+					has_government = fascism
+					factor = 0
+				}
+				
+   				modifier = {
+					has_government = communism
+					factor = 0
+				}
+				
+   			}
+		}
+		
+		#Brinksmanship - mid-game effective divisions
+		etgi_laws_war_mentality_2 = {
+			
+			modifier = {
+			
+				#generate_wargoal_tension = -0.50
+				#opinion_gain_monthly_factor = -0.75
+				
+				experience_gain_army_factor = 5
+				experience_gain_army = -0.1
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			
+   				factor = 0
+				
+   			}
+		}
+		
+		#Diplomatic Efforts - compensate for late game atrociously effective regiments
+		etgi_laws_war_mentality_3 = {
+			
+			modifier = {
+				
+				#lend_lease_tension = -0.50
+				#opinion_gain_monthly_factor = 0.50
+				#generate_wargoal_tension = 0.90
+				
+				experience_gain_army_factor = 5
+				experience_gain_army = -0.1
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			
+   				factor = 0
+				
+   				modifier = {
+					has_government = democratic
+					factor = 0
+				}
+				
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

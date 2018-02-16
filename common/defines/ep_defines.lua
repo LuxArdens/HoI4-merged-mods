@@ -1,0 +1,2 @@
+NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 50
+NDefines.NProduction.MAX_NAV_FACTORIES_PER_LINE = 20

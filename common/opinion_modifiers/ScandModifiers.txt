@@ -1,0 +1,38 @@
+#########################################################################
+# Scandinavian Modifiers
+#########################################################################
+
+opinion_modifiers = {
+	
+	#Strengthen scandinavian relations
+	scandinavian_relations = {value = 20}
+	
+	#Invite Scandinavian nation to the alliance
+	scand_treaty = {value = 50}
+	
+	NOR_condemn_aggression_against = {
+		value = -50
+	}
+	
+	NOR_condemn_aggression = {
+		value = -30
+		months = 24
+	}
+	
+	scand_massacre = {
+		value = -30
+		months = 24
+	}
+	
+	scand_massacre_us = {
+		value = -100
+	}
+	
+	scand_diplomatic_tension = {
+		value = -30
+	}
+	
+	scand_diplomatic_agreement = {
+		value = 30
+	}
+}

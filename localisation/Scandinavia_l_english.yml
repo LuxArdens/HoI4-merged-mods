@@ -1,0 +1,1840 @@
+﻿l_english:
+    ###Other###
+    
+    scandic_alliance:0 "Scandinavian Alliance"
+    
+    scand-baltic_alliance:0 "Scand-Baltic Alliance"
+    
+    Scand_invite_to_faction_tooltip:0 "is invited to [Root.GetFlag]§Y[Root.GetName]§!'s faction.\n"
+    
+    STATE_743:0 "Jämtland"
+    
+    scand_naval_coop:0 "Shared research between Denmark and Norway."
+    
+    scand_puppet_invite:0 "Invite all scandinavian nations to become our integrated puppets."
+    
+    secure_baltic:0 "is invited to become [Root.GetFlag]§Y[Root.GetName]§!'s puppet.\n"
+    
+    claim_jamtland:0 "Demand the return of Jamtland to [Root.GetFlag]§Y[Root.GetName]."
+    
+    german_engineers:0 "German Engineers"
+    
+    ask_uk_for_help:0 "Build 0, 1, 3, or 5 new naval yards, dependant on their answer."
+    
+    scand_focus_reward:0 "Focus reward"
+    
+    scand_research_project_mod:0 "United Scandinavian Research Project"
+    
+    usr_tooltip:0 "\nEach scandonavian natoion gets these bonuses."
+    
+    scand_lendlease:0 "Lendlease Agreement."
+    
+    claim_norway:0 "is demanded to become [Root.GetFlag]§Y[Root.GetName]§!'s puppet.\n"
+    
+    baltic_reconquest_tool:0 "gets demands for annexation from [Root.GetFlag]§Y[Root.GetName].\n"
+    
+    claim_skane:0 "Demand the return of Skåne and Gotland to [Root.GetFlag]§Y[Root.GetName]."
+    
+    stock_massacre: "A lot of nations will not condone these actions."
+    
+    NOR_GATHERING_STORM_DESC:0 "PLACEHOLDER"
+    
+    SWE_GATHERING_STORM_DESC:0 "PLACEHOLDER"
+    
+    DEN_GATHERING_STORM_DESC:0 "PLACEHOLDER"
+    
+    support_tool:0 "Recives 50000 volunteers for the army."
+    
+    SCA_UNION_fascism:0 "Scandinavia"
+    SCA_UNION_fascism_DEF:0 "Scandinavia"
+    SCA_UNION_democratic:0 "Scandinavian Union"
+    SCA_UNION_democratic_DEF:0 "The Scandinavian Union"
+    SCA_UNION_neutrality:0 "Scandinavian Union"
+    SCA_UNION_neutrality_DEF:0 "The Scandinavian Union"
+    SCA_UNION_communism:0 "Soviet States of Scandinavia"
+    SCA_UNION_communism_DEF:0 "The SSS"
+    SCA_UNION_fascism_ADJ:0 "Scandinavian"
+    SCA_UNION_democratic_ADJ:0 "Scandinavian"
+    SCA_UNION_neutrality_ADJ:0 "Scandinavian"
+    SCA_UNION_communism_ADJ:0 "Scandinavian"
+    
+    scan_union_tool:0 "Form the Scandinavian Union.\n\nAdd cores on the capital of all conquered Scandinavian capitals.\n\n"
+    
+    join_alliances_tool:0 "Unite all nations in the Scandinavian Union and Miedzymorze under the a new faction called "The Scand-Baltic Alliance"."
+    
+    schleswig_tool_1:0 "Accept their demand, and transfer Schleswig-Holstein to [From.GetName]"
+    
+    schleswig_tool_2:0 "refuse their demand. [From.GetName] get a conquest wargoal on Schleswig-Holstein."
+    
+    ###Focus###
+    
+    NOR_find_new_allies:0 "Stengthen Our Own Position"
+    NOR_find_new_allies_desc:0 "There is troubled times ahed of us, and [Root.GetName] alone can not hold back the storm that might come. We must therefore strengthen our bonds with our closest neighbors."
+    
+    NOR_scandinavian_relations:0 "Improve Scandinavian Relations"
+    NOR_scandinavian_relations_desc:0 "A strong relationship with our Scandinavian brothers and sisters will definitely be beneficial in the coming days, as a united Scandinavia might be the only thing that can ensure our safety."
+    
+    NOR_create_faction:0 "Create the Scandinavian Alliance"
+    NOR_create_faction_desc:0 "The tension of Europe is rising at an alarming rate, and it is now nessesary for the Scandinavian nations to unite, if any of us is to be safe from foreign invation. We will therefore form the "Scandinavian Alliance", in hopes that our neighbors will see reason and join us in protecting our homelands."
+    
+    NOR_invite_sweden:0 "Invite Sweden to the Alliance"
+    NOR_invite_sweden_desc:0 "Geting Sweden to join the Scandinavian Alliance would secure a strong presence in the Baltic Sea, as well Scandinavias Largest producer of raw materials. This could be invaluable for the alliance in the days to come. Though Sweden has shown that they wish to stay neutral in the afairs of Europe, We belive that with good enough relations, and enough tension, Sweden would possibly be willing to join."
+    
+    NOR_invite_denmark:0 "Invite Denmark to the Alliance"
+    NOR_invite_denmark_desc:0 "Our Danish brethren is in a tough spot, being such a small nation right at the northen border of Germany. We should therefor work to get them into the Scandinavian Alliance as fast as possible, as their control of the Danish Belt would be essential in protecting the Baltics from foreign naval invation."
+    
+    NOR_invite_finland:0 "Invite Finland to the Alliance"
+    NOR_invite_finland_desc:0 "Although Finland has stated their neutrality, they are by no doubt threatend by the red bear to the east. Inviting them to the Scandinavian Alliance should be possible with good relations, and diplomacy."
+    
+    NOR_swedish_steel:0 "Trade Deal With Sweden"
+    NOR_swedish_steel_desc:0 "We have aluminium, they have steel. With some good trade deals, and some exchange of workers, knowledge and skills, we should be able to find a deal that could benefit both nations, without affecting the other nation's resource producion in any meaningfull way."
+    
+    NOR_danish_research:0 "The CNDE Program"
+    NOR_danish_research_desc:0 "Both Norway and Denmark have a rather good grasp of naval technology, and together, we could be able to accomplish great things. We should therefor invest in a "Combined Naval Development Effort" (CNDE)."
+    
+    NOR_finish_project:0 "Combined Infrastructure Development Project"
+    NOR_finish_project_desc:0 "Both our own and Finland's northen infrastructure is highly underdeveloped, and our nations lack any good way to transport people or goods between us over land. We should therefor try to work together on the construction of a railway leading from Oslo to Helsinki, as well as improving the general infrastructure in the north."
+    
+    NOR_usr_project:0 "The USR Project"
+    NOR_usr_project_desc:0 "The conflicts in Europe is growing ever fiercer, and the technological development of the waring nations is growing at an alarming rate. We should therefore make sure that the members of the Scandinavian Alliance work together, and form the "United Scandinavian Research" program, to make sure that we do not fall behind."
+    
+    NOR_unite_scandinavia:0 "Unite Scandinavia"
+    NOR_unite_scandinavia_desc:0 "These are desperate times, and the war is taking its toll on the entire alliance. If we are to win this war, all the Scandinavian nations must truly stand united, and merge both our military and economic strength."
+    
+    NOR_increase_militarisation:0 "Militarism"
+    NOR_increase_militarisation_desc:0 "Those who view the military as a necessary evil are doomed to hesitate in the face of war. We will ingrain militarism into our culture to become a people of soldiers."
+    
+    NOR_secure_baltic_sea:0 "Secure the Baltic Sea"
+    NOR_secure_baltic_sea_desc:0 "Our presence in the baltic sea is of high importance, as both friends and enemies have a strong presence there. Securing the allegiance of the three minor baltic nations would therefor cement our pressent in the region, as well as deny any other threats from sieging the area."
+    
+    NOR_demand_jamtland:0 "Demnad Jamtland form Sweden"
+    NOR_demand_jamtland_desc:0 "Sweden stole Jamtland from us in the Treaty of Brömsebro in 1645, and although some might say that our claims to the area should be forfeited after such a long time, we beg the differ. Jamtland belongs to Norway, and we should demand its return."
+    
+    NOR_GER_relations:0 "Strengthen Relations with Germany"
+    NOR_GER_relations_desc:0 "It's no secret that Germany is once again becoming a major force in Europe, and getting on their good side should be a top priority."
+    
+    NOR_invite_germans:0 "Invite German Engineers"
+    NOR_invite_germans_desc:0 "In our attempts at increasing our relations with Germany, and opportunity has presented itself for us to recive a froup of highly skilled German engineers. This could be a great boon for our own military technology development."
+    
+    NOR_fas_influence:0 "Influence Our Neighbors"
+    NOR_fas_influence_desc:0 "Now that our nation has finaly embraced fascism, it has become our duty to support the movement of other fascists from our Scandinavian neighbors. We should help our fellow fascists out as much as we can."
+    
+    NOR_GER_mil_sup:0 "German Military Support"
+    NOR_GER_mil_sup_desc:0 "Now that we are allied with the Germans, we are able to recive even more military support to future help the development of our own forces."
+    
+    NOR_mil_youth:0 "Military Youth"
+    NOR_mil_youth_desc:0 "Organizations to promote discipline and political education of young people in our nation will foster loyalty and self-sacrifice early."
+    
+    NOR_SOV_relations:0 "Strengthen Relations With the Soviets"
+    NOR_SOV_relations_desc:0 "The Soviets has become a true great power, and being on their good side would certainly be a good idea."
+    
+    NOR_invite_soviet:0 "Increase Diplomacy With the Soviets"
+    NOR_invite_soviet_desc:0 "As our diplomatic relations with the Soviets increases, it bocomes more and more clear that communism could be the way forward, and the USSR have shown great willingness to support a possible govermental change."
+    
+    NOR_com_influence:0 "Influence Our Neighbors"
+    NOR_com_influence_desc:0 "Now that our nation has finaly embraced communism, it has become our duty to support the movement of other communists from our Scandinavian neighbors. We should help our fellow communists out as much as we can."
+    
+    NOR_true_patriotism:0 "True Patriotism"
+    NOR_true_patriotism_desc:0 "The people allready love our glorious comunist state, but we have yet to reach the level of true patriotism that our nation deserve."
+    
+    NOR_sov_voluntairs:0 "Soviet Volunteers"
+    NOR_sov_voluntairs_desc:0 "Our national manpower is just a drop in the ocean compared to the numbers of the great powers, but the USSR has no such problems. We should try to ask for some Soviet volunteers."
+    
+    NOR_reform_union:0 "Create the\n"second Kalmar Union""
+    NOR_reform_union_desc:0 "Both Norway and Denmark are at great risk in these times of tension, and so we should consider reforming our old union, to secure our mutual safety, but this time, with us on top."
+    
+    NOR_SWE_union:0 "Invite Sweden to the Kalmar Union"
+    NOR_SWE_union_desc:0 "To fully restore the Karmar Union, Sweden would have to join. The time has come to make that a reality, even if they might disagree."
+    
+    NOR_FIN_union:0 "Demand Uusimaa"
+    NOR_FIN_union_desc:0 "With the union geting close to its former glory, the only thing missing is our old territories is Finland... They might not want to give it back, though."
+    
+    NOR_ENG_relations:0 "Strengthen Relations With the UK"
+    NOR_ENG_relations_desc:0 "We need strong allies in these troubled times, and the UK is a great and obvious choice."
+    
+    NOR_help_allies:0 "Help Our Allies"
+    NOR_help_allies_desc:0 "To join a war of giants would be a terrible idea for a small nation such as ours. We should therefore focus on sending expeditionary forces, rather than fight on our own territories."
+    
+    NOR_stop_the_flames:0 "Stop the Flames!"
+    NOR_stop_the_flames_desc:0 "With the world in flames, Norway must do its part in protecting it. We will send as much support to our allies as we can!"
+    
+    NOR_uk_sends_engineers:0 "Request UK Engineers"
+    NOR_uk_sends_engineers_desc:0 "The UK has the worlds largest navy, and working towards getting more of their engineers to help with our own naval development would benefit us greatly."
+    
+    NOR_ask_uk_for_help_1:0 "Request Help With Shipyard Construction"
+    NOR_ask_uk_for_help_1_desc: "If we are to become a true naval power, we need to construct more shipyards. And who could be better to ask for help than the English?"
+
+    NOR_ask_uk_for_help_2:0 "Request Skilled Shipyard Workers"
+    NOR_ask_uk_for_help_2_desc:0 "We have the technology, and the shipyards. Now we only need the skilled men to do the working. Geting some skilled workers from the UK would be a great boon..."
+    
+    NOR_scand_turmoil:0 "Scandinavian Turmoil"
+    NOR_scand_turmoil_desc:0 "The rise of multiple ideologies in Scandinavia is putting tensions on our borders, and we should start investing in stronger defences along them."
+    
+    NOR_DEN_disarm:0 "Demand Danish Demilitarization"
+    NOR_DEN_disarm_desc:0 "After the recent change of goverment, Denmark have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    NOR_SWE_disarm:0 "Demand Swedish Demilitarization"
+    NOR_SWE_disarm_desc:0 "After the recent change of goverment, Sweden have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    NOR_FIN_disarm:0 "Demand Finish Demilitarization"
+    NOR_FIN_disarm_desc:0 "After the recent change of goverment, Finland have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    NOR_neutrality_focus:0 "Neutrality Focus"
+    NOR_neutrality_focus_desc:0 "With thensions rising in our giant neighbors to the south and east, we must focus on staying neutral to ensure the safety of our nation."
+    
+    NOR_preach_neutrality:0 "Preach Neutrality"
+    NOR_preach_neutrality_desc:0 "We should focus on increasing neutrality in Scandinavia to ensure the least amount of tension."
+    
+    NOR_strengthen_ifrastructure:0 "Strengthen Our Infrastructure"
+    NOR_strengthen_ifrastructure_desc:0 "If our nation is to modernize, we must fist improve our infrastructure."
+    
+    NOR_construction_effort:0 "Construction Effort"
+    NOR_construction_effort_desc:0 "focusing on building more civilian factories would benefit the nations growth greatly in the future."
+    
+    NOR_construction_focus:0 "Construction Focus"
+    NOR_construction_focus_desc:0 "We must focus the majority of our workforce into national growth and construction. This will lead to a stronger economy and a faster modernization."
+    
+    NOR_improve_north_infrastructure:0 "Improve Northen Infrastructure"
+    NOR_improve_north_infrastructure_desc:0 "Although the infrastructure in and around our most populous areas is quite good, the infrastructure leading north is lacking at its best. We need to focus on improving it."
+    
+    NOR_modern_industry:0 "Modernize Our Industry"
+    NOR_modern_industry_desc:0 "Although our industry is quickly growing, it is still lacking in terms of its technological levels. We must change this, and start focusing on its modernization."
+    
+    NOR_shared_research:0 "Shared Research effort"
+    NOR_shared_research_desc:0 "We should focus on trying to establish a close technological relationship with our allies, to increase our own technological development."
+    
+    NOR_armament_effort:0 "Armament Effort"
+    NOR_armament_effort_desc:0 "Our military production is sorely lacking, so we should invest in the construction of more military factories."
+    
+    NOR_armament_focus:0 "Armament Focus"
+    NOR_armament_focus_desc:0 "Although our military production is increasing, it is far from enough to suply our growing needs. We must therefore focus even harder on the construction of even more military facrories."
+    
+    NOR_research_slot:0 "Research Slot"
+    NOR_research_slot_desc:0 "Our industrial expansion and other advances might allow us to conduct more R&D in parallel."
+    
+    NOR_synthetics_project:0 "Synthetic Oil Focus"
+    NOR_synthetics_project_desc:0 "Although steel, tungsten and aluminium is easy to come by in Scandinavia, oil and rubber is sorely lacking. We should invest in the research and development of synthetic refineries to at least remove some of our reliance on the import of these resources."
+    
+    NOR_modern_engineering:0 "Modern Engineering"
+    NOR_modern_engineering_desc:0 "With our industry on the rise, we can start working on modernizing the rest of our nation."
+    
+    NOR_secret_research_program:0 "Secret Research Program"
+    NOR_secret_research_program_desc:0 "With the current state of Europe, the research on new weapons and technology becomes ever more important. We should invest in starting a secret research program to experiment with new concets and ideas."
+    
+    NOR_nuclear_effort:0 "Nuclear Effort"
+    NOR_nuclear_effort_desc:0 "Standing on the edge of a world-changing discovery, we cannot let others light the fire that may one day consume the earth."
+    
+    NOR_army_effort:0 "Army Effort"
+    NOR_army_effort_desc:0 "We should focus on improving our army, as it will surely come in handy in these tense times."
+    
+    NOR_modernize_army:0 "Modernize the Army"
+    NOR_modernize_army_desc:0 "We should focus on modernising and reforming our army, as it is quite outdated compared to todays standards."
+    
+    NOR_tank_focus:0 "Tanks Focus"
+    NOR_tank_focus_desc:0 "Tanks is the way of the future. We should focus all our effort on the perfection of their production and use."
+    
+    NOR_support_focus:0 "Artillery Focus"
+    NOR_support_focus_desc:0 "Artillery is cheap and effective. It's the perfect weapons for a nation such as ours."
+    
+    NOR_quality_tanks:0 "Quality Tanks"
+    NOR_quality_tanks_desc:0 "We do not have the masive factories that our giant neighbors have, so we should focus on making tanks of the highest quality, and not focus on quantity"
+    
+    NOR_mechanized_effort:0 "Mechanized Effort"
+    NOR_mechanized_effort_desc:0 "We need infantry to support our armor in the fields, and motorized infantry is a too easy of an target. We need to mechanize them."
+    
+    NOR_tank_inovation:0 "Inovative Tanks"
+    NOR_tank_inovation_desc:0 "Our tanks should be the best of the best. We should invest more into creating even better and more inovative tanks."
+    
+    NOR_strong_artillery:0 "Strong Artillery"
+    NOR_strong_artillery_desc:0 "Our Artillery Should be effective, powerful and plentiful."
+    
+    NOR_artillery_inovation:0 "Inovative Artillery"
+    NOR_artillery_inovation_desc:0 "Our artillery should be the best of the best. We should invest more into creating even better and more inovative Artillery."
+    
+    NOR_great_art_sup:0 "Great Artillery Support"
+    NOR_great_art_sup_desc:0 "Our army's ability to use artillery to support our ground forces has no match, and our men's lives are safer and easier for it."
+    
+    NOR_military_research:0 "Military Research"
+    NOR_military_research_desc:0 "We should focus more on developing more and better equipment and tactics for our army."
+    
+    NOR_army_inovations:0 "Military Inovation"
+    NOR_army_inovations_desc:0 "Our military should be the best of the best. We should invest more into creating even better and more inovative military."
+    
+    NOR_aviation_effort:0 "Aviation Effort"
+    NOR_aviation_effort_desc:0 "Aviation is sure to play a large role in future wars. We should increase our efforts in aviation technology and tactics."
+    
+    NOR_air_focus:0 "Air Focus"
+    NOR_air_focus_desc:0 "We do not have endless resources and manpower in our nation, so we should put a main focus on either the sea or the sky. Lest choose the sky."
+    
+    NOR_light_focus:0 "Light Plane Focus"
+    NOR_light_focus_desc:0 "We should focus on making light, cheap planes."
+    
+    NOR_heavy_focus:0 "Heavy Plane Focus"
+    NOR_heavy_focus_desc:0 "We should focus on making strong, longrange planes"
+    
+    NOR_aviation_effort_2:0 "Aviation Effort II"
+    NOR_aviation_effort_2_desc:0 "Contineus development of our aviation technology and tactics is not just usefull, its a necessity."
+    
+    NOR_light_focus_2:0 "Light Plane Focus II"
+    NOR_light_focus_2_desc:0 "Our light planes are some of the best in the world, but they could be better."
+    
+    NOR_heavy_focus_2:0 "Heavy Plane Focus II"
+    NOR_heavy_focus_2_desc:0 "Our heavy planes are some of the best in the world, but they could be better."
+    
+    NOR_rocket_science:0 "Rocket Science"
+    NOR_rocket_science_desc:0 "Rocketry has great potential, and we should do our best to research its possiblities."
+    
+    NOR_naval_effort:0 "Naval Effort"
+    NOR_naval_effort_desc:0 "Norway has a huge coast, and we need to defend it."
+    
+    NOR_naval_focus:0 "Naval Focus"
+    NOR_naval_focus_desc:0 "Our navy is vital to our national defences, and is much more important than planes."
+    
+    NOR_naval_doctrine_project:0 "Naval Doctrine Project"
+    NOR_naval_doctrine_project_desc:0 "Modern naval combat has changed a lot in the last 30 years. We should start a project to better try out new tactics and strategies."
+    
+    NOR_capital_ship_focus:0 "Capital Ship Focus"
+    NOR_capital_ship_focus_desc:0 "A few large ships will be more effective in combating our enemies than many few."
+    
+    NOR_escort_focus:0 "Escort Focus"
+    NOR_escort_focus_desc:0 "Our trade fleet is essential for our survival, so our naval focus should be to protect it at all cost."
+    
+    NOR_hunting_focus:0 "Hunting Focus"
+    NOR_hunting_focus_desc:0 "We should focus on taking out enemy cargo ships and easy targets, rather than taking their fleets head-on."
+    
+    NOR_rules_sea:0 "Norway Rules the Sea"
+    NOR_rules_sea_desc:0 "Our capital ships should be the best of the best, as we must rely on quality over quantity."
+    
+    NOR_protect_fleets:0 "Protect Our Fleets"
+    NOR_protect_fleets_desc:0 "Our ships should be designed to be the best at finding and eliminating enemy submarines and small raiding fleets."
+    
+    NOR_sea_wolves:0 "Wolves of the Sea"
+    NOR_sea_wolves_desc:0 "With the right training, comunication networks and equipment, our submarines can be even more effective at taking out enemy ships."
+    
+    NOR_new_capital_ships:0 "New Capital Ships"
+    NOR_new_capital_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    NOR_new_escort_ships:0 "New Escort Ships"
+    NOR_new_escort_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    NOR_new_submarines:0 "New Submarines"
+    NOR_new_submarines_desc:0 "Our navy needs newer and even more powerfull submarines."
+    
+    SWE_find_new_allies:0 "Stengthen Our Own Position"
+    SWE_find_new_allies_desc:0 "There is troubled times ahed of us, and Norway alone can not hold back the storm that might come. We must therefore strengthen our bonds with our closest neighbors."
+    
+    SWE_scandinavian_relations:0 "Improve Scandinavian Relations"
+    SWE_scandinavian_relations_desc:0 "A strong relationship with our Scandinavian brothers and sisters will definitely be beneficial in the coming days, as a united Scandinavia might be the only thing that can ensure our safety."
+    
+    SWE_create_faction:0 "Create the Scandinavian Alliance"
+    SWE_create_faction_desc:0 "The tension of Europe is rising at an alarming rate, and it is now nessesary for the Scandinavian nations to unite, if any of us is to be safe from foreign invation. We will therefore form the "Scandinavian Alliance", in hopes that our neighbors will see reason and join us in protecting our homelands."
+    
+    SWE_invite_norway:0 "Invite Norway to the Alliance"
+    SWE_invite_norway_desc:0 "Geting Norway to join the Scandinavian Alliance would secure a strong presence in the North Sea. This could be invaluable for the alliance in the days to come."
+    
+    SWE_invite_denmark:0 "Invite Denmark to the Alliance"
+    SWE_invite_denmark_desc:0 "Our Danish brethren is in a tough spot, being such a small nation right at the northen border of Germany. We should therefor work to get them into the Scandinavian Alliance as fast as possible, as their control of the Danish Belt would be essential in protecting the Baltics from foreign naval invation."
+    
+    SWE_invite_finland:0 "Invite Finland to the Alliance"
+    SWE_invite_finland_desc:0 "Although Finland has stated their neutrality, they are by no doubt threatend by the red bear to the east. Inviting them to the Scandinavian Alliance should be possible with good relations, and diplomacy."
+    
+    SWE_norwegian_aluminium:0 "Trade Deal With Norway"
+    SWE_norwegian_aluminium:0 "We have steel, they have aluminium. With some good trade deals, and some exchange of workers, knowledge and skills, we should be able to find a deal that could benefit both nations, without affecting the other nation's resource producion in any meaningfull way."
+    
+    SWE_danish_research:0 "The CNDE Program"
+    SWE_danish_research_desc:0 "Both Norway and Denmark have a rather good grasp of naval technology, and together, we could be able to accomplish great things. We should therefor invest in a "Combined Naval Development Effort" (CNDE)."
+    
+    SWE_finish_project:0 "Combined Infrastructure Development Project"
+    SWE_finish_project_desc:0 "Both our own and Finland's northen infrastructure is highly underdeveloped, and our nations lack any good way to transport people or goods between us over land. We should therefor try to work together on the construction of a railway leading from Stockholm to Helsinki, as well as improving the general infrastructure in the north."
+    
+    SWE_usr_project:0 "The USR Project"
+    SWE_usr_project_desc:0 "The conflicts in Europe is growing ever fiercer, and the technological development of the waring nations is growing at an alarming rate. We should therefore make sure that the members of the Scandinavian Alliance work together, and form the "United Scandinavian Research" program, to make sure that we do not fall behind."
+    
+    SWE_unite_scandinavia:0 "Unite Scandinavia"
+    SWE_unite_scandinavia_desc:0 "These are desperate times, and the war is taking its toll on the entire alliance. If we are to win this war, all the Scandinavian nations must truly stand united, and merge both our military and economic strength."
+    
+    SWE_increase_militarisation:0 "Militarism"
+    SWE_increase_militarisation_desc:0 "Those who view the military as a necessary evil are doomed to hesitate in the face of war. We will ingrain militarism into our culture to become a people of soldiers."
+    
+    SWE_secure_danish_belt:0 "Secure the Danish Belt"
+    SWE_secure_danish_belt_desc:0 "Our domination in the baltic sea is of high importance, and securing the belt would allow us to controll the movement of ships in and out of the area. Securing the allegiance of Denmark would therefor cement our pressent in the region, as well as deny any external threats from entering the area."
+    
+    SWE_demand_NOR_subject:0 "Demnad Norwegian Subjugation"
+    SWE_demand_NOR_subject_desc:0 "Norway had no right to leave our union in 1905, and we shall demand their subjugation once more!"
+    
+    SWE_GER_relations:0 "Strengthen Relations with Germany"
+    SWE_GER_relations_desc:0 "It's no secret that Germany is once again becoming a major force in Europe, and getting on their good side should be a top priority."
+    
+    SWE_invite_germans:0 "Invite German Engineers"
+    SWE_invite_germans_desc:0 "In our attempts at increasing our relations with Germany, and opportunity has presented itself for us to recive a froup of highly skilled German engineers. This could be a great boon for our own military technology development."
+    
+    SWE_fas_influence:0 "Influence Our Neighbors"
+    SWE_fas_influence_desc:0 "Now that our nation has finaly embraced fascism, it has become our duty to support the movement of other fascists from our Scandinavian neighbors. We should help our fellow fascists out as much as we can."
+    
+    SWE_GER_mil_sup:0 "German Military Support"
+    SWE_GER_mil_sup_desc:0 "Now that we are allied with the Germans, we are able to recive even more military support to future help the development of our own forces."
+    
+    SWE_mil_youth:0 "Military Youth"
+    SWE_mil_youth_desc:0 "Organizations to promote discipline and political education of young people in our nation will foster loyalty and self-sacrifice early."
+    
+    SWE_SOV_relations:0 "Strengthen Relations With the Soviets"
+    SWE_SOV_relations_desc:0 "The Soviets has become a true great power, and being on their good side would certainly be a good idea."
+    
+    SWE_invite_soviet:0 "Increase Diplomacy With the Soviets"
+    SWE_invite_soviet_desc:0 "As our diplomatic relations with the Soviets increases, it bocomes more and more clear that communism could be the way forward, and the USSR have shown great willingness to support a possible govermental change."
+    
+    SWE_com_influence:0 "Influence Our Neighbors"
+    SWE_com_influence_desc:0 "Now that our nation has finaly embraced communism, it has become our duty to support the movement of other communists from our Scandinavian neighbors. We should help our fellow communists out as much as we can."
+    
+    SWE_true_patriotism:0 "True Patriotism"
+    SWE_true_patriotism_desc:0 "The people allready love our glorious comunist state, but we have yet to reach the level of true patriotism that our nation deserve."
+    
+    SWE_sov_voluntairs:0 "Soviet Volunteers"
+    SWE_sov_voluntairs_desc:0 "Our national manpower is just a drop in the ocean compared to the numbers of the great powers, but the USSR has no such problems. We should try to ask for some Soviet volunteers."
+    
+    SWE_restore_empire:0 "Restore Our Empire"
+    SWE_restore_empire_desc:0 "We long for the glory days of the Swedish Empire, and we shall strive to restore it, starting with Finland!"
+    
+    SWE_baltic_reconquest:0 "Reconquest of the Baltic nations"
+    SWE_baltic_reconquest_desc:0 "Now that Finland is once again under our rule, restoring our Baltic holdings should be next on the list. We will send then a ultimatum: annexation, or death."
+    
+    SWE_demand_pommern:0 "Demand Pommern"
+    SWE_demand_pommern_desc:0 "To fully restore our empire, We need to secure our german holding of Pommern."
+    
+    SWE_ENG_relations:0 "Strengthen Relations With the UK"
+    SWE_ENG_relations_desc:0 "We need strong allies in these troubled times, and the UK is a great and obvious choice."
+    
+    SWE_help_allies:0 "Help Our Allies"
+    SWE_help_allies_desc:0 "To join a war of giants would be a terrible idea for a small nation such as ours. We should therefore focus on sending expeditionary forces, rather than fight on our own territories."
+    
+    SWE_stop_the_flames:0 "Stop the Flames!"
+    SWE_stop_the_flames_desc:0 "With the world in flames, Norway must do its part in protecting it. We will send as much support to our allies as we can!"
+    
+    SWE_uk_sends_engineers:0 "Request UK Engineers"
+    SWE_uk_sends_engineers_desc:0 "The UK has the worlds largest navy, and working towards getting more of their engineers to help with our own naval development would benefit us greatly."
+    
+    SWE_ask_uk_for_help_1:0 "Request Help With Shipyard Construction"
+    SWE_ask_uk_for_help_1_desc: "If we are to become a true naval power, we need to construct more shipyards. And who could be better to ask for help than the English?"
+
+    SWE_ask_uk_for_help_2:0 "Request Skilled Shipyard Workers"
+    SWE_ask_uk_for_help_2_desc:0 "We have the technology, and the shipyards. Now we only need the skilled men to do the working. Geting some skilled workers from the UK would be a great boon..."
+    
+    SWE_scand_turmoil:0 "Scandinavian Turmoil"
+    SWE_scand_turmoil_desc:0 "The rise of multiple ideologies in Scandinavia is putting tensions on our borders, and we should start investing in stronger defences along them."
+    
+    SWE_DEN_disarm:0 "Demand Danish Demilitarization"
+    SWE_DEN_disarm_desc:0 "After the recent change of goverment, Denmark have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    SWE_NOR_disarm:0 "Demand Norwegian Demilitarization"
+    SWE_NOR_disarm_desc:0 "After the recent change of goverment, Norway have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    SWE_FIN_disarm:0 "Demand Finish Demilitarization"
+    SWE_FIN_disarm_desc:0 "After the recent change of goverment, Finland have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    SWE_neutrality_focus:0 "Neutrality Focus"
+    SWE_neutrality_focus_desc:0 "With thensions rising in our giant neighbors to the south and east, we must focus on staying neutral to ensure the safety of our nation."
+    
+    SWE_preach_neutrality:0 "Preach Neutrality"
+    SWE_preach_neutrality_desc:0 "We should focus on increasing neutrality in Scandinavia to ensure the least amount of tension."
+    
+    SWE_strengthen_ifrastructure:0 "Strengthen Our Infrastructure"
+    SWE_strengthen_ifrastructure_desc:0 "If our nation is to modernize, we must fist improve our infrastructure."
+    
+    SWE_construction_effort:0 "Construction Effort"
+    SWE_construction_effort_desc:0 "focusing on building more civilian factories would benefit the nations growth greatly in the future."
+    
+    SWE_construction_focus:0 "Construction Focus"
+    SWE_construction_focus_desc:0 "We must focus the majority of our workforce into national growth and construction. This will lead to a stronger economy and a faster modernization."
+    
+    SWE_improve_north_infrastructure:0 "Improve Northen Infrastructure"
+    SWE_improve_north_infrastructure_desc:0 "Although the infrastructure in and around our most populous areas is quite good, the infrastructure leading north is lacking at its best. We need to focus on improving it."
+    
+    SWE_modern_industry:0 "Modernize Our Industry"
+    SWE_modern_industry_desc:0 "Although our industry is quickly growing, it is still lacking in terms of its technological levels. We must change this, and start focusing on its modernization."
+    
+    SWE_shared_research:0 "Shared Research effort"
+    SWE_shared_research_desc:0 "We should focus on trying to establish a close technological relationship with our allies, to increase our own technological development."
+    
+    SWE_armament_effort:0 "Armament Effort"
+    SWE_armament_effort_desc:0 "Our military production is sorely lacking, so we should invest in the construction of more military factories."
+    
+    SWE_armament_focus:0 "Armament Focus"
+    SWE_armament_focus_desc:0 "Although our military production is increasing, it is far from enough to suply our growing needs. We must therefore focus even harder on the construction of even more military facrories."
+    
+    SWE_research_slot:0 "Research Slot"
+    SWE_research_slot_desc:0 "Our industrial expansion and other advances might allow us to conduct more R&D in parallel."
+    
+    SWE_synthetics_project:0 "Synthetic Oil Focus"
+    SWE_synthetics_project_desc:0 "Although steel, tungsten and aluminium is easy to come by in Scandinavia, oil and rubber is sorely lacking. We should invest in the research and development of synthetic refineries to at least remove some of our reliance on the import of these resources."
+    
+    SWE_modern_engineering:0 "Modern Engineering"
+    SWE_modern_engineering_desc:0 "With our industry on the rise, we can start working on modernizing the rest of our nation."
+    
+    SWE_secret_research_program:0 "Secret Research Program"
+    SWE_secret_research_program_desc:0 "With the current state of Europe, the research on new weapons and technology becomes ever more important. We should invest in starting a secret research program to experiment with new concets and ideas."
+    
+    SWE_nuclear_effort:0 "Nuclear Effort"
+    SWE_nuclear_effort_desc:0 "Standing on the edge of a world-changing discovery, we cannot let others light the fire that may one day consume the earth."
+    
+    SWE_army_effort:0 "Army Effort"
+    SWE_army_effort_desc:0 "We should focus on improving our army, as it will surely come in handy in these tense times."
+    
+    SWE_modernize_army:0 "Modernize the Army"
+    SWE_modernize_army_desc:0 "We should focus on modernising and reforming our army, as it is quite outdated compared to todays standards."
+    
+    SWE_tank_focus:0 "Tanks Focus"
+    SWE_tank_focus_desc:0 "Tanks is the way of the future. We should focus all our effort on the perfection of their production and use."
+    
+    SWE_support_focus:0 "Artillery Focus"
+    SWE_support_focus_desc:0 "Artillery is cheap and effective. It's the perfect weapons for a nation such as ours."
+    
+    SWE_quality_tanks:0 "Quality Tanks"
+    SWE_quality_tanks_desc:0 "We do not have the masive factories that our giant neighbors have, so we should focus on making tanks of the highest quality, and not focus on quantity"
+    
+    SWE_mechanized_effort:0 "Mechanized Effort"
+    SWE_mechanized_effort_desc:0 "We need infantry to support our armor in the fields, and motorized infantry is a too easy of an target. We need to mechanize them."
+    
+    SWE_tank_inovation:0 "Inovative Tanks"
+    SWE_tank_inovation_desc:0 "Our tanks should be the best of the best. We should invest more into creating even better and more inovative tanks."
+    
+    SWE_strong_artillery:0 "Strong Artillery"
+    SWE_strong_artillery_desc:0 "Our Artillery Should be effective, powerful and plentiful."
+    
+    SWE_artillery_inovation:0 "Inovative Artillery"
+    SWE_artillery_inovation_desc:0 "Our artillery should be the best of the best. We should invest more into creating even better and more inovative Artillery."
+    
+    SWE_great_art_sup:0 "Great Artillery Support"
+    SWE_great_art_sup_desc:0 "Our army's ability to use artillery to support our ground forces has no match, and our men's lives are safer and easier for it."
+    
+    SWE_military_research:0 "Military Research"
+    SWE_military_research_desc:0 "We should focus more on developing more and better equipment and tactics for our army."
+    
+    SWE_army_inovations:0 "Military Inovation"
+    SWE_army_inovations_desc:0 "Our military should be the best of the best. We should invest more into creating even better and more inovative military."
+    
+    SWE_aviation_effort:0 "Aviation Effort"
+    SWE_aviation_effort_desc:0 "Aviation is sure to play a large role in future wars. We should increase our efforts in aviation technology and tactics."
+    
+    SWE_air_focus:0 "Air Focus"
+    SWE_air_focus_desc:0 "We do not have endless resources and manpower in our nation, so we should put a main focus on either the sea or the sky. Lest choose the sky."
+    
+    SWE_light_focus:0 "Light Plane Focus"
+    SWE_light_focus_desc:0 "We should focus on making light, cheap planes."
+    
+    SWE_heavy_focus:0 "Heavy Plane Focus"
+    SWE_heavy_focus_desc:0 "We should focus on making strong, longrange planes"
+    
+    SWE_aviation_effort_2:0 "Aviation Effort II"
+    SWE_aviation_effort_2_desc:0 "Contineus development of our aviation technology and tactics is not just usefull, its a necessity."
+    
+    SWE_light_focus_2:0 "Light Plane Focus II"
+    SWE_light_focus_2_desc:0 "Our light planes are some of the best in the world, but they could be better."
+    
+    SWE_heavy_focus_2:0 "Heavy Plane Focus II"
+    SWE_heavy_focus_2_desc:0 "Our heavy planes are some of the best in the world, but they could be better."
+    
+    SWE_rocket_science:0 "Rocket Science"
+    SWE_rocket_science_desc:0 "Rocketry has great potential, and we should do our best to research its possiblities."
+    
+    SWE_naval_effort:0 "Naval Effort"
+    SWE_naval_effort_desc:0 "Sweden has a huge coast, and we need to defend it."
+    
+    SWE_naval_focus:0 "Naval Focus"
+    SWE_naval_focus_desc:0 "Our navy is vital to our national defences, and is much more important than planes."
+    
+    SWE_naval_doctrine_project:0 "Naval Doctrine Project"
+    SWE_naval_doctrine_project_desc:0 "Modern naval combat has changed a lot in the last 30 years. We should start a project to better try out new tactics and strategies."
+    
+    SWE_capital_ship_focus:0 "Capital Ship Focus"
+    SWE_capital_ship_focus_desc:0 "A few large ships will be more effective in combating our enemies than many few."
+    
+    SWE_escort_focus:0 "Escort Focus"
+    SWE_escort_focus_desc:0 "Our trade fleet is essential for our survival, so our naval focus should be to protect it at all cost."
+    
+    SWE_hunting_focus:0 "Hunting Focus"
+    SWE_hunting_focus_desc:0 "We should focus on taking out enemy cargo ships and easy targets, rather than taking their fleets head-on."
+    
+    SWE_rules_sea:0 "Sweden Rules the Sea"
+    SWE_rules_sea_desc:0 "Our capital ships should be the best of the best, as we must rely on quality over quantity."
+    
+    SWE_protect_fleets:0 "Protect Our Fleets"
+    SWE_protect_fleets_desc:0 "Our ships should be designed to be the best at finding and eliminating enemy submarines and small raiding fleets."
+    
+    SWE_sea_wolves:0 "Wolves of the Sea"
+    SWE_sea_wolves_desc:0 "With the right training, comunication networks and equipment, our submarines can be even more effective at taking out enemy ships."
+    
+    SWE_new_capital_ships:0 "New Capital Ships"
+    SWE_new_capital_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    SWE_new_escort_ships:0 "New Escort Ships"
+    SWE_new_escort_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    SWE_new_submarines:0 "New Submarines"
+    SWE_new_submarines_desc:0 "Our navy needs newer and even more powerfull submarines."
+    
+    DEN_find_new_allies:0 "Stengthen Our Own Position"
+    DEN_find_new_allies_desc:0 "There is troubled times ahed of us, and Norway alone can not hold back the storm that might come. We must therefore strengthen our bonds with our closest neighbors."
+    
+    DEN_scandinavian_relations:0 "Improve Scandinavian Relations"
+    DEN_scandinavian_relations_desc:0 "A strong relationship with our Scandinavian brothers and sisters will definitely be beneficial in the coming days, as a united Scandinavia might be the only thing that can ensure our safety."
+    
+    DEN_create_faction:0 "Create the Scandinavian Alliance"
+    DEN_create_faction_desc:0 "The tension of Europe is rising at an alarming rate, and it is now nessesary for the Scandinavian nations to unite, if any of us is to be safe from foreign invation. We will therefore form the "Scandinavian Alliance", in hopes that our neighbors will see reason and join us in protecting our homelands."
+    
+    DEN_invite_sweden:0 "Invite Sweden to the Alliance"
+    DEN_invite_sweden_desc:0 "Geting Sweden to join the Scandinavian Alliance would secure a strong presence in the Baltic Sea, as well Scandinavias Largest producer of raw materials. This could be invaluable for the alliance in the days to come. Though Sweden has shown that they wish to stay neutral in the afairs of Europe, We belive that with good enough relations, and enough tension, Sweden would possibly be willing to join."
+    
+    DEN_invite_norway:0 "Invite Norway to the Alliance"
+    DEN_invite_norway_desc:0 "Our relationship with Norway have been good for hundreds of years, and their extensive access to the North Sea could be invaluable in a potential war with Germany."
+    
+    DEN_invite_finland:0 "Invite Finland to the Alliance"
+    DEN_invite_finland_desc:0 "Although Finland has stated their neutrality, they are by no doubt threatend by the red bear to the east. Inviting them to the Scandinavian Alliance should be possible with good relations, and diplomacy."
+    
+    DEN_swedish_steel:0 "Trade Deal With Sweden"
+    DEN_swedish_steel_desc:0 "We have a destinct lack of natural resources in our nation, but Sweden has no such problems. Sweden has agreed to suply us with both steel and tungsten, if we would suply them with the workforce to boost the industry in the mining areas."
+    
+    DEN_norwegian_research:0 "The CNDE Program"
+    DEN_norwegian_research_desc:0 "Both Norway and Denmark have a rather good grasp of naval technology, and together, we could be able to accomplish great things. We should therefor invest in a "Combined Naval Development Effort" (CNDE)."
+    
+    DEN_finish_project:0 "Combined Naval Yard Development Project"
+    DEN_finish_project_desc:0 "As we do not have a land border with Finland, our only option for movement of people and goods is over the Baltic Sea. We should therefore focus on developing the naval yards of both nations."
+    
+    DEN_usr_project:0 "The USR Project"
+    DEN_usr_project_desc:0 "The conflicts in Europe is growing ever fiercer, and the technological development of the waring nations is growing at an alarming rate. We should therefore make sure that the members of the Scandinavian Alliance work together, and form the "United Scandinavian Research" program, to make sure that we do not fall behind."
+    
+    DEN_unite_scandinavia:0 "Unite Scandinavia"
+    DEN_unite_scandinavia_desc:0 "These are desperate times, and the war is taking its toll on the entire alliance. If we are to win this war, all the Scandinavian nations must truly stand united, and merge both our military and economic strength."
+    
+    DEN_increase_militarisation:0 "Militarism"
+    DEN_increase_militarisation_desc:0 "Those who view the military as a necessary evil are doomed to hesitate in the face of war. We will ingrain militarism into our culture to become a people of soldiers."
+    
+    DEN_secure_baltic_sea:0 "Secure the Baltic Sea"
+    DEN_secure_baltic_sea_desc:0 "Our presence in the baltic sea is of high importance, as both friends and enemies have a strong presence there. Securing the allegiance of the three minor baltic nations would therefor cement our pressent in the region, as well as deny any other threats from sieging the area."
+    
+    DEN_demand_skane:0 "Demnad Skåne and Gotland form Sweden"
+    DEN_demand_skane_desc:0 "Sweden stole Skåne from us in the Treaty of Roskilde in 1658, and Gotland has been a contested island for centuries. Although some might say that our claims to these area shoulds be forfeited after such a long time, we beg the differ. Skåne  and Gotland belongs to Denmark, and we should demand their return."
+    
+    DEN_GER_relations:0 "Strengthen Relations with Germany"
+    DEN_GER_relations_desc:0 "It's no secret that Germany is once again becoming a major force in Europe, and getting on their good side should be a top priority."
+    
+    DEN_invite_germans:0 "Invite German Engineers"
+    DEN_invite_germans_desc:0 "In our attempts at increasing our relations with Germany, and opportunity has presented itself for us to recive a froup of highly skilled German engineers. This could be a great boon for our own military technology development."
+    
+    DEN_fas_influence:0 "Influence Our Neighbors"
+    DEN_fas_influence_desc:0 "Now that our nation has finaly embraced fascism, it has become our duty to support the movement of other fascists from our Scandinavian neighbors. We should help our fellow fascists out as much as we can."
+    
+    DEN_GER_mil_sup:0 "German Military Support"
+    DEN_GER_mil_sup_desc:0 "Now that we are allied with the Germans, we are able to recive even more military support to future help the development of our own forces."
+    
+    DEN_mil_youth:0 "Military Youth"
+    DEN_mil_youth_desc:0 "Organizations to promote discipline and political education of young people in our nation will foster loyalty and self-sacrifice early."
+    
+    DEN_SOV_relations:0 "Strengthen Relations With the Soviets"
+    DEN_SOV_relations_desc:0 "The Soviets has become a true great power, and being on their good side would certainly be a good idea."
+    
+    DEN_invite_soviet:0 "Increase Diplomacy With the Soviets"
+    DEN_invite_soviet_desc:0 "As our diplomatic relations with the Soviets increases, it bocomes more and more clear that communism could be the way forward, and the USSR have shown great willingness to support a possible govermental change."
+    
+    DEN_com_influence:0 "Influence Our Neighbors"
+    DEN_com_influence_desc:0 "Now that our nation has finaly embraced communism, it has become our duty to support the movement of other communists from our Scandinavian neighbors. We should help our fellow communists out as much as we can."
+    
+    DEN_true_patriotism:0 "True Patriotism"
+    DEN_true_patriotism_desc:0 "The people allready love our glorious comunist state, but we have yet to reach the level of true patriotism that our nation deserve."
+    
+    DEN_sov_voluntairs:0 "Soviet Volunteers"
+    DEN_sov_voluntairs_desc:0 "Our national manpower is just a drop in the ocean compared to the numbers of the great powers, but the USSR has no such problems. We should try to ask for some Soviet volunteers."
+    
+    DEN_reform_union:0 "Create the\n"second Kalmar Union""
+    DEN_reform_union_desc:0 "Both Norway and Denmark are at great risk in these times of tension, and so we should consider reforming our old union, to secure our mutual safety, but this time, with us on top."
+    
+    DEN_SWE_union:0 "Invite Sweden to the Kalmar Union"
+    DEN_SWE_union_desc:0 "To fully restore the Karmar Union, Sweden would have to join. The time has come to make that a reality, even if they might disagree."
+    
+    DEN_FIN_union:0 "Demand Uusimaa"
+    DEN_FIN_union_desc:0 "With the union geting close to its former glory, the only thing missing is our old territories is Finland... They might not want to give it back, though."
+    
+    DEN_ENG_relations:0 "Strengthen Relations With the UK"
+    DEN_ENG_relations_desc:0 "We need strong allies in these troubled times, and the UK is a great and obvious choice."
+    
+    DEN_help_allies:0 "Help Our Allies"
+    DEN_help_allies_desc:0 "To join a war of giants would be a terrible idea for a small nation such as ours. We should therefore focus on sending expeditionary forces, rather than fight on our own territories."
+    
+    DEN_stop_the_flames:0 "Stop the Flames!"
+    DEN_stop_the_flames_desc:0 "With the world in flames, Norway must do its part in protecting it. We will send as much support to our allies as we can!"
+    
+    DEN_uk_sends_engineers:0 "Request UK Engineers"
+    DEN_uk_sends_engineers_desc:0 "The UK has the worlds largest navy, and working towards getting more of their engineers to help with our own naval development would benefit us greatly."
+    
+    DEN_ask_uk_for_help_1:0 "Request Help With Shipyard Construction"
+    DEN_ask_uk_for_help_1_desc: "If we are to become a true naval power, we need to construct more shipyards. And who could be better to ask for help than the English?"
+
+    DEN_ask_uk_for_help_2:0 "Request Skilled Shipyard Workers"
+    DEN_ask_uk_for_help_2_desc:0 "We have the technology, and the shipyards. Now we only need the skilled men to do the working. Geting some skilled workers from the UK would be a great boon..."
+    
+    DEN_scand_turmoil:0 "Scandinavian Turmoil"
+    DEN_scand_turmoil_desc:0 "The rise of multiple ideologies in Scandinavia is putting tensions on our borders, and we should start investing in stronger defences along them."
+    
+    DEN_NOR_disarm:0 "Demand Norwegian Demilitarization"
+    DEN_NOR_disarm_desc:0 "After the recent change of goverment, Norway have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    DEN_SWE_disarm:0 "Demand Swedish Demilitarization"
+    DEN_SWE_disarm_desc:0 "After the recent change of goverment, Sweden have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    DEN_FIN_disarm:0 "Demand Finish Demilitarization"
+    DEN_FIN_disarm_desc:0 "After the recent change of goverment, Finland have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    DEN_neutrality_focus:0 "Neutrality Focus"
+    DEN_neutrality_focus_desc:0 "With thensions rising in our giant neighbors to the south and east, we must focus on staying neutral to ensure the safety of our nation."
+    
+    DEN_preach_neutrality:0 "Preach Neutrality"
+    DEN_preach_neutrality_desc:0 "We should focus on increasing neutrality in Scandinavia to ensure the least amount of tension."
+    
+    DEN_strengthen_ifrastructure:0 "Strengthen Our Infrastructure"
+    DEN_strengthen_ifrastructure_desc:0 "If our nation is to modernize, we must fist improve our infrastructure."
+    
+    DEN_construction_effort:0 "Construction Effort"
+    DEN_construction_effort_desc:0 "focusing on building more civilian factories would benefit the nations growth greatly in the future."
+    
+    DEN_construction_focus:0 "Construction Focus"
+    DEN_construction_focus_desc:0 "We must focus the majority of our workforce into national growth and construction. This will lead to a stronger economy and a faster modernization."
+    
+    DEN_improve_north_infrastructure:0 "Improve Island's Infrastructure"
+    DEN_improve_north_infrastructure_desc:0 "Although the infrastructure on our mainland is exelent, the infrastructure on Island is lacking at its best. We need to focus on improving it."
+    
+    DEN_modern_industry:0 "Modernize Our Industry"
+    DEN_modern_industry_desc:0 "Although our industry is quickly growing, it is still lacking in terms of its technological levels. We must change this, and start focusing on its modernization."
+    
+    DEN_shared_research:0 "Shared Research effort"
+    DEN_shared_research_desc:0 "We should focus on trying to establish a close technological relationship with our allies, to increase our own technological development."
+    
+    DEN_armament_effort:0 "Armament Effort"
+    DEN_armament_effort_desc:0 "Our military production is sorely lacking, so we should invest in the construction of more military factories."
+    
+    DEN_armament_focus:0 "Armament Focus"
+    DEN_armament_focus_desc:0 "Although our military production is increasing, it is far from enough to suply our growing needs. We must therefore focus even harder on the construction of even more military facrories."
+    
+    DEN_research_slot:0 "Research Slot"
+    DEN_research_slot_desc:0 "Our industrial expansion and other advances might allow us to conduct more R&D in parallel."
+    
+    DEN_synthetics_project:0 "Synthetic Oil Focus"
+    DEN_synthetics_project_desc:0 "Although steel, tungsten and aluminium is easy to come by in Scandinavia, oil and rubber is sorely lacking. We should invest in the research and development of synthetic refineries to at least remove some of our reliance on the import of these resources."
+    
+    DEN_modern_engineering:0 "Modern Engineering"
+    DEN_modern_engineering_desc:0 "With our industry on the rise, we can start working on modernizing the rest of our nation."
+    
+    DEN_secret_research_program:0 "Secret Research Program"
+    DEN_secret_research_program_desc:0 "With the current state of Europe, the research on new weapons and technology becomes ever more important. We should invest in starting a secret research program to experiment with new concets and ideas."
+    
+    DEN_nuclear_effort:0 "Nuclear Effort"
+    DEN_nuclear_effort_desc:0 "Standing on the edge of a world-changing discovery, we cannot let others light the fire that may one day consume the earth."
+    
+    DEN_army_effort:0 "Army Effort"
+    DEN_army_effort_desc:0 "We should focus on improving our army, as it will surely come in handy in these tense times."
+    
+    DEN_modernize_army:0 "Modernize the Army"
+    DEN_modernize_army_desc:0 "We should focus on modernising and reforming our army, as it is quite outdated compared to todays standards."
+    
+    DEN_tank_focus:0 "Tanks Focus"
+    DEN_tank_focus_desc:0 "Tanks is the way of the future. We should focus all our effort on the perfection of their production and use."
+    
+    DEN_support_focus:0 "Artillery Focus"
+    DEN_support_focus_desc:0 "Artillery is cheap and effective. It's the perfect weapons for a nation such as ours."
+    
+    DEN_quality_tanks:0 "Quality Tanks"
+    DEN_quality_tanks_desc:0 "We do not have the masive factories that our giant neighbors have, so we should focus on making tanks of the highest quality, and not focus on quantity"
+    
+    DEN_mechanized_effort:0 "Mechanized Effort"
+    DEN_mechanized_effort_desc:0 "We need infantry to support our armor in the fields, and motorized infantry is a too easy of an target. We need to mechanize them."
+    
+    DEN_tank_inovation:0 "Inovative Tanks"
+    DEN_tank_inovation_desc:0 "Our tanks should be the best of the best. We should invest more into creating even better and more inovative tanks."
+    
+    DEN_strong_artillery:0 "Strong Artillery"
+    DEN_strong_artillery_desc:0 "Our Artillery Should be effective, powerful and plentiful."
+    
+    DEN_artillery_inovation:0 "Inovative Artillery"
+    DEN_artillery_inovation_desc:0 "Our artillery should be the best of the best. We should invest more into creating even better and more inovative Artillery."
+    
+    DEN_great_art_sup:0 "Great Artillery Support"
+    DEN_great_art_sup_desc:0 "Our army's ability to use artillery to support our ground forces has no match, and our men's lives are safer and easier for it."
+    
+    DEN_military_research:0 "Military Research"
+    DEN_military_research_desc:0 "We should focus more on developing more and better equipment and tactics for our army."
+    
+    DEN_army_inovations:0 "Military Inovation"
+    DEN_army_inovations_desc:0 "Our military should be the best of the best. We should invest more into creating even better and more inovative military."
+    
+    DEN_aviation_effort:0 "Aviation Effort"
+    DEN_aviation_effort_desc:0 "Aviation is sure to play a large role in future wars. We should increase our efforts in aviation technology and tactics."
+    
+    DEN_air_focus:0 "Air Focus"
+    DEN_air_focus_desc:0 "We do not have endless resources and manpower in our nation, so we should put a main focus on either the sea or the sky. Lest choose the sky."
+    
+    DEN_light_focus:0 "Light Plane Focus"
+    DEN_light_focus_desc:0 "We should focus on making light, cheap planes."
+    
+    DEN_heavy_focus:0 "Heavy Plane Focus"
+    DEN_heavy_focus_desc:0 "We should focus on making strong, longrange planes"
+    
+    DEN_aviation_effort_2:0 "Aviation Effort II"
+    DEN_aviation_effort_2_desc:0 "Contineus development of our aviation technology and tactics is not just usefull, its a necessity."
+    
+    DEN_light_focus_2:0 "Light Plane Focus II"
+    DEN_light_focus_2_desc:0 "Our light planes are some of the best in the world, but they could be better."
+    
+    DEN_heavy_focus_2:0 "Heavy Plane Focus II"
+    DEN_heavy_focus_2_desc:0 "Our heavy planes are some of the best in the world, but they could be better."
+    
+    DEN_rocket_science:0 "Rocket Science"
+    DEN_rocket_science_desc:0 "Rocketry has great potential, and we should do our best to research its possiblities."
+    
+    DEN_naval_effort:0 "Naval Effort"
+    DEN_naval_effort_desc:0 "Norway has a huge coast, and we need to defend it."
+    
+    DEN_naval_focus:0 "Naval Focus"
+    DEN_naval_focus_desc:0 "Our navy is vital to our national defences, and is much more important than planes."
+    
+    DEN_naval_doctrine_project:0 "Naval Doctrine Project"
+    DEN_naval_doctrine_project_desc:0 "Modern naval combat has changed a lot in the last 30 years. We should start a project to better try out new tactics and strategies."
+    
+    DEN_capital_ship_focus:0 "Capital Ship Focus"
+    DEN_capital_ship_focus_desc:0 "A few large ships will be more effective in combating our enemies than many few."
+    
+    DEN_escort_focus:0 "Escort Focus"
+    DEN_escort_focus_desc:0 "Our trade fleet is essential for our survival, so our naval focus should be to protect it at all cost."
+    
+    DEN_hunting_focus:0 "Hunting Focus"
+    DEN_hunting_focus_desc:0 "We should focus on taking out enemy cargo ships and easy targets, rather than taking their fleets head-on."
+    
+    DEN_rules_sea:0 "Denmark Rules the Sea"
+    DEN_rules_sea_desc:0 "Our capital ships should be the best of the best, as we must rely on quality over quantity."
+    
+    DEN_protect_fleets:0 "Protect Our Fleets"
+    DEN_protect_fleets_desc:0 "Our ships should be designed to be the best at finding and eliminating enemy submarines and small raiding fleets."
+    
+    DEN_sea_wolves:0 "Wolves of the Sea"
+    DEN_sea_wolves_desc:0 "With the right training, comunication networks and equipment, our submarines can be even more effective at taking out enemy ships."
+    
+    DEN_new_capital_ships:0 "New Capital Ships"
+    DEN_new_capital_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    DEN_new_escort_ships:0 "New Escort Ships"
+    DEN_new_escort_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    DEN_new_submarines:0 "New Submarines"
+    DEN_new_submarines_desc:0 "Our navy needs newer and even more powerfull submarines."
+    
+    FIN_find_new_allies:0 "Stengthen Our Own Position"
+    FIN_find_new_allies_desc:0 "There is troubled times ahed of us, and Norway alone can not hold back the storm that might come. We must therefore strengthen our bonds with our closest neighbors."
+    
+    FIN_scandinavian_relations:0 "Improve Scandinavian Relations"
+    FIN_scandinavian_relations_desc:0 "A strong relationship with our Scandinavian brothers and sisters will definitely be beneficial in the coming days, as a united Scandinavia might be the only thing that can ensure our safety."
+    
+    FIN_create_faction:0 "Create the Scandinavian Alliance"
+    FIN_create_faction_desc:0 "The tension of Europe is rising at an alarming rate, and it is now nessesary for the Scandinavian nations to unite, if any of us is to be safe from foreign invation. We will therefore form the "Scandinavian Alliance", in hopes that our neighbors will see reason and join us in protecting our homelands."
+    
+    FIN_invite_sweden:0 "Invite Sweden to the Alliance"
+    FIN_invite_sweden_desc:0 "Geting Sweden to join the Scandinavian Alliance would secure a strong presence in the Baltic Sea, as well Scandinavias Largest producer of raw materials. This could be invaluable for the alliance in the days to come. Though Sweden has shown that they wish to stay neutral in the afairs of Europe, We belive that with good enough relations, and enough tension, Sweden would possibly be willing to join."
+    
+    FIN_invite_norway:0 "Invite Norway to the Alliance"
+    FIN_invite_norway_desc:0 "Our relationship with Norway have been good for hundreds of years, and their extensive access to the North Sea could be invaluable in a potential war with Germany."
+    
+    FIN_invite_denmark:0 "Invite Denmark to the Alliance"
+    FIN_invite_denmark_desc:0 "Denmark are by no doubt threatend by the Germans to the south. Inviting them to the Scandinavian Alliance should be easy with good relations, and diplomacy."
+    
+    FIN_swedish_steel:0 "Trade Deal With Sweden"
+    FIN_swedish_steel_desc:0 "We have a destinct lack of natural resources in our nation, but Sweden has no such problems. Sweden has agreed to suply us with both steel and tungsten, if we would suply them with the workforce to boost the industry in the mining areas."
+    
+    FIN_danish_research:0 "The CNDE Program"
+    FIN_danish_research_desc:0 "Both Demark and Denmark have a rather good grasp of naval technology, and together, we could be able to accomplish great things. We should therefor invest in a "Combined Naval Development Effort" (CNDE)."
+    
+    FIN_norwegian_project:0 "Combined Infrastructure Development Project"
+    FIN_norwegian_project_desc:0 "Both our own and Norway's northen infrastructure is highly underdeveloped, and our nations lack any good way to transport people or goods between us over land. We should therefor try to work together on the construction of a railway leading from Helsinki to Oslo, as well as improving the general infrastructure in the north."
+    
+    FIN_usr_project:0 "The USR Project"
+    FIN_usr_project_desc:0 "The conflicts in Europe is growing ever fiercer, and the technological development of the waring nations is growing at an alarming rate. We should therefore make sure that the members of the Scandinavian Alliance work together, and form the "United Scandinavian Research" program, to make sure that we do not fall behind."
+    
+    FIN_unite_scandinavia:0 "Unite Scandinavia"
+    FIN_unite_scandinavia_desc:0 "These are desperate times, and the war is taking its toll on the entire alliance. If we are to win this war, all the Scandinavian nations must truly stand united, and merge both our military and economic strength."
+    
+    FIN_increase_militarisation:0 "Militarism"
+    FIN_increase_militarisation_desc:0 "Those who view the military as a necessary evil are doomed to hesitate in the face of war. We will ingrain militarism into our culture to become a people of soldiers."
+    
+    FIN_secure_baltic_sea:0 "Secure the Baltic Sea"
+    FIN_secure_baltic_sea_desc:0 "Our presence in the baltic sea is of high importance, as both friends and enemies have a strong presence there. Securing the allegiance of the three minor baltic nations would therefor cement our pressent in the region, as well as deny any other threats from sieging the area."
+    
+    FIN_non_agression_SOV:0 "Treaty with the USSR"
+    FIN_non_agression_SOV_desc:0 "We only recently managed to get our independance from Russia, and the newly formed USSR is certain to want more territories. We should work to achieve a non-agression pact with them, to secure our own safety."
+    
+    FIN_GER_relations:0 "Strengthen Relations with Germany"
+    FIN_GER_relations_desc:0 "It's no secret that Germany is once again becoming a major force in Europe, and getting on their good side should be a top priority."
+    
+    FIN_invite_germans:0 "Invite German Engineers"
+    FIN_invite_germans_desc:0 "In our attempts at increasing our relations with Germany, and opportunity has presented itself for us to recive a froup of highly skilled German engineers. This could be a great boon for our own military technology development."
+    
+    FIN_fas_influence:0 "Influence Our Neighbors"
+    FIN_fas_influence_desc:0 "Now that our nation has finaly embraced fascism, it has become our duty to support the movement of other fascists from our Scandinavian neighbors. We should help our fellow fascists out as much as we can."
+    
+    FIN_GER_mil_sup:0 "German Military Support"
+    FIN_GER_mil_sup_desc:0 "Now that we are allied with the Germans, we are able to recive even more military support to future help the development of our own forces."
+    
+    FIN_mil_youth:0 "Military Youth"
+    FIN_mil_youth_desc:0 "Organizations to promote discipline and political education of young people in our nation will foster loyalty and self-sacrifice early."
+    
+    FIN_SOV_relations:0 "Strengthen Relations With the Soviets"
+    FIN_SOV_relations_desc:0 "The Soviets has become a true great power, and being on their good side would certainly be a good idea."
+    
+    FIN_invite_soviet:0 "Increase Diplomacy With the Soviets"
+    FIN_invite_soviet_desc:0 "As our diplomatic relations with the Soviets increases, it bocomes more and more clear that communism could be the way forward, and the USSR have shown great willingness to support a possible govermental change."
+    
+    FIN_com_influence:0 "Influence Our Neighbors"
+    FIN_com_influence_desc:0 "Now that our nation has finaly embraced communism, it has become our duty to support the movement of other communists from our Scandinavian neighbors. We should help our fellow communists out as much as we can."
+    
+    FIN_true_patriotism:0 "True Patriotism"
+    FIN_true_patriotism_desc:0 "The people allready love our glorious comunist state, but we have yet to reach the level of true patriotism that our nation deserve."
+    
+    FIN_sov_voluntairs:0 "Soviet Volunteers"
+    FIN_sov_voluntairs_desc:0 "Our national manpower is just a drop in the ocean compared to the numbers of the great powers, but the USSR has no such problems. We should try to ask for some Soviet volunteers."
+    
+    FIN_revenge:0 "Our Revange"
+    FIN_revenge_desc:0 "Sweden used our lands as battlefields, and our people as gun fodder. Now its their lands and people's turn to suffer the same fate!"
+    
+    FIN_our_fate:0 "Our Destiny"
+    FIN_our_fate_desc:0 "Now that Sweden has fallen, We have become the strongest Scandinavian power by far. We should use this power to unite the entire region, starting with Norway."
+    
+    FIN_our_fate_2:0 "Fulfil Our Destiny"
+    FIN_our_fate_2_desc:0 "With both Sweden and Norway under our rule, Only Denmark is left of the Scandinavian Nations. They will accept annexation peacefully, or trough war."
+    
+    FIN_ENG_relations:0 "Strengthen Relations With the UK"
+    FIN_ENG_relations_desc:0 "We need strong allies in these troubled times, and the UK is a great and obvious choice."
+    
+    FIN_help_allies:0 "Help Our Allies"
+    FIN_help_allies_desc:0 "To join a war of giants would be a terrible idea for a small nation such as ours. We should therefore focus on sending expeditionary forces, rather than fight on our own territories."
+    
+    FIN_stop_the_flames:0 "Stop the Flames!"
+    FIN_stop_the_flames_desc:0 "With the world in flames, Norway must do its part in protecting it. We will send as much support to our allies as we can!"
+    
+    FIN_uk_sends_engineers:0 "Request UK Engineers"
+    FIN_uk_sends_engineers_desc:0 "The UK has the worlds largest navy, and working towards getting more of their engineers to help with our own naval development would benefit us greatly."
+    
+    FIN_ask_uk_for_help_1:0 "Request Help With Shipyard Construction"
+    FIN_ask_uk_for_help_1_desc: "If we are to become a true naval power, we need to construct more shipyards. And who could be better to ask for help than the English?"
+
+    FIN_ask_uk_for_help_2:0 "Request Skilled Shipyard Workers"
+    FIN_ask_uk_for_help_2_desc:0 "We have the technology, and the shipyards. Now we only need the skilled men to do the working. Geting some skilled workers from the UK would be a great boon..."
+    
+    FIN_scand_turmoil:0 "Scandinavian Turmoil"
+    FIN_scand_turmoil_desc:0 "The rise of multiple ideologies in Scandinavia is putting tensions on our borders, and we should start investing in stronger defences along them."
+    
+    FIN_NOR_disarm:0 "Demand Norwegian Demilitarization"
+    FIN_NOR_disarm_desc:0 "After the recent change of goverment, Norway have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    FIN_SWE_disarm:0 "Demand Swedish Demilitarization"
+    FIN_SWE_disarm_desc:0 "After the recent change of goverment, Sweden have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    FIN_DEN_disarm:0 "Demand Danish Demilitarization"
+    FIN_DEN_disarm_desc:0 "After the recent change of goverment, Denmark have been increasing its army size and spending. They seem to be closer to declearing war each day that passes. We must send them an ultimatum before they get to strong: demilitarization, or war."
+    
+    FIN_neutrality_focus:0 "Neutrality Focus"
+    FIN_neutrality_focus_desc:0 "With thensions rising in our giant neighbors to the south and east, we must focus on staying neutral to ensure the safety of our nation."
+    
+    FIN_preach_neutrality:0 "Preach Neutrality"
+    FIN_preach_neutrality_desc:0 "We should focus on increasing neutrality in Scandinavia to ensure the least amount of tension."
+    
+    FIN_strengthen_ifrastructure:0 "Strengthen Our Infrastructure"
+    FIN_strengthen_ifrastructure_desc:0 "If our nation is to modernize, we must fist improve our infrastructure."
+    
+    FIN_construction_effort:0 "Construction Effort"
+    FIN_construction_effort_desc:0 "focusing on building more civilian factories would benefit the nations growth greatly in the future."
+    
+    FIN_construction_focus:0 "Construction Focus"
+    FIN_construction_focus_desc:0 "We must focus the majority of our workforce into national growth and construction. This will lead to a stronger economy and a faster modernization."
+    
+    FIN_improve_north_infrastructure:0 "Improve Northen Infrastructure"
+    FIN_improve_north_infrastructure_desc:0 "Although the infrastructure in and around our most populous areas is quite good, the infrastructure leading north is lacking at its best. We need to focus on improving it."
+    
+    FIN_modern_industry:0 "Modernize Our Industry"
+    FIN_modern_industry_desc:0 "Although our industry is quickly growing, it is still lacking in terms of its technological levels. We must change this, and start focusing on its modernization."
+    
+    FIN_shared_research:0 "Shared Research effort"
+    FIN_shared_research_desc:0 "We should focus on trying to establish a close technological relationship with our allies, to increase our own technological development."
+    
+    FIN_armament_effort:0 "Armament Effort"
+    FIN_armament_effort_desc:0 "Our military production is sorely lacking, so we should invest in the construction of more military factories."
+    
+    FIN_armament_focus:0 "Armament Focus"
+    FIN_armament_focus_desc:0 "Although our military production is increasing, it is far from enough to suply our growing needs. We must therefore focus even harder on the construction of even more military facrories."
+    
+    FIN_research_slot:0 "Research Slot"
+    FIN_research_slot_desc:0 "Our industrial expansion and other advances might allow us to conduct more R&D in parallel."
+    
+    FIN_synthetics_project:0 "Synthetic Oil Focus"
+    FIN_synthetics_project_desc:0 "Although steel, tungsten and aluminium is easy to come by in Scandinavia, oil and rubber is sorely lacking. We should invest in the research and development of synthetic refineries to at least remove some of our reliance on the import of these resources."
+    
+    FIN_modern_engineering:0 "Modern Engineering"
+    FIN_modern_engineering_desc:0 "With our industry on the rise, we can start working on modernizing the rest of our nation."
+    
+    FIN_secret_research_program:0 "Secret Research Program"
+    FIN_secret_research_program_desc:0 "With the current state of Europe, the research on new weapons and technology becomes ever more important. We should invest in starting a secret research program to experiment with new concets and ideas."
+    
+    FIN_nuclear_effort:0 "Nuclear Effort"
+    FIN_nuclear_effort_desc:0 "Standing on the edge of a world-changing discovery, we cannot let others light the fire that may one day consume the earth."
+    
+    FIN_army_effort:0 "Army Effort"
+    FIN_army_effort_desc:0 "We should focus on improving our army, as it will surely come in handy in these tense times."
+    
+    FIN_modernize_army:0 "Modernize the Army"
+    FIN_modernize_army_desc:0 "We should focus on modernising and reforming our army, as it is quite outdated compared to todays standards."
+    
+    FIN_tank_focus:0 "Tanks Focus"
+    FIN_tank_focus_desc:0 "Tanks is the way of the future. We should focus all our effort on the perfection of their production and use."
+    
+    FIN_support_focus:0 "Artillery Focus"
+    FIN_support_focus_desc:0 "Artillery is cheap and effective. It's the perfect weapons for a nation such as ours."
+    
+    FIN_quality_tanks:0 "Quality Tanks"
+    FIN_quality_tanks_desc:0 "We do not have the masive factories that our giant neighbors have, so we should focus on making tanks of the highest quality, and not focus on quantity"
+    
+    FIN_mechanized_effort:0 "Mechanized Effort"
+    FIN_mechanized_effort_desc:0 "We need infantry to support our armor in the fields, and motorized infantry is a too easy of an target. We need to mechanize them."
+    
+    FIN_tank_inovation:0 "Inovative Tanks"
+    FIN_tank_inovation_desc:0 "Our tanks should be the best of the best. We should invest more into creating even better and more inovative tanks."
+    
+    FIN_strong_artillery:0 "Strong Artillery"
+    FIN_strong_artillery_desc:0 "Our Artillery Should be effective, powerful and plentiful."
+    
+    FIN_artillery_inovation:0 "Inovative Artillery"
+    FIN_artillery_inovation_desc:0 "Our artillery should be the best of the best. We should invest more into creating even better and more inovative Artillery."
+    
+    FIN_great_art_sup:0 "Great Artillery Support"
+    FIN_great_art_sup_desc:0 "Our army's ability to use artillery to support our ground forces has no match, and our men's lives are safer and easier for it."
+    
+    FIN_military_research:0 "Military Research"
+    FIN_military_research_desc:0 "We should focus more on developing more and better equipment and tactics for our army."
+    
+    FIN_army_inovations:0 "Military Inovation"
+    FIN_army_inovations_desc:0 "Our military should be the best of the best. We should invest more into creating even better and more inovative military."
+    
+    FIN_aviation_effort:0 "Aviation Effort"
+    FIN_aviation_effort_desc:0 "Aviation is sure to play a large role in future wars. We should increase our efforts in aviation technology and tactics."
+    
+    FIN_air_focus:0 "Air Focus"
+    FIN_air_focus_desc:0 "We do not have endless resources and manpower in our nation, so we should put a main focus on either the sea or the sky. Lest choose the sky."
+    
+    FIN_light_focus:0 "Light Plane Focus"
+    FIN_light_focus_desc:0 "We should focus on making light, cheap planes."
+    
+    FIN_heavy_focus:0 "Heavy Plane Focus"
+    FIN_heavy_focus_desc:0 "We should focus on making strong, longrange planes"
+    
+    FIN_aviation_effort_2:0 "Aviation Effort II"
+    FIN_aviation_effort_2_desc:0 "Contineus development of our aviation technology and tactics is not just usefull, its a necessity."
+    
+    FIN_light_focus_2:0 "Light Plane Focus II"
+    FIN_light_focus_2_desc:0 "Our light planes are some of the best in the world, but they could be better."
+    
+    FIN_heavy_focus_2:0 "Heavy Plane Focus II"
+    FIN_heavy_focus_2_desc:0 "Our heavy planes are some of the best in the world, but they could be better."
+    
+    FIN_rocket_science:0 "Rocket Science"
+    FIN_rocket_science_desc:0 "Rocketry has great potential, and we should do our best to research its possiblities."
+    
+    FIN_naval_effort:0 "Naval Effort"
+    FIN_naval_effort_desc:0 "Norway has a huge coast, and we need to defend it."
+    
+    FIN_naval_focus:0 "Naval Focus"
+    FIN_naval_focus_desc:0 "Our navy is vital to our national defences, and is much more important than planes."
+    
+    FIN_naval_doctrine_project:0 "Naval Doctrine Project"
+    FIN_naval_doctrine_project_desc:0 "Modern naval combat has changed a lot in the last 30 years. We should start a project to better try out new tactics and strategies."
+    
+    FIN_capital_ship_focus:0 "Capital Ship Focus"
+    FIN_capital_ship_focus_desc:0 "A few large ships will be more effective in combating our enemies than many few."
+    
+    FIN_escort_focus:0 "Escort Focus"
+    FIN_escort_focus_desc:0 "Our trade fleet is essential for our survival, so our naval focus should be to protect it at all cost."
+    
+    FIN_hunting_focus:0 "Hunting Focus"
+    FIN_hunting_focus_desc:0 "We should focus on taking out enemy cargo ships and easy targets, rather than taking their fleets head-on."
+    
+    FIN_rules_sea:0 "Finland Rules the Sea"
+    FIN_rules_sea_desc:0 "Our capital ships should be the best of the best, as we must rely on quality over quantity."
+    
+    FIN_protect_fleets:0 "Protect Our Fleets"
+    FIN_protect_fleets_desc:0 "Our ships should be designed to be the best at finding and eliminating enemy submarines and small raiding fleets."
+    
+    FIN_sea_wolves:0 "Wolves of the Sea"
+    FIN_sea_wolves_desc:0 "With the right training, comunication networks and equipment, our submarines can be even more effective at taking out enemy ships."
+    
+    FIN_new_capital_ships:0 "New Capital Ships"
+    FIN_new_capital_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    FIN_new_escort_ships:0 "New Escort Ships"
+    FIN_new_escort_ships_desc:0 "Our navy needs newer and even more powerfull ships."
+    
+    FIN_new_submarines:0 "New Submarines"
+    FIN_new_submarines_desc:0 "Our navy needs newer and even more powerfull submarines."
+    
+    NOR_deterrent:0 "A Strong Detterent"
+    NOR_deterrent_desc:0 "We need to increase the size of our army to deter potential enemies."
+    
+    SWE_deterrent:0 "A Strong Detterent"
+    SWE_deterrent_desc:0 "We need to increase the size of our army to deter potential enemies."
+    
+    DEN_deterrent:0 "A Strong Detterent"
+    DEN_deterrent_desc:0 "We need to increase the size of our army to deter potential enemies."
+    
+    FIN_deterrent:0 "A Strong Detterent"
+    FIN_deterrent_desc:0 "We need to increase the size of our army to deter potential enemies."
+    
+    ###Events###
+    
+    scand.1.t:0 "[From.GetName] invites us to join the Scandinavial Alliance."
+    scand.1.d:0 "[From.GetName] invites us to join their alliance in the hopes that a united Scandinavia will deter our strong neighbors form geting any strange ideas."
+    scand.1.a:0 "United, we are strong!"
+    scand.1.b:0 "An alliance is unnecessary."
+    
+    scand.2.t:0 "[From.GetName] declines."
+    scand.2.d:0 "[From.GetName] declined our offer. Lets hope this decision was made out of neutrality, and not as a warning of thins to come."
+    scand.2.a:0 "Disappointing"
+    
+    scand.3.t:0 "[From.GetName] started a united development effort with us."
+    scand.3.d:0 "[From.GetName] have been working hard to start a unitded development effort between our navys, and today the project has finaly taken shape. This will increase the productiveness of our naval yards significantly."
+    scand.3.a:0 "This is great news!"
+    
+    scand.4.t:0 "Permanent trade deal with [From.GetName]"
+    scand.4.d:0 "This trade deal has been in the works for some time, and trough strong cooperation and great effort, we will now trade some steel for Norwegian aluminium, at no greater loss for either nation."
+    scand.4.a:0 "This is great news!"
+    
+    scand.5.t:0 "Combined infrastructural development effort with [From.GetName]"
+    scand.5.d:0 "We have joined [From.GetName]in a large scale development effort to expand and unite the railway systems between our nations. This will make the movement of both goods and people between our nations much easier."
+    scand.5.a:0 "This is great news!"
+    
+    scand.6.t:0 "The United Scandinavian Research Project"
+    scand.6.d:0 "We have joined in the newly established United Scandinavian Research Project. (USRP) This project is an effort to share and develop new technology together, for a shared economical and military gain."
+    scand.6.a:0 "May our bonds grow ever stronger!"
+    
+    scand.7.t:0 "Desperate times..."
+    scand.7.d:0 "The war is starting to take its toll on all of Scandinavia, and [From.GetName] has sugested that drastic mesures must be taken to defend ourselves. They therefore request that the Scandinavian nations joins their military and economic power."
+    scand.7.a:0 "...Calls for desperate mesures."
+    scand.7.c:0 "We can not secrefice our independance for safety!"
+    
+    scand.9.t:0 "[From.GetName] declines"
+    scand.9.d:0 "[From.GetName] declined our proposal. Let us hope that this wont become a great mistake for both them, and the alliance."
+    scand.9.b:0 "So be it."
+    
+    scand.10.t:0 "[From.GetName] demands our subjugation."
+    scand.10.d:0 "[From.GetName] demands that we accept their terms for subjugation, citing their intent to "secure the safety of the baltic sea and nations". If we decline this "offer", they might feel inclined to attack us to enforce this "safety" uppon us."
+    scand.10.a:0 "Declining would only lead to death for our nation."
+    scand.10.b:0 "Death before dishonor!"
+    
+    scand.11.t:0 "[From.GetName] declines"
+    scand.11.d:0 "[From.GetName] declined our offer, and has therefor sealed their fate."
+    scand.11.a:0 "Then war it is!"
+    
+    scand.12.t:0 "[From.GetName] demands the return of Jamtland"
+    scand.12.d:0 "[From.GetName] demands the long lost region of Jamtland. We would belive that any claims they might have had on the region is long gone, but seeing [From.GetName]'s has become quite the military powerhouse, declining might spell disaster for our nation."
+    scand.12.a:0 "Let them have it."
+    scand.12.b:0 "Death before dishonor!"
+    
+    scand.13.t:0 "[From.GetName] declines"
+    scand.13.d:0 "[From.GetName] declined our demands, and has therefor sealed their fate."
+    scand.13.a:0 "Then war it is!"
+    
+    scand.14.t:0 "Rising support of fascism"
+    scand.14.d:0 "The rise of fascism in Scandinavia is starting to affect our own national politics. If we dont do anything soon, it might become a problem."
+    scand.14.a:0 "this is troubling."
+    
+    scand.15.t:0 "Rising support of communism"
+    scand.15.d:0 "The rise of communism in Scandinavia is starting to affect our own national politics. If we dont do anything soon, it might become a problem."
+    scand.15.a:0 "this is troubling."
+    
+    scand.16.t:0 "Norway "wishes" to form the "second Kalmar Union""
+    scand.16.d:0 "Norway has "invited" us to join them in a "second Kalmar Union", with the twist that they will be the leading nation. They cite the rising tensions and strong neighbors as the reason for this, and although they have not clearly stated the fact, it seems evident that declining the "offer" might have serious consequences."
+    scand.16.a:0 "We must accept"
+    scand.16.b:0 "Death before dishonor!"
+    
+    scand.17.t:0 "[From.GetName] declines"
+    scand.17.d:0 "[From.GetName] has declined our kind offer, and as such has sealed their fate"
+    scand.17.a:0 "Then we will be united by force!"
+    
+    scand.18.t:0 "[From.GetName] "wishes" to invite us to the "second Kalmar Union""
+    scand.18.d:0 "[From.GetName] has "invited" us to join them in the "second Kalmar Union". They cite the rising tensions and strong neighbors as the reason for this, and although they have not clearly stated the fact, it seems evident that declining the "offer" might have serious consequences."
+    scand.18.a:0 "We must accept"
+    scand.18.b:0 "Death before dishonor!"
+    
+    scand.19.t:0 "[From.GetName] demands the return of Uusimaa to the second Kalmar Union"
+    scand.19.d:0 "[From.GetName] has demanded that we return the old regions territories of the Kalmar Union. They state that they are willing to take it by force, if we should not comply."
+    scand.19.a:0 "We must accept"
+    scand.19.b:0 "Death before dishonor!"
+    
+    scand.20.t:0 "[From.GetName] requests support in the construction of new naval yards"
+    scand.20.d:0 "[From.GetName] has requested our help in constructing new naval yards in their territories, as our own skill and experience in naval construction is second to none. Increasing the naval power of a ally with such a large coast could definitely be usefull, but we would have to invest quite a bit of our own work force to do so."
+    scand.20.a:0 "Give them all the help we can."
+    scand.20.b:0 "We will support them."
+    scand.20.c:0 "We can only spare a few resources."
+    scand.20.e:0 "We can't spare the resources."
+    
+    scand.21.t:0 "[From.GetName] gives us their full support!"
+    scand.21.d:0 "[From.GetName] has sent more help than we could ever hope for, granting us 5 new naval yards in our capital!"
+    scand.21.a:0 "Excellent!"
+    
+    scand.22.t:0 "[From.GetName] gives us their support!"
+    scand.22.d:0 "[From.GetName] has sent us quite a bit of support, granting us 3 new naval yards in our capital!"
+    scand.22.a:0 "Great!"
+    
+    scand.23.t:0 "[From.GetName] gives us some support."
+    scand.23.d:0 "[From.GetName] has sent us some support, granting us 1 new naval yard in our capital."
+    scand.23.a:0 "Good."
+    
+    scand.24.t:0 "[From.GetName] will not send any support"
+    scand.24.d:0 "[From.GetName] has refused to send us any support."
+    scand.24.a:0 "To bad..."
+    
+    scand.25.t:0 "Our construction support in Scandinavia has finished."
+    scand.25.d:0 "We no longer need to support the construction of naval yards in Scandinavia, and we can now focus on our own development."
+    scand.25.a:0 "Great."
+    
+    scand.26.t:0 "[From.GetName] demands demilitarization"
+    scand.26.d:0 "[From.GetName] demands the demilitarization of our nation. They cite our recent change of government and increased focus on the military as a destabilizing factor in Scandinavia as the reason. If we decline, they are willing to declare war on us."
+    scand.26.a:0 "We must accept"
+    scand.26.b:0 "Death before dishonor!"
+    
+    scand.27.t:0 "Increased support for neutrality"
+    scand.27.d:0 "[From.GetName] is pushing for neutrality in our nation."
+    scand.27.a:0 "So be it."
+    
+    scand.28.t:0 "Permanent trade deal with Sweden"
+    scand.28.d:0 "This trade deal has been in the works for some time, and trough strong cooperation and great effort, we will now trade some aluminium for Swedish steel, at no greater loss for either nation."
+    scand.28.a:0 "This is great news!"
+    
+    scand.29.t:0 "[From.GetName] demands our annexation"
+    scand.29.d:0 "[From.GetName] is showing great interest in restoring the Swedish Empire, and as a large part of that old empire, they demand that we agree to the full anaxation of Finland"
+    scand.29.a:0 "A war with Sweden is futile."
+    scand.29.b:0 "We must request to at least keep some independance."
+    scand.29.c:0 "We should ask Norway for a guarantee."
+    scand.29.e:0 "Death before dishonor!"
+    
+    scand.30.t:0 "[From.GetName] Accepts Annexation"
+    scand.30.d:0 "[From.GetName] has accepted our demands, and [From.GetName] is once more part of the Swedish Empire!"
+    scand.30.a:0 "Sweden shall rise again!"
+    
+    scand.31.t:0 "[From.GetName] asks for guarantee agains Sweden"
+    scand.31.d:0 "[From.GetName] asks us to give them a guarantee to support them in the case of Swedish agressions, after they have demanded the full annexation of Finland."
+    scand.31.a:0 "We can not offer such a guarantee against our own neighbor."
+    scand.31.b:0 "If Finland falls, we will be next on the chopping block."
+    
+    scand.32.t:0 "[From.GetName] gives no guarantee"
+    scand.32.d:0 "[From.GetName] as refused to guarantee us against Sweden. If we are to fight, we will be on our own."
+    scand.32.a:0 "We cannot win alone..."
+    scand.32.b:0 "We must request to at least keep some independance."
+    scand.32.c:0 "Then we fight alone!"
+    
+    scand.33.t:0 "[From.GetName] guarantees our independance!"
+    scand.33.d:0 "[From.GetName] has agreed to support us in a possible war agains Sweden!"
+    scand.33.a:0 "Your move, Sweden..."
+    
+    scand.34.t:0 "[From.GetName] asks to become puppet instead"
+    scand.34.d:0 "[From.GetName] asks that rather than full annexation, they will just become our puppet."
+    scand.34.a:0 "Avoiding a war would be the best..."
+    scand.34.b:0 "NO DEAL!"
+    
+    scand.35.t:0 "[From.GetName] declines our ultimatum"
+    scand.35.d:0 "[From.GetName] has declined our ultimatum, and has therefore sealed their fate."
+    scand.35.a:0 "To war!"
+    
+    scand.36.t:0 "[From.GetName] gets guarantee from Norway"
+    scand.36.d:0 "Norway has stated their guarantee of [From.GetName], and as such has changed the playingfield."
+    scand.36.a:0 "This changes Nothing!"
+    scand.36.b:0 "They win... This time."
+    
+    scand.37.t:0 "[From.GetName] withdraws ultimatum"
+    scand.37.d:0 "With the guarantee from Norway, [From.GetName] has withdrawn their ultimatum."
+    scand.37.a:0 "Take that, damn imperialists!"
+
+    scand.38.t:0 "[From.GetName] demands our annexation"
+    scand.38.d:0 "As part of their "restoration of the Sweding empire" plans, [From.GetName] is demanding our full annexation. If we decline, war is sure to follow."
+    scand.38.a:0 "We must accept."
+    scand.38.b:0 "We must request to at least keep some independance."
+    scand.38.c:0 "Death before dishonor!"
+    
+    scand.39.t:0 "[From.GetName] accepts our puppet offer"
+    scand.39.d:0 "[From.GetName] has agreed to our offer to become their puppet, instead of full annexation."
+    scand.39.a:0 "It's better than the alternative..."
+    
+    scand.40.t:0 "[From.GetName] declines"
+    scand.40.d:0 "[From.GetName] have declined our offer to become their puppet, and we should now expect a war in the near future."
+    scand.40.a:0 "So be it. Let them come."
+        
+    scand.41.t:0 "[From.GetName] demands Pommern"
+    scand.41.d:0 "The Swedish "empire" is demanding that we "return" Pommern to them. "
+    scand.41.a:0 "We have better things to deal with. Let them have it."
+    scand.41.b:0 "Ha! I'll like to se them try to take it!"    
+        
+    scand.42.t:0 "[From.GetName] declines"
+    scand.42.d:0 "[From.GetName] have declined our demands for Pommern"
+    scand.42.a:0 "Then war it is." 
+    
+    scand.43.t:0 "[From.GetName] requests support in the construction of new naval yards"
+    scand.43.d:0 "[From.GetName] has requested our help in constructing new naval yards in their territories, as our own skill and experience in naval construction is second to none. Increasing the naval power of a ally with such a large presence in the Baltic Sea would be usefull, but we would have to invest quite a bit of our own work force to do so."
+    scand.43.a:0 "Give them all the help we can."
+    scand.43.b:0 "We will support them."
+    scand.43.c:0 "We can only spare a few resources."
+    scand.43.e:0 "We can't spare the resources."
+    
+    scand.44.t:0 "[From.GetName] accepts!"
+    scand.44.d:0 "[From.GetName] have agreed to join the Scandinavian Alliance!"
+    scand.44.a:0 "This is a great day for all of us!" 
+    
+    scand.49.t:0 "[From.GetName] demands our subjugation."
+    scand.49.d:0 "[From.GetName] demands that we accept their terms for subjugation. It seems although we finaly got our independance, Sweden is not yet done with us."
+    scand.49.a:0 "We do not have the power to stop them..."
+    scand.49.b:0 "We will never surrender our independance again!"
+    
+    scand.45.t:0 "[SWE.GetName] is gaining support for new government"
+    scand.45.d:0 "Support for a new type of government in [SWE.GetName] is rising. If the government was to change, It could break the entire Scandinavian Alliance appart."
+    scand.45.a:0 "We can not interfere in their politics."
+    scand.45.b:0 "We must help support the current Government."
+    
+    scand.46.t:0 "[From.GetName] wants to support our government"
+    scand.46.d:0 "Seing the rising support for a new government in our nation, [From.GetName] has offered to give political and diplomatic support."
+    scand.46.a:0 "We will accept this offer."
+    scand.46.b:0 "Our politics is our own problem."
+    
+    scand.47.t:0 "[From.GetName] accepts our offer"
+    scand.47.d:0 "[From.GetName] has accepted our support of the government"
+    scand.47.a:0 "Good."
+    
+    scand.48.t:0 "[From.GetName] declines our offer"
+    scand.48.d:0 "[From.GetName] has declined our support of the government"
+    scand.48.a:0 "But why..."
+    
+    scand.50.t:0 "[DEN.GetName] is gaining support for new government"
+    scand.50.d:0 "Support for a new type of government in [DEN.GetName] is rising. If the government was to change, It could break the entire Scandinavian Alliance appart."
+    scand.50.a:0 "We can not interfere in their politics."
+    scand.50.b:0 "We must help support the current Government."
+    
+    scand.51.t:0 "[NOR.GetName] is gaining support for new government"
+    scand.51.d:0 "Support for a new type of government in [NOR.GetName] is rising. If the government was to change, It could break the entire Scandinavian Alliance appart."
+    scand.51.a:0 "We can not interfere in their politics."
+    scand.51.b:0 "We must help support the current Government."
+    
+    scand.52.t:0 "[FIN.GetName] is gaining support for new government"
+    scand.52.d:0 "Support for a new type of government in [FIN.GetName] is rising. If the government was to change, It could break the entire Scandinavian Alliance appart."
+    scand.52.a:0 "We can not interfere in their politics."
+    scand.52.b:0 "We must help support the current Government."
+    
+    scand.53.t:0 "[SWE.GetName]'s government is not in line with ours"
+    scand.53.d:0 "[SWE.GetName]'s government does not share our ideology. Having allies with such a radical government would only be detremental to our alliance, So we should ask them to either change their ways, or leave."
+    scand.53.a:0 "Their internal affairs are their business"
+    scand.53.b:0 "We can't have such a wild card in our alliance."
+    
+    scand.54.t:0 "[From.GetName] demands a change of government"
+    scand.54.d:0 "[From.GetName] is demanding that we change our governmental policies to be more in line with their own. If we do not comply, we will be forced to leave the alliance."
+    scand.54.a:0 "Loosing our allies would be catastrophic. We must comply."
+    scand.54.b:0 "The alliance be damnd!"
+    
+    scand.55.t:0 "[From.GetName] agrees to reform government"
+    scand.55.d:0 "[From.GetName] has agreed to reform their government, and they are now in line with our own ideologies."
+    scand.55.a:0 "They will thank us later."
+    
+    scand.56.t:0 "[From.GetName] leaves the alliance"
+    scand.56.d:0 "[From.GetName] is not willing to change their ways, and has left the alliance."
+    scand.56.a:0 "So be it."
+    scand.56.b:0 "Then we must strike them down, before they become a problem."
+    
+    scand.57.t:0 "[From.GetName] is gearing up for war"
+    scand.57.d:0 "[From.GetName] has not taken our actions lightly, and is preparing for a war against us."
+    scand.57.a:0 "Damn hypocrites!"
+    
+    scand.58.t:0 "[DEN.GetName]'s government is not in line with ours"
+    scand.58.d:0 "[DEN.GetName]'s government does not share our ideology. Having allies with such a radical government would only be detremental to our alliance, So we should ask them to either change their ways, or leave."
+    scand.58.a:0 "Their internal affairs are their business"
+    scand.58.b:0 "We can't have such a wild card in our alliance."
+    
+    scand.59.t:0 "[NOR.GetName]'s government is not in line with ours"
+    scand.59.d:0 "[NOR.GetName]'s government does not share our ideology. Having allies with such a radical government would only be detremental to our alliance, So we should ask them to either change their ways, or leave."
+    scand.59.a:0 "Their internal affairs are their business"
+    scand.59.b:0 "We can't have such a wild card in our alliance."
+    
+    scand.60.t:0 "[FIN.GetName]'s government is not in line with ours"
+    scand.60.d:0 "[FIN.GetName]'s government does not share our ideology. Having allies with such a radical government would only be detremental to our alliance, So we should ask them to either change their ways, or leave."
+    scand.60.a:0 "Their internal affairs are their business"
+    scand.60.b:0 "We can't have such a wild card in our alliance."
+    
+    scand.61.t:0 "Permanent trade deal with [From.GetName]"
+    scand.61.d:0 "This trade deal has been in the works for some time, and trough strong cooperation and great effort, we will now trade some aluminium for Swedish Steel, at no greater loss for either nation."
+    scand.61.a:0 "This is great news!"
+    
+    scand.62.t:0 "Permanent trade deal with [From.GetName]"
+    scand.62.d:0 "This trade deal has been in the works for some time, and trough strong cooperation and great effort, Denmark have helped us increase the industry around our mines, in exchange for some of our steel and tungsten."
+    scand.62.a:0 "This is great news!"
+    
+    scand.63.t:0 "Denmark is helping us with naval yard construction"
+    scand.63.d:0 "Denmark has been working hard together with our own construction forces to create new naval yards in both Denmark and Finland."
+    scand.63.a:0 "This is great news!"
+    
+    scand.64.t:0 "[From.GetName] demands the return of Scania and Gotland"
+    scand.64.d:0 "[From.GetName] demands the long lost region of "Skåne", as well as Gotland. We would belive that any claims they might have had on the regions is long gone, but seeing [From.GetName]'s has become quite the military powerhouse, declining might spell disaster for our nation."
+    scand.64.a:0 "Let them have it."
+    scand.64.b:0 "Death before dishonor!"
+    
+    scand.65.t:0 "[DEN.GetName] "wishes" to form the "second Kalmar Union""
+    scand.65.d:0 "[DEN.GetName] has "invited" us to join them in a "second Kalmar Union". They cite the rising tensions and strong neighbors as the reason for this, and although they have not clearly stated the fact, it seems evident that declining the "offer" might have serious consequences."
+    scand.65.a:0 "We must accept"
+    scand.65.b:0 "Death before dishonor!"
+    
+    scand.66.t:0 "[From.GetName] requests support in the construction of new naval yards"
+    scand.66.d:0 "[From.GetName] has requested our help in constructing new naval yards in their territories, as our own skill and experience in naval construction is second to none. Increasing the naval power of a ally with such a large presence in the Baltic Sea would be usefull, but we would have to invest quite a bit of our own work force to do so."
+    scand.66.a:0 "Give them all the help we can."
+    scand.66.b:0 "We will support them."
+    scand.66.c:0 "We can only spare a few resources."
+    scand.66.e:0 "We can't spare the resources."
+    
+    scand.67.t:0 "We have taken Stockholm!"
+    scand.67.d:0 "Stockholm is finaly in our hands, but [SWE.GetName] will still not surrender. Some of the general staff has sugensted going rounding up and executing key figures in Swedish politics, and other important people that we can get our hands on to reduce their morale."
+    scand.67.a:0 "We will do no such thing!"
+    scand.67.b:0 "Let the second Stockholm Bloodbath begin!"
+    
+    scand.68.t:0 "[From.GetName] demands our subjugation."
+    scand.68.d:0 "[From.GetName] demands that we accept their terms for subjugation. We should have known that our freedom would not come this easy."
+    scand.68.a:0 "Declining would only lead to death for our nation."
+    scand.68.b:0 "We will never give up our freedom again!"
+    
+    scand.69.t:0 "Non agression pact with Finland"
+    scand.69.d:0 "Finland have been pushing hard over the last months for a non agression pact with us, and we have finaly accepted."
+    scand.69.a:0 "Then peace it is."
+    
+    scand.70.t:0 "[From.GetName] demands our annexation"
+    scand.70.d:0 "[From.GetName] has declared thier intension "unite" the entirety of Scandinavia under them, and is demanding our annexation."
+    scand.70.a:0 "A war with Finland is futile."
+    scand.70.b:0 "We must request to at least keep some independance."
+    scand.70.c:0 "We should ask Denmark for a guarantee."
+    scand.70.e:0 "Death before dishonor!"
+    
+    scand.71.t:0 "[From.GetName] Accepts Annexation"
+    scand.71.d:0 "[From.GetName] has accepted our demands, and [From.GetName] has joined our rising empire!"
+    scand.71.a:0 "Finland rises!"
+    
+    scand.72.t:0 "[From.GetName] asks for guarantee agains Finland"
+    scand.72.d:0 "[From.GetName] asks us to give them a guarantee to support them in the case of Finnish agressions, after they have demanded the full annexation of Norway."
+    scand.72.a:0 "We can not offer such a guarantee against our own neighbor."
+    scand.72.b:0 "If Norway falls, we will be next on the chopping block."
+    
+    scand.73.t:0 "[From.GetName] gives no guarantee"
+    scand.73.d:0 "[From.GetName] as refused to guarantee us against Finland. If we are to fight, we will be on our own."
+    scand.73.a:0 "We cannot win alone..."
+    scand.73.b:0 "We must request to at least keep some independance."
+    scand.73.c:0 "Then we fight alone!"
+    
+    scand.74.t:0 "[From.GetName] guarantees our independance!"
+    scand.74.d:0 "[From.GetName] has agreed to support us in a possible war agains Finland!"
+    scand.74.a:0 "Your move, Finland..."
+    
+    scand.75.t:0 "[From.GetName] asks to become puppet instead"
+    scand.75.d:0 "[From.GetName] asks that rather than full annexation, they will just become our puppet."
+    scand.75.a:0 "Avoiding a war would be the best..."
+    scand.75.b:0 "NO DEAL!"
+    
+    scand.76.t:0 "[From.GetName] gets guarantee from Denmark"
+    scand.76.d:0 "Denmark has stated their guarantee of [From.GetName], and as such has changed the playingfield."
+    scand.76.a:0 "This changes Nothing!"
+    scand.76.b:0 "They win... This time."
+    
+    scand.77.t:0 "[From.GetName] withdraws ultimatum"
+    scand.77.d:0 "With the guarantee from Denmark, [From.GetName] has withdrawn their ultimatum."
+    scand.77.a:0 "Take that, damn imperialists!"
+    
+    scand.78.t:0 "[From.GetName] demands our annexation"
+    scand.78.d:0 "In their efforts to "unite" Scandinavia, [From.GetName]'s wrath has finaly reched our own nation."
+    scand.78.a:0 "We can't win a war agains Finland."
+    scand.78.b:0 "Death before dishonor!"
+    
+    scand.79.t:0 "[From.GetName] accepts annexation"
+    scand.79.d:0 "Denmark has realized that joining our great empire is the best solution, and accepted a peacefull annexation."
+    scand.79.a:0 "Finland rises!"
+    
+    scand.80.t:0 "[From.GetName] declines annexation"
+    scand.80.d:0 "[From.GetName] have declined our generous offer to join our empire, and has sealed it's fate."
+    scand.80.a:0 "Then war it is!"
+    
+    scand.81.t:0 "[From.GetName] requests support in the construction of new naval yards"
+    scand.81.d:0 "[From.GetName] has requested our help in constructing new naval yards in their territories, as our own skill and experience in naval construction is second to none. Increasing the naval power of a ally with such a large presence in the Baltic Sea would be usefull, but we would have to invest quite a bit of our own work force to do so."
+    scand.81.a:0 "Give them all the help we can."
+    scand.81.b:0 "We will support them."
+    scand.81.c:0 "We can only spare a few resources."
+    scand.81.e:0 "We can't spare the resources."
+    
+    scand.82.t:0 "Form the Scandinavian Union"
+    scand.82.d:0 "All of Scandinavia now answers to us, and as such, we are in a position to form a true Scandinavian nation, to unite all our peoples under one nation."
+    scand.82.a:0 "For the union!"
+    scand.82.b:0 "[Root.GetName] is the true ruler of Scandinavia. No change of name needed."
+    
+    scand.83.t:0 "Defend our independance"
+    scand.83.d:0 "With the UK and Germany being at war, the tension both nations put on our own neutral position is geting higher and higher. We must start prepering our army for a potential invation, and ready our defences."
+    scand.83.a:0 "We must defend our independance and neutrality."
+    scand.83.b:0 "Arming our nation would just invite more tension."
+    
+    scand.84.t:0 "The Altmark Incident"
+    scand.84.d:0 "A UK ship attacked and boarded a German tanker named Altmark in our neutral waters yesterday, and the tanker had 300 British POWs heading for Germany. During the attack, a Norwegian sailer also suffered serious injuries.\n\nGermany claim this to be a violation of international law and Norwegian neutrality."
+    scand.84.a:0 "The British only protected their own people."
+    scand.84.b:0 "Attacking a ship in neutral waters is a war crime!"
+    scand.84.c:0 "They are both in the wrong!"
+    
+    scand.85.t:0 "International support"
+    scand.85.d:0 "The sudden attack from the USSR shocked not only [FIN.GetName], but the entire world. Volunteers and supplies are ariving from all over the world to help in our fight!."
+    scand.85.a:0 "We shall win this war yet!"
+    scand.85.b:0 "Their help is not needed."
+    
+    scand.86.t:0 "United alliances"
+    scand.86.d:0 "Both our own, and the Miedzymorze alliance share the same ideologies and threats. Trying to work out a deal to unite our alliances might be highly beneficial for everyone involved."
+    scand.86.a:0 "Together, We would be no easy target."
+    scand.86.b:0 "To expand our alliance outside of Scandinavia is unnecessary."
+    
+    scand.87.t:0 "Join our alliances"
+    scand.87.d:0 "[From.GetName] has presented the oppertunity to join our alliances. As we share the same ideologies and threats, uniting might become highly beneficial for both parties."
+    scand.87.a:0 "Together, we would be no easy target."
+    scand.87.b:0 "This is a good idea, but Poland must be on the top."
+    scand.87.c:0 "To expand our alliance to Scandinavia is unnecessary."
+    
+    scand.88.t:0 "[From.GetName] agrees to join our alliances"
+    scand.88.d:0 "[From.GetName] has agreed to unite our alliances, and form this day forward, our alliance will be knows as the "Scand-Baltic Alliance"."
+    scand.88.a:0 "All hail the Scand-Baltic Alliance!"
+    
+    scand.89.t:0 "[From.GetName] agrees to join our alliances, if..."
+    scand.89.d:0 "[From.GetName] has agreed to unite our alliances, but only if [From.GetName] will lead the new alliance."
+    scand.89.a:0 "We accept."
+    scand.89.b:0 "No deal."
+    
+    scand.90.t:0 "[From.GetName] declines our offer."
+    scand.90.d:0 "[From.GetName] has declined our offer to join our alliances."
+    scand.90.a:0 "Too bad..."
+    
+    scand.91.t:0 "[From.GetName] agrees to join our alliances"
+    scand.91.d:0 "[From.GetName] has agreed to unite our alliances, and form this day forward, our alliance will be knows as the "Scand-Baltic Alliance"."
+    scand.91.a:0 "All hail the Scand-Baltic Alliance!"
+    
+    scand.92.t:0 "Our claim on Schleswig-Holstein"
+    scand.92.d:0 "Schleswig-Holstein is ours by right, and as Germany finds itsef in a war, the time to stake our claim might be ripe."
+    scand.92.a:0 "Indeed. Schleswig-Holstein shall be ours!"
+    scand.92.b:0 "We can not sustain a war against [GER.GetName]."
+    
+    scand.93.t:0 "[From.GetName] demands Schleswig-Holstein"
+    scand.93.d:0 "[From.GetName] demands the return of "their territories". They have stated that they are willing to go to war for this area."
+    scand.93.a:0 "We can not deal with another front. Let them have it."
+    scand.93.b:0 "I'd like to see them try!"
+    
+    scand.94.t:0 "[From.GetName] surrenders Schleswig-Holstein."
+    scand.94.d:0 "[From.GetName] has agreed to give Schleswig-Holstein over to us."
+    scand.94.a:0 "[DEN.GetName] rises!"
+    
+    scand.95.t:0 "[From.GetName] refuses to surrender Schleswig-Holstein."
+    scand.95.d:0 "[From.GetName] has refused to give Schleswig-Holstein over to us."
+    scand.95.a:0 "Then war it is!"
+    
+    ###News###
+    
+    SNews.1.t:0 "[From.GetName] seeks to form a Scandinavian alliance.\n\n"
+    SNews.1.d:0 "\n\n[From.GetName] has been uttering concerns about the tensions in europe, and has started talks with their Scandinavian neighbors about forming an alliance to protect their sovereignty. None of the other Scandinavian nations have yet to join this alliance, but representatives from [From.GetName] tells us that negotiations are underway."
+    SNews.1.a:0 "Intriguing..."
+    SNews.1.b:0 "Good for them."
+    
+    SNews.2.t:0 "[From.GetName] seeks to strengthen Scandinavian relations\n\n"
+    SNews.2.d:0 "\n\n[From.GetName] has been working har do strengthen relations with their Scandinavian neighbors. Representatives from [From.GetName] have stated that they belive that future strengthening of relations and cooperation between the Scandinavian nations is needed to secure the future of Scandinavia in these times of tension."
+    SNews.2.a:0 "Indeed!"
+    
+    SNews.3.t:0 "[From.GetName] joins the Scandinavian Alliance.\n\n"
+    SNews.3.d:0 "\n\nAfter months of diplomatic work between the alliance and [From.GetName], [From.GetName] finaly joined the Scandinavian Alliance yesterday. Time will tell if this alliance will keep the northen contries safe from the tensions around them."
+    SNews.3.a:0 "United, we are strong!"
+    SNews.3.b:0 "Good for them."
+    
+    SNews.4.t:0 "[From.GetName] combines its military and econimic power with [From.Overlord.GetName]\n\n"
+    SNews.4.d:0 "\n\n[From.GetName] today anounced that they will be joining their military and economic power with [From.Overlord.GetName]. This is most likely a desperate effort on their side to end the wars in Scandinavia."
+    SNews.4.a:0 "Long live the Scandinavian Alliance!"
+    SNews.4.b:0 "Good for them."
+    
+    SNews.5.t:0 "[From.Overlord.GetName] puppets [From.GetName]\n\n"
+    SNews.5.d:0 "\n\n[From.GetName] accepted a "protection agreement" from [From.Overlord.GetName] yesterday. Although the nature of the deal has not been fully publicised, many nations look at this as a blatant power grab from [From.Overlord.GetName], and expect that some form of threats were made behind the scenes."
+    SNews.5.a:0 "From.Overlord.GetName] will grow stronger!"
+    SNews.5.b:0 "What terrible behavior!"
+    
+    SNews.6.t:0 "[From.GetName] returns Jamtland to Norway\n\n"
+    SNews.6.d:0 "\n\n[From.GetName] has accepted Norway's request to return the long lost region of Jamtland to Norway."
+    SNews.6.a:0 "Norway will grow larger!"
+    SNews.6.b:0 "Good for them."
+    
+    SNews.7.t:0 "Denmark joines Norway in the "second Kalmar Union""
+    SNews.7.d:0 "\n\nDenmark has agreed to reform their old union with Norway, but unlike the old union, Norway will be the leading nation. Representetives from Norway state that this is a great day for both nations, and that they will be looking into restoring the union to its full glory."
+    SNews.7.a:0 "Norway will grow stronger!"
+    SNews.7.b:0 "Good for them."
+    
+    SNews.8.t:0 "Sweden joines the second Kalmar Union"
+    SNews.8.d:0 "\n\nSweden has now joined the second Kalmar Union under [SWE.Overlord.GetName] Representatives from [SWE.Overlord.GetName] states that they are very happy with the current state of the union, but that they have yet to truly restore the union to its full strength."
+    SNews.8.a:0 "[SWE.Overlord.GetName] will grow stronger!"
+    SNews.8.b:0 "Good for them."
+    
+    SNews.9.t:0 "Finland gives Uusimaa to the second Kalmar Union"
+    SNews.9.d:0 "\n\nFinland has accepted the second Kalmar Union's claim on Uusimaa, and have given it up to its "Old master"."
+    SNews.9.a:0 "[SWE.Overlord.GetName] will grow larger!"
+    SNews.9.b:0 "Good for them."
+    
+    SNews.10.t:0 "[From.GetName] has agreed to demilitarize"
+    SNews.10.d:0 "\n\n[From.GetName] has accepted the [From.From.GetName]'s ultimatum, and has agreed to demilitarize."
+    SNews.10.a:0 "So be it."
+    SNews.10.b:0 "Good."
+    
+    SNews.11.t:0 "[From.GetName] declines demilitarization demands"
+    SNews.11.d:0 "\n\n[From.GetName] have declined the demilitarization ultimatum from Norway, and as such, the two nations are preparing for war."
+    SNews.11.a:0 "Good for them."
+    SNews.11.b:0 "To bad."
+    
+    SNews.12.t:0 "[From.GetName] Annexes Finland"
+    SNews.12.d:0 "\n\nSwedish nationalizm is at an all time high, and it has led to a huge push for the restoration of the Swedish Empire. A ultimatum for Finnish Annexation was sendt earlier this week, and today, Finland accepted the terms, and is now (once again) under the rule of Sweden."
+    SNews.12.a:0 "Good."
+    SNews.12.b:0 "Damn imperialists!"
+    
+    SNews.13.t:0 "[From.GetName] puppets Finland"
+    SNews.13.d:0 "\n\nSwedish nationalizm is at an all time high, and it has led to a huge push for the restoration of the Swedish Empire. A ultimatum for Finnish Annexation was sendt earlier this week, but today, both parties have agreed to a "puppet" relationship isntead, to avoid a expensive war."
+    SNews.13.a:0 "So be it."
+    SNews.13.b:0 "Damn imperialists!"
+    
+    SNews.14.t:0 "[From.GetName] Attacks Finland"
+    SNews.14.d:0 "\n\nToday, [From.GetName] declared war on Finland. Swedish nationalizm is at an all time high, and it has led to a huge push for the restoration of the Swedish Empire. This led to a ultimatum for Finish annexation, which the Finish declined."
+    SNews.14.a:0 "So be it."
+    SNews.14.b:0 "Damn imperialists!"
+    
+    SNews.15.t:0 "[From.GetName] pushes for annexation of the Baltic nations"
+    SNews.15.d:0 "\n\nIn a contineus effort to restore the Swedish Empire, Sweden have today sendt a ultimatum to the all the baltic nations: Annexation, or death."
+    SNews.15.a:0 "Good."
+    SNews.15.b:0 "Damn imperialists!"
+    
+    SNews.16.t:0 "[From.GetName] gives Pommern to Sweden"
+    SNews.16.d:0 "\n\nIn a rather shocking event, [From.GetName] has agreed to give up Pommern to [SWE.GetName], restoring [SWE.GetName] to its former glory."
+    SNews.16.a:0 "Great."
+    SNews.16.b:0 "Damn imperialists!"
+    SNews.16.c:0 "Our empire has been restored!"
+    
+    SNews.17.t:0 "[From.GetName] returns Skåne to [DEN.GetName]\n\n"
+    SNews.17.d:0 "\n\n[From.GetName] has accepted [DEN.GetName]'s request to return the long lost region of Skåne to [DEN.GetName]."
+    SNews.17.a:0 "[DEN.GetName] will grow larger!"
+    SNews.17.b:0 "Good for them."
+    
+    SNews.18.t:0 "Norway joins Denmark in the "Second Kalmar Union""
+    SNews.18.d:0 "\n\n[From.GetName] has agreed to reform their old union with [NOR.Overlord.GetName]. Representetives from [NOR.Overlord.GetName] state that this is a great day for both nations, and that they will be looking into restoring the union to its full glory."
+    SNews.18.a:0 "Denmark will grow stronger!"
+    SNews.18.b:0 "Good for them."
+    
+    SNews.19.t:0 "The Second Stockholm Bloodbath"
+    SNews.19.d:0 "\n\nTo the horror of the entire world, [From.GetName] went on a killing spree in Stockholm over the past few days. Taking out both important politicians and random citizens in executions all over the city."
+    SNews.19.a:0 "Let them tremble before our might!"
+    SNews.19.b:0 "What barbarians!"
+    
+    SNews.20.t:0 "[From.GetName] annexes Norway"
+    SNews.20.d:0 "\n\nFinland's nationalizm is at an all time high, and it has led to a huge push for the creation of a Finnish empire. A ultimatum for Norway's Annexation was sendt earlier this week, and today, Norway accepted the terms, and is now under the rule of [From.GetName]."
+    SNews.20.a:0 "Good."
+    SNews.20.b:0 "Damn imperialists!"
+    
+    SNews.21.t:0 "[From.GetName] puppets Norway"
+    SNews.21.d:0 "\n\nFinland's nationalizm is at an all time high, and it has led to a huge push for the creation of a Finnish empire. A ultimatum for Norway's Annexation was sendt earlier this week, but today, both parties have agreed to a "puppet" relationship isntead, to avoid a expensive war."
+    SNews.21.a:0 "So be it."
+    SNews.21.b:0 "Damn imperialists!"
+    
+    SNews.22.t:0 "[From.GetName] attacks Norway"
+    SNews.22.d:0 "\n\nToday, [From.GetName] declared war on Norway. Finland's nationalizm is at an all time high, and it has led to a huge push for the creation of a Finnish empire. This led to a ultimatum for Norwegain annexation, which the Norwegians declined."
+    SNews.22.a:0 "So be it."
+    SNews.22.b:0 "Damn imperialists!"
+    
+    SNews.23.t:0 "[From.GetName] annexes Denmark"
+    SNews.23.d:0 "\n\nToday, Finland celebrates the unification of Scandinavia, as Denmark, as the last free Scandinavian nation, accepts a peacefull annexation into the Finnish empire."
+    SNews.23.a:0 "Good."
+    SNews.23.b:0 "Damn imperialists!"
+    
+    SNews.24.t:0 "The birth of the [From.GetName]"
+    SNews.24.d:0 "\n\nToday, all the Scandinavian nations unite under the new nation of the [From.GetName]. Only time will tell if this brings prosperity to the region, or even more turmoil."
+    SNews.24.a:0 "Scandinavia stands strong!"
+    SNews.24.b:0 "Good for them."
+    
+    SNews.25.t:0 "The Altmark Incident"
+    SNews.25.d:0 "\n\nyesterday, A UK ship attacked and boarded a German tanker named Altmark in the neutral waters of Norway, and the tanker was found to have 300 British POWs heading for Germany.\n\nGermany claim this to be a violation of international law and Norwegian neutrality, but Norway sides with the British, claiming that defending and saving once own people is only natural."
+    SNews.25.a:0 "Indeed!"
+    SNews.25.b:0 "Neutral, indeed..."
+    SNews.25.c:0 "Tensions are rising..."
+    
+    SNews.26.t:0 "The Altmark Incident"
+    SNews.26.d:0 "\n\nyesterday, A UK ship attacked and boarded a German tanker named Altmark in the neutral waters of Norway, and the tanker was found to have 300 British POWs heading for Germany.\n\nBoth Germany and Norway claim this to be a violation of international law and Norwegian neutrality."
+    SNews.26.a:0 "Neutral, indeed..."
+    SNews.26.b:0 "Indeed!"
+    SNews.26.c:0 "Tensions are rising..."
+    
+    SNews.27.t:0 "The Altmark Incident"
+    SNews.27.d:0 "\n\nyesterday, A UK ship attacked and boarded a German tanker named Altmark in the neutral waters of Norway, and the tanker was found to have 300 British POWs heading for Germany.\n\nGermany claim this to be a violation of international law and Norwegian neutrality, but Norway blame them both for the incident."
+    SNews.27.a:0 "So be it."
+    SNews.27.b:0 "Brave..."
+    
+    SNews.28.t:0 "Birth of the Scand-Baltic Alliance"
+    SNews.28.d:0 "\n\nyesterday, the Scandinavian Alliance and the Miedzymorze joined forces, and formed the Scand-Baltic Alliance. [From.GetName] states that this is to secure the peace and independance of both Scandinavia and the baltic nations in these times of tensions."
+    SNews.28.a:0 "Long live the Scand-Baltic Alliance!"
+    SNews.28.b:0 "Good for them."
+    
+    SNews.29.t:0 "[GER.GetName] cedes Schleswig-Holstein to [From.GetName]"
+    SNews.29.d:0 "\n\nToday, [GER.GetName] has agreed to cede the historical territories of Schleswig-Holstein back to [From.GetName]. Some sorces say this was done due to threats made by [From.GetName]. If this is the case, then this is surely a great sign of weakness on [GER.GetName]'s part."
+    SNews.29.a:0 "Great!"
+    SNews.29.b:0 "Good for them."
+    SNews.29.c:0 "We will remember this..."
+    SNews.29.e:0 "They are growing weaker every day!"
+    
+    ###Modifiers###
+    
+    scandinavian_relations:0 "Strong relations"
+    
+    scand_treaty:0 "Strong treaties"
+    
+    NOR_condemn_aggression_against:0 "Agressive diplomacy with us"
+    
+    NOR_condemn_aggression:0 "Agressive diplomacy agains our neighbors"
+    
+    scand_massacre:0 "Massacred their enemies"
+    
+    scand_massacre_us:0 "They massacred our people"
+    
+    scand_diplomatic_tension:0 "Diplomatic tensions"
+    
+    scand_diplomatic_agreement:0 "Diplomatic agreements"
+    
+    ###Ideas###
+    
+    naval_cooperation:0 "United Naval Development between Norway and Denmark"
+    naval_cooperation_desc:0 "We have started a shared naval development project between us."
+    
+    scand_research_project:0 "United Scandinavian Research Project"
+    scand_research_project_desc:0 "With all the Scandinavian nations putting their heads together, who knows what we can accomplish."
+    
+    neighbor_fascist_influence: "Fascist Influence from Neighbors"
+    neighbor_fascist_influence_desc: "A lot of fascist support and ideas are leaking into our nation from our scandinavian neighbors."
+    
+    neighbor_communist_influence: "Communist Influence from Neighbors"
+    neighbor_communist_influence_desc: "A lot of communist support and ideas are leaking into our nation from our scandinavian neighbors."
+    
+    scand_collectivist_propaganda:0 "Effective Communist Propoganda"
+    scand_collectivist_propaganda_desc:0 "Our people truly belive in communism, and will work ever harder to achieve our goals."
+    
+    scand_internationalism_focus:0 "Great Traders"
+    scand_internationalism_focus_desc:0 "Our trade fleet has been working hard to establish good trade deals all over the world."
+    
+    scand_full_support_focus:0 "Full Support"
+    scand_full_support_focus_desc:0 "We are willing to send any number of our own men to support our friends and allies in need."
+    
+    scand_uk_influence:0 "Political influence from the United Kingdoms"
+    scand_uk_influence_desc:0 "Our increased reliance and cooperation with the UK is having a positive effect on our political stability."
+    
+    ENG_sup_SWE_1:0 "Support Swedish naval development"
+    ENG_sup_SWE_1_desc:0 "We are sending quite a bit of resources to help our Swedish allies to build naval yards."
+    
+    ENG_sup_SWE_2:0 "Support Swedish naval development"
+    ENG_sup_SWE_2_desc:0 "We are sending quite a bit of resources to help our Swedish allies to build naval yards."
+    
+    ENG_sup_SWE_3:0 "Support Swedish naval development"
+    ENG_sup_SWE_3_desc:0 "We are sending quite a bit of resources to help our Swedish allies to build naval yards."
+    
+    ENG_sup_NOR_1:0 "Support Norwegain naval development"
+    ENG_sup_NOR_1_desc:0 "We are sending quite a bit of resources to help our Norwegain allies to build naval yards."
+    
+    ENG_sup_NOR_2:0 "Support Norwegain naval development"
+    ENG_sup_NOR_2_desc:0 "We are sending quite a bit of resources to help our Norwegain allies to build naval yards."
+    
+    ENG_sup_NOR_3:0 "Support Norwegain naval development"
+    ENG_sup_NOR_3_desc:0 "We are sending quite a bit of resources to help our Norwegain allies to build naval yards."
+    
+    ENG_sup_DEN_1:0 "Support Danish naval development"
+    ENG_sup_DEN_1_desc:0 "We are sending quite a bit of resources to help our Danish allies to build naval yards."
+    
+    ENG_sup_DEN_2:0 "Support Danish naval development"
+    ENG_sup_DEN_2_desc:0 "We are sending quite a bit of resources to help our Danish allies to build naval yards."
+    
+    ENG_sup_DEN_3:0 "Support Danish naval development"
+    ENG_sup_DEN_3_desc:0 "We are sending quite a bit of resources to help our Danish allies to build naval yards."
+    
+    ENG_sup_FIN_1:0 "Support Finnish naval development"
+    ENG_sup_FIN_1_desc:0 "We are sending quite a bit of resources to help our Finnish allies to build naval yards."
+    
+    ENG_sup_FIN_2:0 "Support Finnish naval development"
+    ENG_sup_FIN_2_desc:0 "We are sending quite a bit of resources to help our Finnish allies to build naval yards."
+    
+    ENG_sup_FIN_3:0 "Support Finnish naval development"
+    ENG_sup_FIN_3_desc:0 "We are sending quite a bit of resources to help our Finnish allies to build naval yards."
+    
+    uk_naval_cooperation:0 "Receives naval expertise and manpower from the UK."
+    uk_naval_cooperation_desc:0 "The UK is sending skilled workers to help in construction of our navy."
+    
+    reinforce_borders:0 "Reinforce Borders"
+    reinforce_borders_desc:0 "We must invest in stronger borders to ensure our safety from the rising tensions in Scandinavia, as well as the rest of Europe."
+    
+    scand_demilitarisation:0 "Demilitarized"
+    scand_demilitarisation_desc:0 "We have been forced to demilitarize."
+    
+    scand_neutral_focus:0 "Stay neutral, but cautious"
+    scand_neutral_focus_desc:0 "We must focus on our neutrality in the coming days. But we must create a deterance for our neighbors."
+    
+    scand_spread_neutral:0 "International Push for Neutrality"
+    scand_spread_neutral_desc:0 "Our neighbors are putting presure on us to stay neutral."
+    
+    scand_civ_factory_bonus:0 "Focus on the industry"
+    scand_civ_factory_bonus_desc:0 "We have out our national focus on improving our industry."
+    
+    scand_tank_focus_1:0 "Tank Focus"
+    scand_tank_focus_1_desc:0 "We will focus our military production towards tank production."
+    
+    scand_tank_focus_2:0 "Tank Focus"
+    scand_tank_focus_2_desc:0 "We will focus our military production towards tank production."
+    
+    scand_tank_focus_3:0 "Tank Focus"
+    scand_tank_focus_3_desc:0 "We will focus our military production towards tank production."
+    
+    scand_art_focus_1:0 "Artillery Focus"
+    scand_art_focus_1_desc:0 "We will focus our military production towards artillery production."
+    
+    scand_art_focus_2:0 "Artillery Focus"
+    scand_art_focus_2_desc:0 "We will focus our military production towards artillery production."
+    
+    scand_art_focus_3:0 "Artillery Focus"
+    scand_art_focus_3_desc:0 "We will focus our military production towards artillery production."
+    
+    scand_art_focus_4:0 "Great Artillery Support"
+    scand_art_focus_4_desc:0 "Our ability to use artillery to support our ground forces has no match, and our mens lifes are safer and easier for it."
+    
+    scand_air_focus_1:0 "Aviation Focus"
+    scand_air_focus_1_desc:0 "We should focus more on expanding our control of the sky, rather than the sea."
+    
+    scand_air_focus_2:0 "Aviation Focus"
+    scand_air_focus_2_desc:0 "We should focus more on expanding our control of the sky, rather than the sea."
+    
+    scand_air_focus_3:0 "Aviation Focus"
+    scand_air_focus_3_desc:0 "We should focus more on expanding our control of the sky, rather than the sea."
+    
+    scand_naval_focus:0 "Naval Focus"
+    scand_naval_focus_desc:0 "We should forcus more on expanding our control of the sea, rather than the sky."
+    
+    scand_capital_focus:0 "Capital Ship Focus"
+    scand_capital_focus_desc:0 "We should focus our naval production on the largest and best ships we can create."
+    
+    scand_escort_focus:0 "Escort Focus"
+    scand_escort_focus_desc:0 "We need to focus on defending our trade fleet, and to produce quantities of smaller ships of good quality."
+    
+    scand_wolf_focus:0 "Wolves of the Sea"
+    scand_wolf_focus_desc:0 "We will focus on producing submarines to take out enemy cargo ships and other easy targets, rather than taking the enemy fleets head on."
+    
+    scand_ally_influence:0 "Political Support"
+    scand_ally_influence_desc:0 "Our faction leader is supporting the current government."
+    
+    scand_stockholm_bloodbath:0 "The second Stockholm Bloodbath"
+    scand_stockholm_bloodbath_desc:0 "The occupation forces in Stockholm has gone on a crusade agains our most influential people in the city, as well as other random citizens to."
+    
+    scand_prepare_war:0 "Prepare for a potential war"
+    scand_prepare_war_desc:0 "We must increase the size of our standing army to deter any potential enemy from attacking us."
+    
+    scand_international_support:0 "International Support"
+    scand_international_support_desc:0 "We are reciving support for our war with Soviet from both the USA and all over Europe."
+    
+    scand_deterrent:0 "A Strong Deterrent"
+    scand_deterrent_desc:0 "We must have a strong army to deter any potential war."

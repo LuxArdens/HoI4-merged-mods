@@ -1,0 +1,102 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	etgi_ideas_women = { 
+	
+		law = yes
+		
+		#Traditional Roles
+		etgi_laws_women_d = {
+			
+			modifier = {
+			
+				consumer_goods_factor = -0.05
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+			
+   				factor = 1
+				
+   			}
+			
+		}
+		
+		#Limited Rights
+		etgi_laws_women_1 = {
+			
+			modifier = {
+			
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.15
+				conscription_factor = 0.25
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = democratic
+					factor = 2
+				}
+   			}
+		}
+		
+		#Enforced Patriarchy
+		etgi_laws_women_2 = {
+			
+			modifier = {
+			
+				unity_factor = 0.10
+				industrial_capacity_factory = -0.15
+				political_power_factor = 0.50
+				consumer_goods_factor = -0.1
+				#conscription_factor = -0.20
+			
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+		
+		#Total Equality
+		etgi_laws_women_3 = {
+			
+			modifier = {
+			
+				unity_factor = -0.10
+				industrial_capacity_factory = 0.2
+				political_power_factor = -0.25
+				conscription_factor = 0.25
+				consumer_goods_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = communism
+					factor = 2
+				}
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End
