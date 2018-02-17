@@ -15,6 +15,7 @@ ideas = {
 
 			modifier = {
 				conscription = 0.01
+				MONTHLY_POPULATION = 0.25
 			}
 			
 			cancel_if_invalid = no
@@ -50,6 +51,7 @@ ideas = {
 
 			modifier = {
 				conscription = 0.015
+				MONTHLY_POPULATION = 0.1
 			}
 			
 			default = yes
@@ -192,6 +194,7 @@ ideas = {
 				#industrial_capacity_factory = -0.1
 				#production_speed_buildings_factor = -0.1
 				training_time_factor = 0.1
+				MONTHLY_POPULATION = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -291,6 +294,7 @@ ideas = {
 				industrial_capacity_dockyard = -0.1   
 				production_speed_buildings_factor = -0.1
 				training_time_factor = 0.2
+				MONTHLY_POPULATION = -0.2
 			}
 			
 			cancel_if_invalid = no
@@ -385,6 +389,7 @@ ideas = {
 				production_speed_buildings_factor = -0.3
 				#XP from reinforcement penalty (small)
 				training_time_factor = 0.3
+				MONTHLY_POPULATION = -0.4
 			}
 			
 			cancel_if_invalid = no
@@ -471,6 +476,7 @@ ideas = {
 				industrial_capacity_dockyard = -0.4
 				production_speed_buildings_factor = -0.4
 				training_time_factor = 0.5
+				MONTHLY_POPULATION = -0.6
 			}
 			
 			cancel_if_invalid = no

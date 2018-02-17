@@ -245,6 +245,7 @@ ideas = {
 			modifier = {
 				conscription = 0.1
 				army_morale_factor = 0.03
+				MONTHLY_POPULATION = -0.2
 			}
 		}
 	

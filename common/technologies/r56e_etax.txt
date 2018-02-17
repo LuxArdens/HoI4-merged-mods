@@ -34,7 +34,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3.0
 		
-		#research_time_factor = -0.025
+		research_time_factor = -0.025
 		
 		folder = {
 			name = etax_folder
@@ -766,7 +766,8 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3.0
 		
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 1
+		production_speed_buildings_factor = 0.5
 		
 		folder = {
 			name = etax_folder
@@ -922,9 +923,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3.0
 		
-		#research_time_factor = -0.025
-		global_building_slots_factor = 1
-		production_speed_buildings_factor = 0.5
+		research_time_factor = -0.025
 		
 		
 		folder = {
@@ -964,6 +963,8 @@ technologies = {
 		research_cost = 3.0
 		
 		industrial_capacity_factory = 0.10
+		industrial_capacity_dockyard = 0.10
+		MONTHLY_POPULATION = 0.5
 		
 		folder = {
 			name = etax_folder
@@ -1083,8 +1084,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3.0
 		
-		#research_time_factor = -0.025
-		MONTHLY_POPULATION = 0.5
+		research_time_factor = -0.025
 		
 		folder = {
 			name = etax_folder
@@ -1321,6 +1321,8 @@ technologies = {
 		}	
 		
 		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		MONTHLY_POPULATION = 0.5
 
 		ai_will_do = {
 			factor = 1
@@ -1377,8 +1379,7 @@ technologies = {
 		doctrine = yes	
 		research_cost = 3.0
 		
-		#research_time_factor = -0.025
-		MONTHLY_POPULATION = 0.5
+		research_time_factor = -0.025
 		
 		
 		folder = {

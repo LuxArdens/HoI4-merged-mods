@@ -516,6 +516,41 @@ continuous_focus_palette = {
 	}
 
 	focus = {
+		id = continuous_non_factory_construct4
+		
+		icon = GFX_goal_continuous_non_factory_construct
+		
+		available = {
+			num_of_factories > 200
+		}
+		
+		idea = idea_continuous_non_factory_construct3
+		
+		modifier = {
+			production_speed_infrastructure_factor = 0.6
+			production_speed_air_base_factor = 0.6
+			production_speed_naval_base_factor = 0.6
+			production_speed_synthetic_refinery_factor = 0.6
+			production_speed_rocket_site_factor = 0.6
+			production_speed_nuclear_reactor_factor = 0.6
+			production_speed_bunker_factor = 0.6
+			production_speed_coastal_bunker_factor = 0.6
+			production_speed_anti_air_building_factor = 0.6
+			production_speed_radar_station_factor = 0.6
+		}
+		
+		ai_will_do = {
+			factor = .1
+		}
+		
+		supports_ai_strategy = ai_focus_defense
+		
+		daily_cost = 5
+		
+		available_if_capitulated = yes
+	}
+
+	focus = {
 		id = construction_effort1
 		
 		icon = GFX_goal_generic_construct_civ_factory
@@ -578,6 +613,29 @@ continuous_focus_palette = {
 		}
 		
 		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = construction_effort4
+		
+		icon = GFX_goal_generic_construct_civ_factory
+		
+		available = {
+			num_of_factories < 100
+		}
+		idea = idea_construction_effort3
+		modifier = {
+			production_speed_industrial_complex_factor = 0.7
+		}
+		ai_will_do = {
+			factor = .1
+		}
+		
+		daily_cost = 5
 
 		supports_ai_strategy = ai_focus_peaceful
 		
@@ -649,6 +707,28 @@ continuous_focus_palette = {
 		
 		available_if_capitulated = yes
 	}
+		
+	focus = {
+		id = armament_effort4
+		
+		icon = GFX_goal_generic_construct_mil_factory
+		
+		available = {
+			num_of_factories < 100
+		}
+		modifier = {
+			production_speed_arms_factory_factor = 0.7
+		}
+		ai_will_do = {
+			factor = .1
+		}
+		
+		daily_cost = 5
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
 	
 	focus = {
 		id = excavation_effort1
@@ -659,7 +739,7 @@ continuous_focus_palette = {
 			num_of_factories > 25
 		}
 		modifier = {
-			local_resources_factor = 0.15
+			local_resources_factor = 0.2
 			#min_export = -.05
 		}
 
@@ -684,7 +764,7 @@ continuous_focus_palette = {
 		}
 		
 		modifier = {
-			local_resources_factor = 0.30
+			local_resources_factor = 0.4
 			#min_export = -.10
 		}
 		
@@ -709,7 +789,7 @@ continuous_focus_palette = {
 		}
 		
 		modifier = {
-			local_resources_factor = 0.45
+			local_resources_factor = 0.6
 			#min_export = -.15
 		}
 		
@@ -718,6 +798,31 @@ continuous_focus_palette = {
 		}
 		
 		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_war_production
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = excavation_effort4
+		
+		icon = GFX_goal_generic_construct_civilian
+		
+		available = {
+			num_of_factories > 200
+		}
+		
+		modifier = {
+			local_resources_factor = 0.8
+			#min_export = -.15
+		}
+		
+		ai_will_do = {
+			factor = .1
+		}
+		
+		daily_cost = 4
 
 		supports_ai_strategy = ai_focus_war_production
 		
@@ -1672,6 +1777,75 @@ continuous_focus_palette = {
 		}
 		
 		daily_cost = 2
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = population_growth3
+		
+		icon = GFX_goal_generic_wolf_pack
+		
+		available = {
+			num_of_factories > 50
+		}
+		modifier = {
+			MONTHLY_POPULATION = 2
+		}
+		
+		ai_will_do = {
+			factor = .1
+		}
+		
+		daily_cost = 3
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = population_growth4
+		
+		icon = GFX_goal_generic_wolf_pack
+		
+		available = {
+			num_of_factories > 100
+		}
+		modifier = {
+			MONTHLY_POPULATION = 3
+		}
+		
+		ai_will_do = {
+			factor = .1
+		}
+		
+		daily_cost = 4
+
+		supports_ai_strategy = ai_focus_peaceful
+		
+		available_if_capitulated = yes
+	}
+	
+	focus = {
+		id = population_growth5
+		
+		icon = GFX_goal_generic_wolf_pack
+		
+		available = {
+			num_of_factories < 200
+		}
+		modifier = {
+			MONTHLY_POPULATION = 8
+		}
+		
+		ai_will_do = {
+			factor = .1
+		}
+		
+		daily_cost = 7
 
 		supports_ai_strategy = ai_focus_peaceful
 		

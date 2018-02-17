@@ -21,6 +21,7 @@ ideas = {
 				lend_lease_tension = 0.50
 				send_volunteers_tension = 0.20
 				guarantee_tension = 0.75
+				MONTHLY_POPULATION = 0.25
 			}
 			
 			allowed_to_remove = {
@@ -52,6 +53,7 @@ ideas = {
 				join_faction_tension = 0.20
 				send_volunteers_tension = 0.20
 				guarantee_tension = 0.5
+				MONTHLY_POPULATION = 0.25
 			}
 			allowed_to_remove = {
 				OR = {
@@ -75,6 +77,7 @@ ideas = {
 				production_speed_arms_factory_factor = -0.3
 				conversion_cost_civ_to_mil_factor= 0.3
 				conversion_cost_mil_to_civ_factor = 0.3
+				MONTHLY_POPULATION = 0.25
 			}
 			
 			default = yes
@@ -282,6 +285,7 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = -0.3
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
+				MONTHLY_POPULATION = -0.25
 			}
 			
 			cancel_if_invalid = no

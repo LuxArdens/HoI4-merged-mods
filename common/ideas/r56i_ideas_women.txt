@@ -12,6 +12,7 @@ ideas = {
 			modifier = {
 			
 				consumer_goods_factor = -0.05
+				MONTHLY_POPULATION = 0.25
 			
 			}
 			
@@ -58,6 +59,7 @@ ideas = {
 				political_power_factor = 0.50
 				consumer_goods_factor = -0.1
 				#conscription_factor = -0.20
+				MONTHLY_POPULATION = 0.5
 			
 			}
 			
@@ -83,6 +85,7 @@ ideas = {
 				political_power_factor = -0.25
 				conscription_factor = 0.25
 				consumer_goods_factor = 0.15
+				MONTHLY_POPULATION = -0.25
 			}
 			
 			cancel_if_invalid = no

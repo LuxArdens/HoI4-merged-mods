@@ -18,11 +18,11 @@ equipments = {
 		}
 
 		#Misc Abilities
-		reliability = 0.2		# kan dit op nul???
+		reliability = 0.1		# kan dit op nul???
 
 		lend_lease_cost = 0.1
 		
-		build_cost_ic = 0.1		# om mee te beginnen
+		build_cost_ic = 0.4		# om mee te beginnen
 		resources = {
 		}
 	}
